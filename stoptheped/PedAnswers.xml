@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PedAnswers>
+  <Drinking question="Have you been drinking?">
+      <Positive>
+          <Answer>I have one shot of vodka an hour ago</Answer>
+          <Answer>I drank a six-pack of beer</Answer>
+          <Answer>Yes, I had a couple beers</Answer>
+          <Answer>Yes, I had a sip of wine</Answer>
+          <Answer>Of course, I need to warm my body</Answer>
+          <Answer>Booze warms me up</Answer>
+          <Answer>Alcoholic drinks are my favorite</Answer>
+          <Answer>I need to drink to stay focused</Answer>
+          <Answer>I don't need to answer that..</Answer>
+          <Answer>I have the right to shut the fuck up..</Answer>
+      </Positive>
+      <Negative>
+          <Answer>I don't drink alcohol</Answer>
+          <Answer>Alcohol is not good for my health..</Answer>
+          <Answer>I've never had a drink in my life. I swear..</Answer>
+          <Answer>I'm sharp as an eagle.. No alcohol in my blood..</Answer>
+          <Answer>No, I haven't had anything to drink</Answer>
+          <Answer>I've been sober for 6 months</Answer>
+          <Answer>Do you smell alcohol on me?</Answer>
+          <Answer>Nope!</Answer>
+      </Negative>
+  </Drinking>
+  <Drugs question="Have you done any drugs recently?">
+      <Positive>
+          <Answer>I do drugs for my medical condition..</Answer>
+          <Answer>I take prescription pills..</Answer>
+          <Answer>I use some drugs for pleasure</Answer>
+          <Answer>I use from time to time</Answer>
+          <Answer>Drugs is good for our wellness</Answer>
+          <Answer>I'm feeling high now...</Answer>
+          <Answer>Do I need to answer that?</Answer>
+          <Answer>I have the right to shut the hell up..</Answer>
+      </Positive>
+      <Negative>
+          <Answer>No drugs.. Drugs make you sick..</Answer>
+          <Answer>Why would I use drugs? I don't wanna die...</Answer>
+          <Answer>I never used drugs in my life</Answer>
+          <Answer>Do I look like a drug addict?</Answer>
+          <Answer>I've been clean for a year</Answer>
+          <Answer>Nope!</Answer>
+          <Answer>No money.. no drugs..</Answer>
+      </Negative>
+  </Drugs>
+  <IllegalItem question="Do you have anything illegal on you?">
+      <Answer>No sir. I'm harmless..</Answer>
+      <Answer>I'm a good citizen</Answer>
+      <Answer>I don't wanna go to jail</Answer>
+      <Answer>Perhaps I have some..</Answer>
+      <Answer>I don't know. Check for yourself..</Answer>
+      <Answer>Nope!</Answer>
+      <Answer>Nothing illegal on me...</Answer>
+      <Answer>I totally forgot..</Answer>
+      <Answer>You don't have the right to touch me</Answer>
+      <Answer>Maybe yes, maybe no..</Answer>
+  </IllegalItem>
+  <PedDoing question="What are you doing?">
+      <Answer>Just hanging around</Answer>
+      <Answer>I need some fresh air</Answer>
+      <Answer>I'm relaxing my soul</Answer>
+      <Answer>I'm just waiting for a friend..</Answer>
+      <Answer>It's none of your business!</Answer>
+      <Answer>Please mind your own business!</Answer>
+      <Answer>Why do you care?</Answer>
+      <Answer>I don't need to answer that..</Answer>
+      <Answer>I choose not to answer..</Answer>
+      <Answer>I have the right to shut the fuck up..</Answer>
+  </PedDoing>
+  <PedFrom question="Where did you come from?">
+      <Answer>From home</Answer>
+      <Answer>From my friend's home</Answer>
+      <Answer>From work</Answer>
+      <Answer>From the grocery store</Answer>
+      <Answer>From hell!</Answer>
+      <Answer>I just came from the hospital</Answer>
+      <Answer>I have the right not to answer..</Answer>
+      <Answer>I have the right to remain silent..</Answer>
+  </PedFrom>
+  <PedTo question="Where are you headed to?">
+      <Answer>I wanna go home</Answer>
+      <Answer>I'm on my way home</Answer>
+      <Answer>I'm going to work</Answer>
+      <Answer>Just going to the grocery store</Answer>
+      <Answer>I'm going to see a friend</Answer>
+      <Answer>Going to my friend's home</Answer>
+      <Answer>Anywhere I like..</Answer>
+      <Answer>You don't want to know..</Answer>
+      <Answer>I have the right not to answer..</Answer>
+  </PedTo>
+</PedAnswers>
