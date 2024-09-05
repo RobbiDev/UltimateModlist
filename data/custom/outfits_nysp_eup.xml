@@ -1,0 +1,210 @@
+<Outfits>
+	<Outfit>
+		<Name>NYSP Class A</Name>
+		<ScriptName>nysp_class_a</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<Component id="1" drawable="0" texture="0" />
+				<Component id="3" drawable="4" texture="0" />
+				<Component id="4" drawable="25" texture="4" />
+				<Component id="5" drawable="76" texture="0" />
+				<Component id="6" drawable="51" texture="0" />
+				<Component id="7" drawable="8" texture="0" />
+				<Component id="8" drawable="44" texture="1" />
+				<Component id="9" drawable="0" texture="0" />
+				<Component id="10" drawable="0" texture="0" />
+				<Component id="11" drawable="200" texture="16" />
+				</Components>
+				<props>
+					<Prop id="0" drawable="13" texture="2" />
+				</props>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="3" texture="13" />
+					<Component id="5" drawable="76" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="52" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="202" texture="16" />
+				</Components>
+				<props>
+					<Prop id="0" drawable="13" texture="2" />
+				</props>
+			</Variation>
+		</Variations>
+	</Outfit>
+		<Outfit>
+		<Name>NYSP Class B</Name>
+		<ScriptName>nysp_class_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<Component id="1" drawable="0" texture="0" />
+				<Component id="3" drawable="4" texture="0" />
+				<Component id="4" drawable="25" texture="4" />
+				<Component id="5" drawable="76" texture="0" />
+				<Component id="6" drawable="51" texture="0" />
+				<Component id="7" drawable="8" texture="0" />
+				<Component id="8" drawable="44" texture="1" />
+				<Component id="9" drawable="0" texture="0" />
+				<Component id="10" drawable="0" texture="0" />
+				<Component id="11" drawable="193" texture="17" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="3" texture="13" />
+					<Component id="5" drawable="76" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="52" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="195" texture="17" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+		<Outfit>
+		<Name>NYSP Class C</Name>
+		<ScriptName>nysp_class_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="11" texture="0" />
+					<Component id="4" drawable="25" texture="4" />
+					<Component id="5" drawable="76" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="44" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="190" texture="17" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="9" texture="0" />
+					<Component id="4" drawable="3" texture="13" />
+					<Component id="5" drawable="76" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="52" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="192" texture="17" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>NYSP Coat</Name>
+		<ScriptName>nysp_coat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Coat</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="44" texture="0" />
+					<Component id="4" drawable="25" texture="4" />
+					<Component id="5" drawable="64" texture="12" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="44" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="265" texture="5" />						
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="2" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Parka</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_parka</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="4" drawable="33" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="26" texture="5" />
+					<Component id="11" drawable="16" texture="0" />				
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="2" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Coat</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="36" texture="0" />
+					<Component id="4" drawable="3" texture="13" />
+					<Component id="5" drawable="64" texture="12" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="52" texture="1" />
+					<Component id="9" drawable="16" texture="5" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="274" texture="5" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="2" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Parka</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_parka</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="4" drawable="32" texture="0" />
+					<Component id="6" drawable="53" texture="0" />
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="14" texture="0" />
+					<Component id="9" drawable="28" texture="5" />
+					<Component id="11" drawable="44" texture="0" />			
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="2" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

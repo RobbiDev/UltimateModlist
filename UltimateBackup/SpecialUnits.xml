@@ -1,0 +1,404 @@
+<!--
+  This file contains additional Special Units that will be added into the bottom of Ultimate Backup Menu (orange color)
+
+  Improtant notes:
+
+    # You may have as many as "SpecialUnit" tags as you want.
+
+    # The "SpecialUnit" children nodes can consist of the mix from default regions (e.g. LocalPatrol, etc.) and custom regions (which requires "Zones"). Please refer to the existing examples
+
+    # The "SpecialUnit" tag has the following attributes:
+      - "name" is the name of the special unit which reflects the text in the menu entry (mandatory)
+      - "role" is the role (AI) of that this special unit will play. Valid values are: "cop", "medic", or "fireman". (default="cop")
+      - "code2" is the flag (True or False) whether this special unit will be added into "Code 2" response
+      - "code3" is the flag (True or False) whether this special unit will be added into "Code 3" response
+      - "pursuit" is the flag (True or False) whether this special unit will be added into "Pursuit" response
+      - "traffic_stop" is the flag (True or False) whether this special unit will be added into "Traffic Stop" response
+      - "felony_stop" is the flag (True or False) whether this special unit will be added into "Felony Stop" response
+
+    # All "VehicleSets" (Vehicle & Ped, including weapons) definitions are the same as the ones in "DefaultRegion.xml" and "CustomRegions.xml"
+
+    # The XML format in this file is similar with "DefaultRegions.xml". Please refer to descriptions on that xml file.
+
+-->
+
+<UltimateBackup>
+	<SpecialUnit name="FIB Response" code2="True" code3="True" pursuit="True" traffic_stop="True" felony_stop="True">
+		<LosSantosCity>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle>fbi</Vehicle>
+					<Vehicle>fbi2</Vehicle>
+				</Vehicles>
+				<Peds>
+<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>fbi</Vehicle>
+				<Vehicle>fbi2</Vehicle>
+				</Vehicles>
+				<Peds>
+<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>fbi</Vehicle>
+				<Vehicle>fbi2</Vehicle>
+				</Vehicles>
+				<Peds>
+<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>fbi</Vehicle>
+				<Vehicle>fbi2</Vehicle>
+				</Vehicles>
+				<Peds>
+<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</NorthYankton>
+		<CustomRegion>
+			<Zones>
+				<Zone>DAVIS</Zone>
+			</Zones>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle>fbi</Vehicle>
+				<Vehicle>fbi2</Vehicle>
+				</Vehicles>
+				<Peds>
+<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</CustomRegion>
+	</SpecialUnit>
+	<SpecialUnit name="Police Bike" code2="True" code3="False" pursuit="True" traffic_stop="False" felony_stop="True">
+		<LosSantosCity>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="1" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</NorthYankton>
+		<CustomRegion>
+			<Zones>
+				<Zone>DAVIS</Zone>
+			</Zones>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="0" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</CustomRegion>
+	</SpecialUnit>
+	<SpecialUnit name="Supervisor" code2="True" code3="False" pursuit="False" traffic_stop="True" felony_stop="False">
+		<LosSantosCity>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle>POLICE</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_accessories="2" comp_decals="2" prop_glasses="0" prop_hats="0">S_M_Y_COP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>SHERIFF</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" prop_hats="2">S_M_Y_SHERIFF_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>SHERIFF</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" prop_hats="2">S_M_Y_SHERIFF_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>POLICEOLD2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_accessories="1" prop_glasses="2" prop_hats="2">S_M_M_SNOWCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</NorthYankton>
+	</SpecialUnit>
+	<SpecialUnit name="First Responder (Medic)" role="medic" code2="False" code3="True" pursuit="False" traffic_stop="False" felony_stop="False">
+		<LosSantosCity>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle color="yellow">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_Y_FIREMAN_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle color="orange">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_Y_FIREMAN_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle color="orange">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_Y_FIREMAN_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle color="orange">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_Y_FIREMAN_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</NorthYankton>
+	</SpecialUnit>
+	<SpecialUnit name="First Responder (Fire)" role="fireman" code2="False" code3="True" pursuit="False" traffic_stop="False" felony_stop="False">
+		<LosSantosCity>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle color="red">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_Y_FIREMAN_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle color="white">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_Y_FIREMAN_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle color="white">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_Y_FIREMAN_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle color="white">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_Y_FIREMAN_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</NorthYankton>
+	</SpecialUnit>
+	<SpecialUnit name="Air Ambulance" role="medic" code2="False" code3="True" pursuit="False" traffic_stop="False" felony_stop="False">
+		<LosSantosCity>
+			<VehicleSet spawn_distance="200">
+				<Vehicles>
+					<Vehicle livery="2">POLMAV</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_M_PARAMEDIC_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="2">POLMAV</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_M_PARAMEDIC_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="2">POLMAV</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_M_PARAMEDIC_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="2">POLMAV</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_M_PARAMEDIC_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</NorthYankton>
+	</SpecialUnit>
+	<SpecialUnit name="Air SWAT Backup" role="cop" code2="False" code3="True" pursuit="False" traffic_stop="False" felony_stop="False">
+		<LosSantosCity>
+			<VehicleSet spawn_distance="200">
+				<Vehicles>
+					<Vehicle livery="1" pax="3" pax_chance="100">POLMAV</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_decals="1" tex_decals="1" prop_hats="1">S_M_Y_SWAT_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+					<HandGun chance="25">WEAPON_PISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+					<LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="1" pax="3" pax_chance="100">POLMAV</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_decals="1" tex_decals="1" prop_hats="1">S_M_Y_SWAT_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+					<HandGun chance="25">WEAPON_PISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+					<LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="1" pax="3" pax_chance="100">POLMAV</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_decals="1" tex_decals="1" prop_hats="1">S_M_Y_SWAT_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+					<HandGun chance="25">WEAPON_PISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+					<LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="1" pax="3" pax_chance="100">POLMAV</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_decals="1" tex_decals="1" prop_hats="1">S_M_Y_SWAT_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="75">WEAPON_COMBATPISTOL</HandGun>
+					<HandGun chance="25">WEAPON_PISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="67">WEAPON_ADVANCEDRIFLE</LongGun>
+					<LongGun chance="33">WEAPON_ASSAULTSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</NorthYankton>
+	</SpecialUnit>
+</UltimateBackup>

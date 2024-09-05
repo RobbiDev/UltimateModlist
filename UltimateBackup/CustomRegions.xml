@@ -1,0 +1,136 @@
+<!--
+  This file contains user defined regions which will override the definition in the "DefaultRegions.xml" for the designated zones
+
+  Improtant notes: 
+    # The XML format in this file is similar with "DefaultRegions.xml". Please refer to descriptions on that xml file.
+    # The only difference is within the region level, this will have "CustomRegion" tag
+    # You need to define the "Zones" inside the "CustomRegion" tag (Please refer the zone names in "Zones reference.txt" file)
+
+-->
+
+<UltimateBackup>
+	<LocalPatrol>
+		<CustomRegion label="Los Santos Airport">
+			<Zones>
+				<Zone>AIRP</Zone>
+			</Zones>
+			<VehicleSet chance="40">
+				<Vehicles>
+					<Vehicle chance="70" color="White" pax="1" pax_chance="25">POLICE4</Vehicle>
+					<Vehicle chance="30" color="White" pax="1" pax_chance="25">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped>S_M_M_CIASEC_01</Ped>
+				</Peds>
+			</VehicleSet>
+			<VehicleSet chance="60">
+				<Vehicles>
+					<Vehicle chance="33" pax="1" pax_chance="40">POLICE</Vehicle>
+					<Vehicle chance="33" pax="1" pax_chance="25">POLICE2</Vehicle>
+					<Vehicle chance="34" pax="1" pax_chance="25">POLICE3</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped chance="90" comp_shirt="2" comp_accessories="2" prop_hats="1" prop_glasses="4" >S_M_Y_COP_01</Ped>
+					<Ped chance="10" comp_shirt="2" comp_accessories="2" prop_hats="1">S_F_Y_COP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</CustomRegion>
+		<CustomRegion label="San Andreas Parks">
+			<Zones>
+				<Zone>CANNY</Zone>
+				<Zone>MTCHIL</Zone>
+				<Zone>CMSW</Zone>
+				<Zone>SANCHIA</Zone>
+				<Zone>LACT</Zone>
+				<Zone>TATAMO</Zone>
+				<Zone>CCREAK</Zone>
+				<Zone>MTGORDO</Zone>
+				<Zone>MTJOSE</Zone>
+				<Zone>PALFOR</Zone>
+				<Zone>NCHU</Zone>
+			</Zones>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle chance="80" pax="1" pax_chance="25">PRANGER</Vehicle>
+					<Vehicle chance="20" color="-16772601">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped chance="90">S_M_Y_RANGER_01</Ped>
+					<Ped chance="10">S_F_Y_RANGER_01</Ped>
+        			</Peds>
+			</VehicleSet>
+		</CustomRegion>
+		<CustomRegion label="High Crime Areas">
+			<Zones>
+				<Zone>DAVIS</Zone>
+				<Zone>STRAW</Zone>
+			</Zones>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle chance="33" pax="1" pax_chance="90">POLICE</Vehicle>
+					<Vehicle chance="33" pax="1" pax_chance="90">POLICE2</Vehicle>
+					<Vehicle chance="34" pax="1" pax_chance="90">POLICE3</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped chance="10" comp_shirt="2" comp_accessories="2" comp_tasks="3" prop_hats="1" prop_glasses="4" >S_M_Y_COP_01</Ped>
+					<Ped chance="30" comp_shirt="2" comp_tasks="3" prop_glasses="1" >S_M_Y_COP_01</Ped>
+					<Ped chance="30" comp_tasks="3" prop_glasses="2" >S_M_Y_COP_01</Ped>
+					<Ped chance="30" comp_tasks="3" prop_glasses="3" >S_M_Y_COP_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="50">WEAPON_PISTOL</HandGun>
+					<HandGun chance="50">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="25">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50">WEAPON_ADVANCEDRIFLE</LongGun>
+					<LongGun chance="25">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</CustomRegion>
+		<CustomRegion label="Del Perro">
+			<Zones>
+				<Zone>BEACH</Zone>
+           		<Zone>DELBE</Zone>
+            	<Zone>DELPE</Zone>
+            	<Zone>DELSOL</Zone>
+			</Zones>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle chance="10">dppdcara2</Vehicle>
+					<Vehicle chance="15">dppdcara</Vehicle>
+					<Vehicle chance="20">dppdsgt</Vehicle>
+					<Vehicle chance="5">dppdscoutvol</Vehicle>
+					<Vehicle chance="40">dppdscout</Vehicle>
+					<Vehicle chance="5">dppdscoutunmk</Vehicle>
+					<Vehicle chance="5">dppdunmk</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped chance="10" comp_shirt="2" comp_accessories="2" comp_tasks="3" prop_hats="1" prop_glasses="4" >S_M_Y_COP_01</Ped>
+					<Ped chance="30" comp_shirt="2" comp_tasks="3" prop_glasses="1" >S_M_Y_COP_01</Ped>
+					<Ped chance="30" comp_tasks="3" prop_glasses="2" >S_M_Y_COP_01</Ped>
+					<Ped chance="30" comp_tasks="3" prop_glasses="3" >S_M_Y_COP_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="50">WEAPON_PISTOL</HandGun>
+					<HandGun chance="50">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="25">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50">WEAPON_ADVANCEDRIFLE</LongGun>
+					<LongGun chance="25">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</CustomRegion>
+	</LocalPatrol>
+
+	<StatePatrol>
+	</StatePatrol>
+
+</UltimateBackup>

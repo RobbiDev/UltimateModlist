@@ -1,0 +1,122 @@
+<Outfits>
+	<Outfit>
+		<Name>Special Agent Suit</Name>
+		<ScriptName>iaa_suit</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Suit</Name>
+				<ScriptName>m_suit</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="121" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="12" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="10" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="10" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="13" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="179" texture="0-4,10,13-17" />
+					<!--task-->
+					<Component id="9" drawable="22" texture="8" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="4" texture="0,1,4-5" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Suit</Name>
+				<ScriptName>f_suit</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="7" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="64" texture="0-4" />
+					<!--task-->
+					<Component id="9" drawable="24" texture="8" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="24" texture="0,1,3,6" />	
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Special Agent</Name>
+		<ScriptName>iaa_casual</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Casual</Name>			
+				<ScriptName>m_casual</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<!--berd-->
+				<Component id="1" drawable="0" texture="0" />
+				<!--uppr-->
+				<Component id="3" drawable="0" texture="0" />
+				<!--lowr-->
+				<Component id="4" drawable="10" texture="0-5" />
+				<!--hand-->
+				<Component id="5" drawable="0" texture="0" />
+				<!--feet-->
+				<Component id="6" drawable="10" texture="0" />
+				<!--teef-->
+				<Component id="7" drawable="128" texture="0" />
+				<!--accs-->
+				<Component id="8" drawable="16" texture="0" />
+				<!--task-->
+				<Component id="9" drawable="0" texture="0" />
+				<!--decl-->
+				<Component id="10" drawable="0" texture="0" />
+				<!--jbib-->
+				<Component id="11" drawable="2" texture="0-5" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Casual</Name>
+				<ScriptName>f_casual</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="14" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="98" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="9" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="14" texture="0,3-5" />	
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

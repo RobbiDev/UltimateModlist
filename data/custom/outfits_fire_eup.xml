@@ -1,0 +1,419 @@
+<Outfits>
+	<Outfit>
+		<Name>LSFD Firefighter</Name>
+		<ScriptName>lsfd_fire</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Turnouts</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="96" texture="0" />
+					<Component id="4" drawable="120" texture="0" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="16" texture="0" />
+					<Component id="11" drawable="315" texture="0" />												
+				</Components>
+				<Props>
+					<Prop id="0" drawable="45" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>SCBA</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_scba</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="8" drawable="151" texture="1" />
+					<Component id="11" drawable="314" texture="0" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="45" texture="0" />
+					<Prop id="1" drawable="0" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Turnouts</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="111" texture="0" />
+					<Component id="4" drawable="126" texture="0" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="14" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="15" texture="0" />
+					<Component id="11" drawable="326" texture="0" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="44" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>SCBA</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_scba</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="8" drawable="187" texture="1" />
+					<Component id="11" drawable="325" texture="0" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="44" texture="0" />				
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSFD First Responder</Name>
+		<ScriptName>lsfd_fr</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Bunker Pants</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="0" texture="0" />
+					<Component id="4" drawable="120" texture="0" />
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="18" texture="0" />
+					<Component id="8" drawable="88" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="73" texture="14" />											
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Fire Tee</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_tee</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="4" drawable="25" texture="3" />
+					<Component id="7" drawable="0" texture="0" />											
+				</Components>
+				<Props>
+					<Prop id="0" drawable="10" texture="0" />
+				</Props>				
+			</Variation>
+			<Variation>
+				<Name>Bunker Pants</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="14" texture="0" />
+					<Component id="4" drawable="126" texture="0" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="12" texture="0" />
+					<Component id="8" drawable="7" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="224" texture="21" />										
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Fire Tee</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_tee</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="4" drawable="3" texture="3" />
+					<Component id="7" drawable="0" texture="0" />									
+				</Components>
+				<Props>
+					<Prop id="0" drawable="10" texture="0" />
+				</Props>				
+			</Variation>
+		</Variations>
+	</Outfit>				
+	<Outfit>
+		<Name>LSCoFD Firefighter</Name>
+		<ScriptName>lscofd_fire</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Turnouts</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="96" texture="0" />
+					<Component id="4" drawable="120" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="24" texture="0" />
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="17" texture="0" />
+					<Component id="11" drawable="315" texture="1" />												
+				</Components>
+				<Props>
+					<Prop id="0" drawable="45" texture="3" />
+				</Props>	
+			</Variation>
+			<Variation>
+				<Name>SCBA</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_scba</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="8" drawable="151" texture="1" />
+					<Component id="11" drawable="314" texture="1" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="45" texture="3" />
+					<Prop id="1" drawable="0" texture="0" />					
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Turnouts</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="111" texture="0" />
+					<Component id="4" drawable="126" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="26" texture="0" />
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="14" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="16" texture="0" />
+					<Component id="11" drawable="326" texture="1" />											
+				</Components>
+				<Props>
+					<Prop id="0" drawable="44" texture="3" />
+				</Props>	
+			</Variation>
+			<Variation>
+				<Name>SCBA</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_scba</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="8" drawable="187" texture="1" />
+					<Component id="11" drawable="325" texture="1" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="44" texture="3" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSCoFD First Responder</Name>
+		<ScriptName>lscofd_fr</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Bunker Pants</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="0" texture="0" />
+					<Component id="4" drawable="120" texture="1" />
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="18" texture="0" />
+					<Component id="8" drawable="88" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="73" texture="15" />											
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Fire Tee</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_tee</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="4" drawable="25" texture="3" />
+					<Component id="7" drawable="0" texture="0" />									
+				</Components>				
+			</Variation>
+			<Variation>
+				<Name>Bunker Pants</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="14" texture="0" />
+					<Component id="4" drawable="126" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="12" texture="0" />
+					<Component id="8" drawable="7" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="224" texture="22" />										
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Fire Tee</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_tee</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="4" drawable="3" texture="3" />
+					<Component id="7" drawable="0" texture="0" />									
+				</Components>				
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>BCFD Firefighter</Name>
+		<ScriptName>bcfd_fire</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Turnouts</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="96" texture="0" />
+					<Component id="4" drawable="120" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="24" texture="0" />
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="18" texture="0" />
+					<Component id="11" drawable="315" texture="1" />												
+				</Components>
+				<Props>
+					<Prop id="0" drawable="45" texture="6" />
+				</Props>				
+			</Variation>
+			<Variation>
+				<Name>SCBA</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_scba</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="8" drawable="151" texture="0-1" />
+					<Component id="11" drawable="314" texture="1" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="45" texture="6" />
+					<Prop id="1" drawable="0" texture="0" />					
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Turnouts</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="111" texture="0" />
+					<Component id="4" drawable="126" texture="0" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="24" texture="0" />
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="14" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="17" texture="0" />
+					<Component id="11" drawable="326" texture="0" />												
+				</Components>
+				<Props>
+					<Prop id="0" drawable="44" texture="6" />
+				</Props>				
+			</Variation>
+			<Variation>
+				<Name>SCBA</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_scba</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="8" drawable="187" texture="0-1" />
+					<Component id="11" drawable="325" texture="1" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="44" texture="6" />				
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>BCFD First Responder</Name>
+		<ScriptName>bcfd_fr</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Bunker Pants</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="0" texture="0" />
+					<Component id="4" drawable="120" texture="1" />
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="18" texture="0" />
+					<Component id="8" drawable="88" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="73" texture="16" />											
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Fire Tee</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_tee</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="4" drawable="25" texture="3" />
+					<Component id="7" drawable="0" texture="0" />									
+				</Components>
+				<Props>
+					<Prop id="0" drawable="10" texture="1" />
+				</Props>				
+			</Variation>
+			<Variation>
+				<Name>Bunker Pants</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="14" texture="0" />
+					<Component id="4" drawable="126" texture="2" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="12" texture="0" />
+					<Component id="8" drawable="7" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="224" texture="23" />										
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Fire Tee</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_tee</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="4" drawable="3" texture="3" />
+					<Component id="7" drawable="0" texture="0" />									
+				</Components>
+				<Props>
+					<Prop id="0" drawable="10" texture="1" />
+				</Props>				
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

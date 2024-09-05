@@ -1,0 +1,368 @@
+<Outfits>
+	<Outfit>
+		<Name>SASPA Class A</Name>
+		<ScriptName>saspa_class_a</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="25" texture="2" />
+					<!--hand-->
+					<Component id="5" drawable="33" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="154" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="200" texture="9" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="41" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="33" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="190" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="202" texture="9" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASPA Class B</Name>
+		<ScriptName>saspa_class_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="10" />
+					<!--hand-->
+					<Component id="5" drawable="33" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="154" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="193" texture="9" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_belt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="8" drawable="45" texture="0" />
+					<Component id="9" drawable="13" texture="0" />					
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armed Officer</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_armed</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="8" drawable="38" texture="1" />
+					<Component id="7" drawable="8" texture="0" /> <!-- teeth -->
+					<Component id="9" drawable="20" texture="8" />					
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="10" />
+					<!--hand-->
+					<Component id="5" drawable="33" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="190" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="195" texture="9" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_belt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="8" drawable="37" texture="0" />
+					<Component id="9" drawable="14" texture="0" />					
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armed Officer</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_armed</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="8" drawable="51" texture="1" />				
+					<Component id="7" drawable="8" texture="0" /> <!-- teeth -->
+					<Component id="9" drawable="23" texture="8" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASPA Class C</Name>
+		<ScriptName>saspa_class_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="11" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="10" />
+					<!--hand-->
+					<Component id="5" drawable="33" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="154" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="190" texture="9" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_belt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="8" drawable="45" texture="0" />
+					<Component id="9" drawable="13" texture="0" />					
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armed Officer</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_armed</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="8" drawable="38" texture="1" />
+					<Component id="7" drawable="8" texture="0" /> <!-- teeth -->
+					<Component id="9" drawable="20" texture="8" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="9" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="10" />
+					<!--hand-->
+					<Component id="5" drawable="33" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="190" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="192" texture="9" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_belt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="8" drawable="37" texture="0" />
+					<Component id="9" drawable="14" texture="0" />					
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armed Officer</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_armed</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="8" drawable="51" texture="1" />
+					<Component id="7" drawable="8" texture="0" /> <!-- teeth -->
+					<Component id="9" drawable="23" texture="8" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASPA Jumpsuit</Name>
+		<ScriptName>saspa_jumpsuit</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="87" texture="10" />
+					<!--hand-->
+					<Component id="5" drawable="65" texture="5" />
+					<!--feet-->
+					<Component id="6" drawable="24" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="45" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="209" texture="2" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>CRT</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_crt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="52" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="17" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="125" texture="5" />
+					<!--task-->
+					<Component id="9" drawable="20" texture="8" /> 
+					<!--jbib-->
+					<Component id="11" drawable="80" texture="0" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="125" texture="0" /><!--p_head-->
+				</Props>			   													
+			</Variation>
+			<Variation>
+				<Name>Correctional Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="90" texture="10" />
+					<!--hand-->
+					<Component id="5" drawable="65" texture="5" />
+					<!--feet-->
+					<Component id="6" drawable="24" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="37" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="225" texture="2" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>CRT</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_crt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="52" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="18" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="131" texture="5" />
+					<!-- task -->
+					<Component id="9" drawable="3" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="147" texture="0" />
+				</Components>
+				<Props>		
+					<Prop id="0" drawable="124" texture="0" /> <!--p_head-->
+				</Props>
+			</Variation>			  		   
+		</Variations>
+	</Outfit>
+</Outfits>	

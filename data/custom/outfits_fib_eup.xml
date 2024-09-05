@@ -1,0 +1,612 @@
+<Outfits>
+	<Outfit>
+		<Name>Special Agent Suit</Name>
+		<ScriptName>fib_suit</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Suit</Name>
+				<ScriptName>m_suit</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="10" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="10" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="38" texture="3,5-8" />
+					<!--accs-->
+					<Component id="8" drawable="178" texture="0-4,10,13-17" />
+					<!--task-->
+					<Component id="9" drawable="22" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="4" texture="0-1,3-6" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Suit</Name>
+				<ScriptName>f_suit</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="7" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="68" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="64" texture="0-4" />
+					<!--task-->
+					<Component id="9" drawable="24" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="24" texture="0,1,3,6" />	
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Special Agent</Name>
+		<ScriptName>fib_formal</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>formal</Name>			
+				<ScriptName>m_formal</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<!--berd-->
+				<Component id="1" drawable="0" texture="0" />
+				<!--uppr-->
+				<Component id="3" drawable="4" texture="0" />
+				<!--lowr-->
+				<Component id="4" drawable="10" texture="0,3-5" />
+				<!--hand-->
+				<Component id="5" drawable="0" texture="0" />
+				<!--feet-->
+				<Component id="6" drawable="10" texture="0" />
+				<!--teef-->
+				<Component id="7" drawable="38" texture="3,5-8" />
+				<!--accs-->
+				<Component id="8" drawable="16" texture="0" />
+				<!--task-->
+				<Component id="9" drawable="22" texture="0" />
+				<!--decl-->
+				<Component id="10" drawable="0" texture="0" />
+				<!--jbib-->
+				<Component id="11" drawable="349" texture="0-4,10,13-17" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>formal</Name>
+				<ScriptName>f_formal</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="0" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="6" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="24" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="27" texture="0,3-5" />	
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>FIB Winbreaker</Name>
+		<ScriptName>fib_windbreaker</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Windbreaker</Name>			
+				<ScriptName>m_windbreaker</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<!--berd-->
+				<Component id="1" drawable="0" texture="0" />
+				<!--uppr-->
+				<Component id="3" drawable="4" texture="0" />
+				<!--lowr-->
+				<Component id="4" drawable="10" texture="0,3-5" />
+				<!--hand-->
+				<Component id="5" drawable="58" texture="0" />
+				<!--feet-->
+				<Component id="6" drawable="10" texture="0" />
+				<!--teef-->
+				<Component id="7" drawable="38" texture="3,5-8" />
+				<!--accs-->
+				<Component id="8" drawable="178" texture="0-4,10,13-17" />
+				<!--task-->
+				<Component id="9" drawable="0" texture="0" />
+				<!--decl-->
+				<Component id="10" drawable="0" texture="0" />
+				<!--jbib-->
+				<Component id="11" drawable="307" texture="3" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>FIB Winbreaker</Name>
+				<ScriptName>f_windbreaker</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="7" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="6" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="39" texture="0,3,4,13,14" />
+					<!--task-->
+					<Component id="9" drawable="24" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="318" texture="3" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>FIB Police Class A</Name>
+		<ScriptName>fibp_class_a</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<!--berd-->
+				<Component id="1" drawable="0" texture="0" />
+				<!--uppr-->
+				<Component id="3" drawable="4" texture="0" />
+				<!--lowr-->
+				<Component id="4" drawable="35" texture="0" />
+				<!--hand-->
+				<Component id="5" drawable="34" texture="0" />
+				<!--feet-->
+				<Component id="6" drawable="54" texture="0" />
+				<!--teef-->
+				<Component id="7" drawable="8" texture="0" />
+				<!--accs-->
+				<Component id="8" drawable="37" texture="0" />
+				<!--task-->
+				<Component id="9" drawable="0" texture="0" />
+				<!--decl-->
+				<Component id="10" drawable="40" texture="0" />
+				<!--jbib-->
+				<Component id="11" drawable="200" texture="11" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="34" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="34" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="2" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="48" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="202" texture="11" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>FIB Police Class B</Name>
+		<ScriptName>fibp_class_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="12" />
+					<!--hand-->
+					<Component id="5" drawable="34" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="54" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="37" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="13" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="39" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="193" texture="11" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="12" />
+					<!--hand-->
+					<Component id="5" drawable="34" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="2" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="47" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="195" texture="11" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+		<Outfit>
+		<Name>FIB Police Class C</Name>
+		<ScriptName>fibp_class_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="11" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="12" />
+					<!--hand-->
+					<Component id="5" drawable="34" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="54" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="37" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="13" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="39" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="190" texture="11" />		
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="9" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="12" />
+					<!--hand-->
+					<Component id="5" drawable="34" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="2" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="47" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="192" texture="11" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>FIB Police K-9 Class B</Name>
+		<ScriptName>fibp_k9_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="12" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="54" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="37" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="20" texture="9" />
+					<!--decl-->
+					<Component id="10" drawable="39" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="193" texture="12" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="12" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="2" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="23" texture="9" />
+					<!--decl-->
+					<Component id="10" drawable="47" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="195" texture="12" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+		<Outfit>
+		<Name>FIB Police K-9 Class C</Name>
+		<ScriptName>fibp_k9_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="11" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="12" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="54" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="37" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="20" texture="9" />
+					<!--decl-->
+					<Component id="10" drawable="39" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="190" texture="12" />		
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="9" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="12" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="2" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="25" texture="9" />
+					<!--decl-->
+					<Component id="10" drawable="47" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="192" texture="12" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+		<Outfit>
+		<Name>FIB SWAT</Name>
+		<ScriptName>fib_swat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Operator</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="141" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="31" texture="4" />
+					<!--hand-->
+					<Component id="5" drawable="48" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="35" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="110" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="25" texture="3" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="220" texture="5" />
+				</Components>
+				<Props>		
+					<Prop id="0" drawable="39" texture="0" /> <!--p_head-->
+					<Prop id="1" drawable="23" texture="0" /> <!--p_eyes-->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Hostage Rescue Team</Name>
+				<ScriptName>m_hrt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="141" texture="19" />
+					<!--lowr-->
+					<Component id="4" drawable="37" texture="2" />
+					<!--hand-->
+					<Component id="5" drawable="48" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="35" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="110" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="27" texture="8" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="220" texture="6" />
+				</Components>
+				<Props>		
+					<Prop id="0" drawable="39" texture="1" /> <!--p_head-->
+					<Prop id="1" drawable="23" texture="0" /> <!--p_eyes-->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Operator</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="174" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="30" texture="4" />
+					<!--hand-->
+					<Component id="5" drawable="48" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="36" texture="1" />
+					<!--teef-->
+					<Component id="7" drawable="81" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="27" texture="3" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="230" texture="5" />
+				</Components>
+				<Props>		
+					<Prop id="0" drawable="38" texture="0" /> <!--p_head-->
+					<Prop id="1" drawable="25" texture="0" /> <!--p_eyes-->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Hostage Rescue Team</Name>
+				<ScriptName>f_hrt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="174" texture="19" />
+					<!--lowr-->
+					<Component id="4" drawable="36" texture="2" />
+					<!--hand-->
+					<Component id="5" drawable="48" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="36" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="81" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="27" texture="8" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="230" texture="6" />
+				</Components>
+				<Props>		
+					<Prop id="0" drawable="38" texture="1" /> <!--p_head-->
+					<Prop id="1" drawable="25" texture="0" /> <!--p_eyes-->
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

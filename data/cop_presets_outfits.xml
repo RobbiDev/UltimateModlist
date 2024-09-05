@@ -1,0 +1,1478 @@
+<!--
+These are the outfits that can be used as a template when creating a new non-freemode character.
+Please use preset_ as the prefix for their script names to easily distinguish them from freemode outfits.
+While these outfits can theoretically be used for agency outfits on non-freemode peds, it is not recommended.
+ -->
+<Outfits>
+    <Outfit>
+		<Name>LSPD Class A</Name>
+		<ScriptName>preset_white_class_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="8" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+			<Variation>
+				<Name>Officer III+1</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="1" texture="0" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Detective</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="1" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer III+1</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="1" texture="0" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Detective</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="1" texture="1" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class B</Name>
+		<ScriptName>preset_white_class_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					 <Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+			<Variation>
+				<Name>Officer III</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="0" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer III</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="0" texture="1" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class A</Name>
+		<ScriptName>preset_black_class_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="8" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+			<Variation>
+				<Name>Officer III+1</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="1" texture="0" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Detective</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="1" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer III+1</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="1" texture="0" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Detective</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="1" texture="1" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class B</Name>
+		<ScriptName>preset_black_class_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="1"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+			<Variation>
+				<Name>Officer III</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="0" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer III</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="0" texture="1" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class A</Name>
+		<ScriptName>preset_hispanic_class_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="8" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+			<Variation>
+				<Name>Officer III+1</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="1" texture="0" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Detective</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="1" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer III+1</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="1" texture="0" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Detective</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="1" texture="1" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class B</Name>
+		<ScriptName>preset_hispanic_class_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                    <Component id="3" drawable="0" texture="2"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+			<Variation>
+				<Name>Officer III</Name>
+				<Base>m_base</Base>
+				<Components>
+					<Component id="10" drawable="0" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Armored Officer III</Name>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="2" texture="0"/>
+					<Component id="9" drawable="2" texture="0"/>
+					<Component id="10" drawable="0" texture="1" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class A</Name>
+		<ScriptName>preset_f_white_class_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class B</Name>
+		<ScriptName>preset_f_white_class_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="8" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class A</Name>
+		<ScriptName>preset_f_black_class_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class B</Name>
+		<ScriptName>preset_f_black_class_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="1"/>
+                    <Component id="8" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSPD Class A</Name>
+		<ScriptName>lspd_michael</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Officer</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="3" drawable="6" texture="0"/>
+                    <Component id="4" drawable="6" texture="0"/>
+                    <Component id="6" drawable="1" texture="0"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="4" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="9" texture="0" />
+                </Props>
+            </Variation>
+			<Variation>
+				<Name>Detective</Name>
+				<ScriptName>m_two</ScriptName>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="10" drawable="5" texture="0"/>
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Commander</Name>
+				<ScriptName>m_three</ScriptName>
+				<Base>m_base</Base>
+				<Components>
+                    <Component id="8" drawable="11" texture="0"/>
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAHP</Name>
+		<ScriptName>sahp_michael</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Motor Patrol</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="3" drawable="10" texture="0"/>
+                    <Component id="4" drawable="9" texture="0"/>
+                    <Component id="6" drawable="1" texture="0"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="4" texture="0"/>
+                    <Component id="10" drawable="3" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="4" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAHP</Name>
+		<ScriptName>sahp_trevor</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Motor Patrol</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="3" drawable="7" texture="0"/>
+                    <Component id="4" drawable="7" texture="0"/>
+                    <Component id="6" drawable="1" texture="0"/>
+                    <Component id="9" drawable="2" texture="0"/>
+                    <Component id="10" drawable="3" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="5" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSSD Class A</Name>
+		<ScriptName>preset_lssd_1_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="5" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0"/>
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Armored Deputy</Name>
+				<Base>m_base</Base>
+                <Components>
+                    <Component id="9" drawable="2" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Class B</Name>
+		<ScriptName>preset_lssd_1_b</ScriptName>
+        <Variations>
+			<Variation>
+                <Name>Deputy</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="5" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="0"/>
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Armored Deputy</Name>
+				<Base>m_base</Base>
+                <Components>
+                    <Component id="9" drawable="2" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSSD Class A</Name>
+		<ScriptName>preset_lssd_2_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="5" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0"/>
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Armored Deputy</Name>
+				<Base>m_base</Base>
+                <Components>
+                    <Component id="9" drawable="2" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Class B</Name>
+		<ScriptName>preset_lssd_2_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="5" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="0"/>
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Armored Deputy</Name>
+				<Base>m_base</Base>
+                <Components>
+                    <Component id="9" drawable="2" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSSD Class A</Name>
+		<ScriptName>preset_lssd_3_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="5" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0"/>
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Armored Deputy</Name>
+				<Base>m_base</Base>
+                <Components>
+                    <Component id="9" drawable="2" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Class B</Name>
+		<ScriptName>preset_lssd_3_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>m_base</ScriptName>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="5" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="0"/>
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Armored Deputy</Name>
+				<Base>m_base</Base>
+                <Components>
+                    <Component id="9" drawable="2" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSSD Class A</Name>
+		<ScriptName>preset_f_lssd_1_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="5" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0"/>
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSSD Class B</Name>
+		<ScriptName>preset_f_lssd_1_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="5" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="0"/>
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSSD Class A</Name>
+		<ScriptName>preset_f_lssd_2_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="5" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0"/>
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>LSSD Class B</Name>
+		<ScriptName>preset_f_lssd_2_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Deputy</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="5" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="0"/>
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAHP Class A</Name>
+		<ScriptName>preset_sahp_black_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Patrol</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="4" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="-1" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Motor</Name>
+				<Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="4" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAHP Class B</Name>
+		<ScriptName>preset_sahp_black_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Patrol</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="4" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="-1" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Motor</Name>
+				<Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="4" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAHP Class A</Name>
+		<ScriptName>preset_sahp_white_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Patrol</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="4" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="-1" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Motor</Name>
+				<Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="4" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAHP Class B</Name>
+		<ScriptName>preset_sahp_white_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Patrol</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="1"/>
+                    <Component id="4" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="-1" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Motor</Name>
+				<Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="4" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>NYSP</Name>
+		<ScriptName>preset_nysp_1</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>NYSP</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>NYSP</Name>
+		<ScriptName>preset_nysp_2</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>NYSP</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>NYSP</Name>
+		<ScriptName>preset_nysp_3</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>NYSP</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>Noose</Name>
+		<ScriptName>preset_noose_1</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Noose</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>Noose</Name>
+		<ScriptName>preset_noose_2</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Noose</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="1"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>Noose</Name>
+		<ScriptName>preset_noose_3</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Noose</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="2"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>FIB Agent</Name>
+		<ScriptName>preset_fib_1</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Response</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+            </Variation>
+            <Variation>
+                <Name>Agent</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="10" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>FIB Agent</Name>
+		<ScriptName>preset_fib_2</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Response</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+            </Variation>
+            <Variation>
+                <Name>Agent</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="10" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>IAA Agent</Name>
+		<ScriptName>preset_iaa_1</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Response</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="2" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="0" texture="0"/>
+                </Components>
+            </Variation>
+            <Variation>
+                <Name>Agent</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="2" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>IAA Agent</Name>
+		<ScriptName>preset_iaa_2</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Response</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="2" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="1"/>
+                    <Component id="9" drawable="0" texture="0"/>
+                </Components>
+            </Variation>
+            <Variation>
+                <Name>Agent</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="2" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>IAA Agent</Name>
+		<ScriptName>preset_iaa_3</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Response</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                    <Component id="2" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="3"/>
+                    <Component id="9" drawable="0" texture="0"/>
+                </Components>
+            </Variation>
+            <Variation>
+                <Name>Agent</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="2" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>DOA Agent</Name>
+		<ScriptName>preset_doa_1</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Agent</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>DOA Agent</Name>
+		<ScriptName>preset_doa_2</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Agent</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>DOA Agent</Name>
+		<ScriptName>preset_doa_3</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Agent</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>Armed Corrections Officer</Name>
+		<ScriptName>preset_saspa_1_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="0" texture="1"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>Unarmed Corrections Officer</Name>
+		<ScriptName>preset_saspa_1_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="0" texture="1"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>Armed Corrections Officer</Name>
+		<ScriptName>preset_saspa_2_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="0" texture="1"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Unarmed Corrections Officer</Name>
+		<ScriptName>preset_saspa_2_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="0" texture="1"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>Armed Corrections Officer</Name>
+		<ScriptName>preset_saspa_3_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="0" texture="1"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>Unarmed Corrections Officer</Name>
+		<ScriptName>preset_saspa_3_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="2" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="0" texture="1"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAPR Class A</Name>
+		<ScriptName>preset_sapr_1_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="4" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="0" texture="1"/>
+                    <Component id="4" drawable="0" texture="1"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="1" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAPR Class B</Name>
+		<ScriptName>preset_sapr_1_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="4" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="1" texture="1"/>
+                    <Component id="4" drawable="0" texture="1"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="1" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAPR Class A</Name>
+		<ScriptName>preset_sapr_2_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="4" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="0" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="0" texture="1"/>
+                    <Component id="4" drawable="0" texture="1"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="0" texture="1" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAPR Class B</Name>
+		<ScriptName>preset_sapr_2_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="4" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                    <Component id="10" drawable="1" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Dark</Name>
+                <Base>m_base</Base>
+				<Gender>male</Gender>
+                <Components>
+                    <Component id="3" drawable="1" texture="1"/>
+                    <Component id="4" drawable="0" texture="1"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="1" texture="1" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAPR Class A</Name>
+		<ScriptName>preset_f_sapr_1_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="2" drawable="0" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAPR Class B</Name>
+		<ScriptName>preset_f_sapr_1_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="0" texture="0"/>
+                    <Component id="2" drawable="1" texture="2"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAPR Class A</Name>
+		<ScriptName>preset_f_sapr_2_a</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="2" drawable="0" texture="0"/>
+                    <Component id="3" drawable="1" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+    <Outfit>
+		<Name>SAPR Class B</Name>
+		<ScriptName>preset_f_sapr_2_b</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Light</Name>
+                <ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="0" drawable="1" texture="0"/>
+                    <Component id="2" drawable="1" texture="2"/>
+                    <Component id="3" drawable="0" texture="0"/>
+                    <Component id="9" drawable="1" texture="0"/>
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+</Outfits>

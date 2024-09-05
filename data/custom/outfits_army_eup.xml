@@ -1,0 +1,97 @@
+<Outfits>
+	<Outfit>
+		<Name>USAF Military Police</Name>
+		<ScriptName>usaf_mp</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Military Police</Name>
+				<ScriptName>m_usaf_mp</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="0" texture="0" />
+					<Component id="4" drawable="87" texture="0" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="35" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="55" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="21" texture="0" />
+					<Component id="11" drawable="63" texture="0" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="28" texture="0" /> <!-- p_head -->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Military Police</Name>
+				<ScriptName>f_usaf_mp</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="14" texture="0" />
+					<Component id="4" drawable="90" texture="0" />
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="6" drawable="36" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="32" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="20" texture="0" />
+					<Component id="11" drawable="56" texture="0" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="28" texture="0" /> <!-- p_head -->
+				</Props>
+			</Variation>
+			</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>National Guard</Name>
+		<ScriptName>sang_combat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Combat uniform</Name>
+				<ScriptName>m_combat</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="141" texture="19" />
+					<Component id="4" drawable="37" texture="2" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="35" texture="0" />
+					<Component id="7" drawable="42" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="15" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="220" texture="25" />
+					
+				</Components>
+				<Props>
+					<Prop id="0" drawable="39" texture="1" /> <!-- p_head -->
+					<Prop id="1" drawable="23" texture="0" /> <!-- p_glasses -->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Combat Uniform</Name>
+				<ScriptName>f_combat</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="174" texture="19" />
+					<Component id="4" drawable="36" texture="2" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="36" texture="0" />
+					<Component id="7" drawable="29" texture="0" />
+					<Component id="8" drawable="14" texture="0" />
+					<Component id="9" drawable="17" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="230" texture="25" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="38" texture="1" /> <!-- p_head -->
+					<Prop id="1" drawable="25" texture="0" /> <!-- p_glasses -->
+				</Props>
+			</Variation>
+			</Variations>
+	</Outfit>
+</Outfits>	

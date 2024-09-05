@@ -1,0 +1,1402 @@
+<Outfits>
+	<Outfit>
+		<Name>SAHP Class A</Name>
+		<ScriptName>sahp_class_a</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="25" texture="1" />
+					<!--hand-->
+					<Component id="5" drawable="55" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="15" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="53" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="200" texture="4" />													
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="31" texture="0" />	
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="5" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="45" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					    <!--berd-->
+						<Component id="1" drawable="0" texture="0" />
+						<!--uppr-->
+						<Component id="3" drawable="3" texture="0" />
+						<!--lowr-->
+						<Component id="4" drawable="41" texture="2" />
+						<!--hand-->
+						<Component id="5" drawable="55" texture="0" />
+						<!--feet-->
+						<Component id="6" drawable="52" texture="0" />
+						<!--teef-->
+						<Component id="7" drawable="8" texture="0" />
+						<!--accs-->
+						<Component id="8" drawable="27" texture="1" />
+						<!--task-->
+						<Component id="9" drawable="0" texture="0" />
+						<!--decl-->
+						<Component id="10" drawable="0" texture="0" />
+						<!--jbib-->
+						<Component id="11" drawable="202" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="30" texture="0" />	
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="5" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="53" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Class B</Name>
+		<ScriptName>sahp_class_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="25" texture="1" />
+					<!--hand-->
+					<Component id="5" drawable="55" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="15" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="53" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="14" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="193" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="5" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="44" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="41" texture="2" />
+					<!--hand-->
+					<Component id="5" drawable="55" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="27" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="195" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="5" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="52" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Class C</Name>
+		<ScriptName>sahp_class_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="11" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="25" texture="1" />
+					<!--hand-->
+					<Component id="5" drawable="55" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="15" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="53" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="13" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="190" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="7" texture="0" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="44" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					    <!--berd-->
+						<Component id="1" drawable="0" texture="0" />
+						<!--uppr-->
+						<Component id="3" drawable="9" texture="0" />
+						<!--lowr-->
+						<Component id="4" drawable="41" texture="2" />
+						<!--hand-->
+						<Component id="5" drawable="55" texture="0" />
+						<!--feet-->
+						<Component id="6" drawable="52" texture="0" />
+						<!--teef-->
+						<Component id="7" drawable="8" texture="0" />
+						<!--accs-->
+						<Component id="8" drawable="27" texture="1" />
+						<!--task-->
+						<Component id="9" drawable="0" texture="0" />
+						<!--decl-->
+						<Component id="10" drawable="0" texture="0" />
+						<!--jbib-->
+						<Component id="11" drawable="192" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="6" texture="0" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="52" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Motorcycle Class A</Name>
+		<ScriptName>sahp_motor_a</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="32" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="55" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="13" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="53" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="200" texture="4" />																
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="17" texture="0" />		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="5" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="45" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- uppr -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					    <!--berd-->
+						<Component id="1" drawable="0" texture="0" />
+						<!--uppr-->
+						<Component id="3" drawable="3" texture="0" />
+						<!--lowr-->
+						<Component id="4" drawable="31" texture="0" />
+						<!--hand-->
+						<Component id="5" drawable="55" texture="0" />
+						<!--feet-->
+						<Component id="6" drawable="34" texture="0" />
+						<!--teef-->
+						<Component id="7" drawable="8" texture="0" />
+						<!--accs-->
+						<Component id="8" drawable="27" texture="1" />
+						<!--task-->
+						<Component id="9" drawable="0" texture="0" />
+						<!--decl-->
+						<Component id="10" drawable="0" texture="0" />
+						<!--jbib-->
+						<Component id="11" drawable="202" texture="4" />																				
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="17" texture="0" />		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="5" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="53" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Motorcycle Class B</Name>
+		<ScriptName>sahp_motor_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="32" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="55" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="13" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="53" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="193" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="17" texture="0" />		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="5" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="44" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="31" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="55" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="34" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="27" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="195" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="17" texture="0" />		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="5" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="52" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Motorcycle Class C</Name>
+		<ScriptName>sahp_motor_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="11" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="32" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="55" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="13" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="53" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="190" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="17" texture="0" />		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="7" texture="0" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="44" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					    <!--berd-->
+						<Component id="1" drawable="0" texture="0" />
+						<!--uppr-->
+						<Component id="3" drawable="9" texture="0" />
+						<!--lowr-->
+						<Component id="4" drawable="31" texture="0" />
+						<!--hand-->
+						<Component id="5" drawable="55" texture="0" />
+						<!--feet-->
+						<Component id="6" drawable="34" texture="0" />
+						<!--teef-->
+						<Component id="7" drawable="8" texture="0" />
+						<!--accs-->
+						<Component id="8" drawable="27" texture="1" />
+						<!--task-->
+						<Component id="9" drawable="0" texture="0" />
+						<!--decl-->
+						<Component id="10" drawable="0" texture="0" />
+						<!--jbib-->
+						<Component id="11" drawable="192" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="17" texture="0" />		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="6" texture="0" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="52" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="55" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Jacket</Name>
+		<ScriptName>sahp_jacket</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="4" texture="0" />
+					<Component id="4" drawable="25" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="15" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="19" texture="3" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="19" texture="0" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="31" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_bc</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="9" drawable="28" texture="2" />							
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="41" texture="2" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="27" texture="1" />
+					<Component id="9" drawable="31" texture="3" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="30" texture="0" />	
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="30" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_bc</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="9" drawable="30" texture="2" />					
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Raincoat</Name>
+		<ScriptName>sahp_raincoat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Open</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="4" texture="0" />
+					<Component id="4" drawable="25" texture="1" />
+					<Component id="5" drawable="55" texture="0" />
+					<Component id="6" drawable="15" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="28" texture="2" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="187" texture="3" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Open</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="41" texture="2" />
+					<Component id="5" drawable="55" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="27" texture="1" />
+					<Component id="9" drawable="30" texture="2" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="189" texture="3" />			
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="20" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Coat</Name>
+		<ScriptName>sahp_coat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="38" texture="0" />
+					<Component id="4" drawable="25" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="15" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="19" texture="3" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="187" texture="3" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="31" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_bc</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="9" drawable="28" texture="2" />						
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Winter</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_winter</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="9" drawable="26" texture="2" />						
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="2" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="36" texture="0" />
+					<Component id="4" drawable="41" texture="2" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="27" texture="1" />
+					<Component id="9" drawable="31" texture="3" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="21" texture="3" />	
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="30" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_bc</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="9" drawable="30" texture="2" />			
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Winter</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_winter</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="9" drawable="28" texture="2" />						
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="2" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Utility Class B</Name>
+		<ScriptName>sahp_Utility_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="4" texture="0" />
+					<Component id="4" drawable="86" texture="11" />
+					<Component id="5" drawable="65" texture="3" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="212" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="20" />	
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="5" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="89" texture="11" />
+					<Component id="5" drawable="65" texture="3" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="27" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="225" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="5" /> <!-- decal -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Utility Class C</Name>
+		<ScriptName>sahp_utility_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="11" texture="0" />
+					<Component id="4" drawable="86" texture="11" />
+					<Component id="5" drawable="65" texture="3" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="212" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="7" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					    <Component id="1" drawable="0" texture="0" />
+						<Component id="3" drawable="9" texture="0" />
+						<Component id="4" drawable="89" texture="11" />
+						<Component id="5" drawable="65" texture="3" />
+						<Component id="6" drawable="25" texture="0" />
+						<Component id="7" drawable="8" texture="0" />
+						<Component id="8" drawable="27" texture="1" />
+						<Component id="9" drawable="0" texture="0" />
+						<Component id="10" drawable="0" texture="0" />
+						<Component id="11" drawable="226" texture="4" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="6" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP K-9 Class B</Name>
+		<ScriptName>sahp_k9_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="4" texture="0" />
+					<Component id="4" drawable="87" texture="11" />
+					<Component id="5" drawable="65" texture="3" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="209" texture="5" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="5" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="90" texture="11" />
+					<Component id="5" drawable="65" texture="3" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="27" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="225" texture="5" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="5" /> <!-- decal -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP K-9 Class C</Name>
+		<ScriptName>sahp_k9_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="11" texture="0" />
+					<Component id="4" drawable="87" texture="11" />
+					<Component id="5" drawable="65" texture="3" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="212" texture="5" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="7" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="9" texture="0" />
+					<Component id="4" drawable="90" texture="11" />
+					<Component id="5" drawable="65" texture="3" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="27" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="226" texture="5" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="20" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="6" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Inspector Suit</Name>
+		<ScriptName>sahp_suit</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Suit</Name>
+				<ScriptName>m_suit</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="10" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="68" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="10" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="179" texture="0-4,10,13-17" />
+					<!--task-->
+					<Component id="9" drawable="35" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="4" texture="0-1,3-6" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Suit</Name>
+				<ScriptName>f_suit</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="7" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="68" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="64" texture="0-4" />
+					<!--task-->
+					<Component id="9" drawable="39" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="24" texture="0,1,3,6" />	
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Inspector Casual</Name>
+		<ScriptName>sahp_casual</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Casual</Name>			
+				<ScriptName>m_casual</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<!--berd-->
+				<Component id="1" drawable="0" texture="0" />
+				<!--uppr-->
+				<Component id="3" drawable="12" texture="0" />
+				<!--lowr-->
+				<Component id="4" drawable="10" texture="0,3-5" />
+				<!--hand-->
+				<Component id="5" drawable="0" texture="0" />
+				<!--feet-->
+				<Component id="6" drawable="10" texture="0" />
+				<!--teef-->
+				<Component id="7" drawable="6" texture="0" />
+				<!--accs-->
+				<Component id="8" drawable="88" texture="0" />
+				<!--task-->
+				<Component id="9" drawable="35" texture="0" />
+				<!--decl-->
+				<Component id="10" drawable="0" texture="0" />
+				<!--jbib-->
+				<Component id="11" drawable="348" texture="0-4,10,13-17" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Casual</Name>
+				<ScriptName>f_casual</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="0" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="6" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="39" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="27" texture="0,3-5" />	
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Inspector Winbreaker</Name>
+		<ScriptName>sahp_windbreaker</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Windbreaker</Name>			
+				<ScriptName>m_windbreaker</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<!--berd-->
+				<Component id="1" drawable="0" texture="0" />
+				<!--uppr-->
+				<Component id="3" drawable="12" texture="0" />
+				<!--lowr-->
+				<Component id="4" drawable="10" texture="0,3-5" />
+				<!--hand-->
+				<Component id="5" drawable="0" texture="0" />
+				<!--feet-->
+				<Component id="6" drawable="10" texture="0" />
+				<!--teef-->
+				<Component id="7" drawable="6" texture="0" />
+				<!--accs-->
+				<Component id="8" drawable="179" texture="0-4,10,13-17" />
+				<!--task-->
+				<Component id="9" drawable="35" texture="0" />
+				<!--decl-->
+				<Component id="10" drawable="0" texture="0" />
+				<!--jbib-->
+				<Component id="11" drawable="325" texture="8" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Casual</Name>
+				<ScriptName>f_windbreaker</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="7" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="6" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="39" texture="0,3,4,13,14" />
+					<!--task-->
+					<Component id="9" drawable="39" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="318" texture="8" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP Pilot</Name>
+		<ScriptName>sahp_pilot</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Visor Up</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="96" texture="0" />
+					<Component id="4" drawable="64" texture="2" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="24" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="48" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="108" texture="3" />
+				</Components>	
+				<Props>	
+					<!--p_head-->
+					<Prop id="0" drawable="79" texture="0" />
+				</Props>	
+			</Variation>
+			<Variation>
+				<Name>Visor Down</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_vdown</ScriptName>
+				<Gender>male</Gender>
+				<Props>
+					<Prop id="0" drawable="78" texture="0" /> <!-- p_head -->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Visor Up</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="36" texture="0" />
+					<Component id="4" drawable="66" texture="2" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="24" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="29" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="99" texture="3" />
+				</Components>	
+				<Props>
+					<!--p_head-->
+					<Prop id="0" drawable="78" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Visor Down</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_vdown</ScriptName>
+				<Gender>female</Gender>
+				<Props>
+					<Prop id="0" drawable="77" texture="0" /> <!-- p_head -->
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAHP SWAT</Name>
+		<ScriptName>sahp_swat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Operator</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="52" texture="3" />
+					<!--uppr-->
+					<Component id="3" drawable="141" texture="18" />
+					<!--lowr-->
+					<Component id="4" drawable="37" texture="1" />
+					<!--hand-->
+					<Component id="5" drawable="48" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="35" texture="1" />
+					<!--teef-->
+					<Component id="7" drawable="110" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="25" texture="2" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="220" texture="7" />
+				</Components>	
+				<Props>	
+					<!--p_head-->
+					<Prop id="0" drawable="39" texture="1" />
+				</Props>	
+			</Variation>
+			<Variation>
+				<Name>Operator</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="52" texture="3" />
+					<!--uppr-->
+					<Component id="3" drawable="174" texture="18" />
+					<!--lowr-->
+					<Component id="4" drawable="36" texture="1" />
+					<!--hand-->
+					<Component id="5" drawable="48" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="25" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="81" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="27" texture="2" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="230" texture="7" />
+				</Components>	
+				<Props>	
+					<!--p_head-->
+					<Prop id="0" drawable="38" texture="1" />
+					<!--p_eyes-->
+					<Prop id="1" drawable="25" texture="0" />
+				</Props>	
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

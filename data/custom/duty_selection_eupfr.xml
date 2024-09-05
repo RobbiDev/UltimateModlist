@@ -1,0 +1,83 @@
+<Duty>
+    <!-- What agencies (and their models) and what individual models are used during the selection process. -->
+    <Peds>
+        <Agency>lspd</Agency>
+        <Agency>lspd_swat</Agency>
+        <Agency>lspd_asu</Agency>	
+        <Agency>lssd</Agency>
+        <Agency>lssd_swat</Agency>		
+		<Agency>lssd_asu</Agency>
+        <Agency>sahp</Agency>
+        <Agency>sahp_swat</Agency>
+		<Agency>sahp_asu</Agency>
+		<Agency>saspa</Agency>
+        <Agency>sasp</Agency>
+		<Agency>nysp</Agency>
+        <Agency>noose</Agency>
+        <Agency>noose_tru</Agency>				
+        <Agency>noose_pia</Agency>	
+        <Agency>fib</Agency>
+		<Agency>fib_police</Agency>
+		<Agency>fib_swat</Agency>			
+		<Agency>army</Agency>
+		<Agency>usaf</Agency>	
+        <Agency>iaa</Agency>
+        <Agency>doa</Agency>
+		<Agency>lsfd</Agency>
+		<Agency>lsfd_fire</Agency>
+		<Agency>lscofd</Agency>
+		<Agency>lscofd_fire</Agency>		
+		<Agency>bcfd</Agency>
+		<Agency>bcfd_fire</Agency>			
+		<Agency>sams</Agency>
+		<Agency>dpunit</Agency>
+    </Peds>
+    <Vehicles>
+        <Agency>lspd</Agency>
+        <Agency>lspd_swat</Agency>
+        <Agency>lspd_asu</Agency>	
+        <Agency>lssd</Agency>
+        <Agency>lssd_swat</Agency>		
+		<Agency>lssd_asu</Agency>
+        <Agency>sahp</Agency>
+        <Agency>sahp_swat</Agency>
+		<Agency>sahp_asu</Agency>
+		<Agency>saspa</Agency>
+        <Agency>sasp</Agency>
+		<Agency>nysp</Agency>
+        <Agency>noose</Agency>
+        <Agency>noose_tru</Agency>				
+        <Agency>noose_pia</Agency>	
+        <Agency>fib</Agency>
+		<Agency>fib_police</Agency>
+		<Agency>fib_swat</Agency>			
+		<Agency>army</Agency>
+		<Agency>usaf</Agency>	
+        <Agency>iaa</Agency>
+        <Agency>doa</Agency>
+		<Agency>lsfd</Agency>
+		<Agency>lsfd_fire</Agency>
+		<Agency>lscofd</Agency>
+		<Agency>lscofd_fire</Agency>		
+		<Agency>bcfd</Agency>
+		<Agency>bcfd_fire</Agency>			
+		<Agency>sams</Agency>
+		<Agency>dpunit</Agency>
+    </Vehicles>
+     <!-- Additional texts for the vehicle models that are displayed on screen when selecting a vehicle. -->
+    <VehicleDescriptions>
+        <Description name="Police Cruiser" fullName="Vapid Police Cruiser" agencyRef="lspd">police</Description>
+        <Description name="Police Buffalo" fullName="Bravado Buffalo" agencyRef="lspd">police2</Description>
+        <Description name="Police Interceptor" fullName="Vapid Police Interceptor" agencyRef="lspd">police3</Description>
+        <Description name="Police Transporter" fullName="Declasse Police Transporter" agencyRef="lspd">policet</Description>
+        <Description name="Police Biker" fullName="WMC Police Bike" agencyRef="sahp">policeb</Description>
+        <Description name="Sheriff Cruiser" fullName="Vapid Police Cruiser" agencyRef="lssd">sheriff</Description>
+        <Description name="Sheriff SUV" fullName="Declasse Granger" agencyRef="lssd">sheriff2</Description>
+        <Description name="Unmarked Cruiser" fullName="Vapid Police Cruiser" agencyName="Local &amp; Federal Agencies">police4</Description>
+        <Description name="Unmarked Buffalo" fullName="Bravado Buffalo" agencyName="Local &amp; Federal Agencies">fbi</Description>
+        <Description name="Unmarked Granger" fullName="Declasse Granger" agencyName="Local &amp; Federal Agencies">fbi2</Description>
+        <Description name="Park Ranger" fullName="Declasse Granger" agencyRef="sapr">pranger</Description>
+        <Description name="Police Riot" fullName="Brute Police Stockade" agencyRef="noose">riot</Description>
+        <Description name="Hydra" fullName="Mammoth Hydra" agencyName="Ultimate Highway Patrol">hydra</Description>
+    </VehicleDescriptions>
+</Duty>

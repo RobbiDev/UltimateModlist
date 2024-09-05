@@ -1,0 +1,345 @@
+<Presets>
+	<Preset>
+        <Name>Logan Walsh</Name>
+        <ScriptName>preset_m_lspd_white</ScriptName>
+        <Model>s_m_y_cop_01</Model>
+        <Agency>lspd</Agency>        
+        <Outfits>
+            <Outfit>preset_white_class_a</Outfit>
+            <Outfit>preset_white_class_b</Outfit>
+        </Outfits>
+    </Preset>
+    <Preset>
+        <Name>Derrick Jordan</Name>
+        <ScriptName>preset_m_lspd_black</ScriptName>
+        <Model>s_m_y_cop_01</Model>
+        <Agency>lspd</Agency>        
+        <Outfits>
+            <Outfit>preset_black_class_a</Outfit>
+            <Outfit>preset_black_class_b</Outfit>
+        </Outfits>
+    </Preset>
+    <Preset>
+        <Name>Antonio Martinez</Name>
+        <ScriptName>preset_m_lspd_hisp</ScriptName>
+        <Model>s_m_y_cop_01</Model>
+        <Agency>lspd</Agency>        
+        <Outfits>
+            <Outfit>preset_hispanic_class_a</Outfit>
+            <Outfit>preset_hispanic_class_b</Outfit>
+        </Outfits>
+    </Preset>
+	<Preset>
+		<Name>Jessica Smith</Name>
+		<ScriptName>preset_f_lspd_white</ScriptName>
+		<Model>s_f_y_cop_01</Model>
+		<Agency>lspd</Agency>
+		<Outfits>
+			<Outfit>preset_f_white_class_a</Outfit>
+			<Outfit>preset_f_white_class_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Desiree Huber</Name>
+		<ScriptName>preset_f_lspd_black</ScriptName>
+		<Model>s_f_y_cop_01</Model>
+		<Agency>lspd</Agency>
+		<Outfits>
+			<Outfit>preset_f_black_class_a</Outfit>
+			<Outfit>preset_f_black_class_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Michael DeSanta</Name>
+		<ScriptName>preset_michael_1</ScriptName>
+		<Model>player_zero</Model>
+		<Agency>lspd</Agency>
+		<Outfits>
+			<Outfit>lspd_michael</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Michael DeSanta</Name>
+		<ScriptName>preset_michael_2</ScriptName>
+		<Model>player_zero</Model>
+		<Agency>sahp</Agency>
+		<Outfits>
+			<Outfit>sahp_michael</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Trevor Philips</Name>
+		<ScriptName>preset_trevor</ScriptName>
+		<Model>player_two</Model>
+		<Agency>sahp</Agency>
+		<Outfits>
+			<Outfit>sahp_trevor</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Oliver Martin</Name>
+		<ScriptName>preset_m_lssd_white_1</ScriptName>
+		<Model>s_m_y_sheriff_01</Model>
+		<Agency>lssd</Agency>
+		<Outfits>
+			<Outfit>preset_lssd_1_a</Outfit>
+			<Outfit>preset_lssd_1_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Steven Henry</Name>
+		<ScriptName>preset_m_lssd_white_2</ScriptName>
+		<Model>s_m_y_sheriff_01</Model>
+		<Agency>lssd</Agency>
+		<Outfits>
+			<Outfit>preset_lssd_2_a</Outfit>
+			<Outfit>preset_lssd_2_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Michael Simmons</Name>
+		<ScriptName>preset_m_lssd_white_3</ScriptName>
+		<Model>s_m_y_sheriff_01</Model>
+		<Agency>lssd</Agency>
+		<Outfits>
+			<Outfit>preset_lssd_3_a</Outfit>
+			<Outfit>preset_lssd_3_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Megan Price</Name>
+		<ScriptName>preset_f_lssd_white_a</ScriptName>
+		<Model>s_f_y_sheriff_01</Model>
+		<Agency>lssd</Agency>
+		<Outfits>
+			<Outfit>preset_f_lssd_1_a</Outfit>
+			<Outfit>preset_f_lssd_1_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Carly Parker</Name>
+		<ScriptName>preset_f_lssd_white_b</ScriptName>
+		<Model>s_f_y_sheriff_01</Model>
+		<Agency>lssd</Agency>
+		<Outfits>
+			<Outfit>preset_f_lssd_2_a</Outfit>
+			<Outfit>preset_f_lssd_2_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Dwayne Martins</Name>
+		<ScriptName>preset_sahp_black_1</ScriptName>
+		<Model>s_m_y_hwaycop_01</Model>
+		<Agency>sahp</Agency>
+		<Outfits>
+			<Outfit>preset_sahp_black_a</Outfit>
+			<Outfit>preset_sahp_black_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Frank White</Name>
+		<ScriptName>preset_sahp_white_1</ScriptName>
+		<Model>s_m_y_hwaycop_01</Model>
+		<Agency>sahp</Agency>
+		<Outfits>
+			<Outfit>preset_sahp_white_a</Outfit>
+			<Outfit>preset_sahp_white_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Robert Smith</Name>
+		<ScriptName>preset_nysp_1</ScriptName>
+		<Model>s_m_m_snowcop_01</Model>
+		<Agency>nysp</Agency>
+		<Outfits>
+			<Outfit>preset_nysp_1</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>William Roberts</Name>
+		<ScriptName>preset_nysp_2</ScriptName>
+		<Model>s_m_m_snowcop_01</Model>
+		<Agency>nysp</Agency>
+		<Outfits>
+			<Outfit>preset_nysp_2</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Jason Thompson</Name>
+		<ScriptName>preset_nysp_3</ScriptName>
+		<Model>s_m_m_snowcop_01</Model>
+		<Agency>nysp</Agency>
+		<Outfits>
+			<Outfit>preset_nysp_3</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Sonny Bonds</Name>
+		<ScriptName>preset_noose_1</ScriptName>
+		<Model>s_m_y_swat_01</Model>
+		<Agency>noose</Agency>
+		<Outfits>
+			<Outfit>preset_noose_1</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Allen Jackson</Name>
+		<ScriptName>preset_noose_2</ScriptName>
+		<Model>s_m_y_swat_01</Model>
+		<Agency>noose</Agency>
+		<Outfits>
+			<Outfit>preset_noose_2</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Tony Girard</Name>
+		<ScriptName>preset_noose_3</ScriptName>
+		<Model>s_m_y_swat_01</Model>
+		<Agency>noose</Agency>
+		<Outfits>
+			<Outfit>preset_noose_3</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Peter Burke</Name>
+		<ScriptName>preset_fib_01</ScriptName>
+		<Model>s_m_m_fibsec_01</Model>
+		<Agency>fib</Agency>
+		<Outfits>
+			<Outfit>preset_fib_1</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Clinton Jones</Name>
+		<ScriptName>preset_fib_02</ScriptName>
+		<Model>s_m_m_fibsec_01</Model>
+		<Agency>fib</Agency>
+		<Outfits>
+			<Outfit>preset_fib_2</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Jake Ballard</Name>
+		<ScriptName>preset_iaa_01</ScriptName>
+		<Model>s_m_m_ciasec_01</Model>
+		<Agency>iaa</Agency>
+		<Outfits>
+			<Outfit>preset_iaa_1</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Tom Larsen</Name>
+		<ScriptName>preset_iaa_02</ScriptName>
+		<Model>s_m_m_ciasec_01</Model>
+		<Agency>iaa</Agency>
+		<Outfits>
+			<Outfit>preset_iaa_2</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Grayden Osborne</Name>
+		<ScriptName>preset_iaa_03</ScriptName>
+		<Model>s_m_m_ciasec_01</Model>
+		<Agency>iaa</Agency>
+		<Outfits>
+			<Outfit>preset_iaa_3</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Steven Gomez</Name>
+		<ScriptName>preset_doa_01</ScriptName>
+		<Model>u_m_m_doa_01</Model>
+		<Agency>doa</Agency>
+		<Outfits>
+			<Outfit>preset_doa_1</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>George Merkert</Name>
+		<ScriptName>preset_doa_02</ScriptName>
+		<Model>u_m_m_doa_01</Model>
+		<Agency>doa</Agency>
+		<Outfits>
+			<Outfit>preset_doa_2</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Todd Ramey</Name>
+		<ScriptName>preset_doa_03</ScriptName>
+		<Model>u_m_m_doa_01</Model>
+		<Agency>doa</Agency>
+		<Outfits>
+			<Outfit>preset_doa_3</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Sam Healy</Name>
+		<ScriptName>preset_saspa_01</ScriptName>
+		<Model>s_m_m_prisguard_01</Model>
+		<Agency>saspa</Agency>
+		<Outfits>
+			<Outfit>preset_saspa_1_a</Outfit>
+			<Outfit>preset_saspa_1_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>John Thompson</Name>
+		<ScriptName>preset_saspa_02</ScriptName>
+		<Model>s_m_m_prisguard_01</Model>
+		<Agency>saspa</Agency>
+		<Outfits>
+			<Outfit>preset_saspa_2_a</Outfit>
+			<Outfit>preset_saspa_2_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>George Mendez</Name>
+		<ScriptName>preset_saspa_03</ScriptName>
+		<Model>s_m_m_prisguard_01</Model>
+		<Agency>saspa</Agency>
+		<Outfits>
+			<Outfit>preset_saspa_3_a</Outfit>
+			<Outfit>preset_saspa_3_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Steve Williams</Name>
+		<ScriptName>preset_sapr_01</ScriptName>
+		<Model>s_m_y_ranger_01</Model>
+		<Agency>sapr</Agency>
+		<Outfits>
+			<Outfit>preset_sapr_1_a</Outfit>
+			<Outfit>preset_sapr_1_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Woody Johnson</Name>
+		<ScriptName>preset_sapr_02</ScriptName>
+		<Model>s_m_y_ranger_01</Model>
+		<Agency>sapr</Agency>
+		<Outfits>
+			<Outfit>preset_sapr_2_a</Outfit>
+			<Outfit>preset_sapr_2_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Ethel Anderson</Name>
+		<ScriptName>preset_f_sapr_01</ScriptName>
+		<Model>s_f_y_ranger_01</Model>
+		<Agency>sapr</Agency>
+		<Outfits>
+			<Outfit>preset_f_sapr_1_a</Outfit>
+			<Outfit>preset_f_sapr_1_b</Outfit>
+		</Outfits>
+	</Preset>
+	<Preset>
+		<Name>Connie Cunaman</Name>
+		<ScriptName>preset_f_sapr_02</ScriptName>
+		<Model>s_f_y_ranger_01</Model>
+		<Agency>sapr</Agency>
+		<Outfits>
+			<Outfit>preset_f_sapr_2_a</Outfit>
+			<Outfit>preset_f_sapr_2_b</Outfit>
+		</Outfits>
+	</Preset>
+</Presets>

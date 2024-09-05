@@ -1,0 +1,1296 @@
+<Outfits>
+	<Outfit>
+		<Name>LSSD Class A</Name>
+		<ScriptName>lssd_class_a</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Deputy</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="25" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="53" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="38" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="200" texture="2" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="13" texture="0" /> <!--p_head-->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Deputy II</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_2</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_senior</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="2" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="3" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="45" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="2" /> <!-- uppr -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Deputy</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					    <!--berd-->
+						<Component id="1" drawable="0" texture="0" />
+						<!--uppr-->
+						<Component id="3" drawable="3" texture="0" />
+						<!--lowr-->
+						<Component id="4" drawable="41" texture="1" />
+						<!--hand-->
+						<Component id="5" drawable="53" texture="0" />
+						<!--feet-->
+						<Component id="6" drawable="52" texture="0" />
+						<!--teef-->
+						<Component id="7" drawable="8" texture="0" />
+						<!--accs-->
+						<Component id="8" drawable="51" texture="1" />
+						<!--task-->
+						<Component id="9" drawable="0" texture="0" />
+						<!--decl-->
+						<Component id="10" drawable="0" texture="0" />
+						<!--jbib-->
+						<Component id="11" drawable="202" texture="2" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="13" texture="0" /> <!--p_head-->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Deputy II</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_2</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_3</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="2" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="3" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="53" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Class B</Name>
+		<ScriptName>lssd_class_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Deputy</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="25" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="53" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="38" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="13" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="193" texture="2" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Deputy II</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_2</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_3</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="2" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="3" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="44" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Deputy</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="41" texture="1" />
+					<!--hand-->
+					<Component id="5" drawable="53" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="51" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="195" texture="2" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Deputy II</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_2</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_3</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="2" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="3" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="52" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Class C</Name>
+		<ScriptName>lssd_class_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Deputy</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="11" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="25" texture="0" />
+					<!--hand-->
+					<Component id="5" drawable="53" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="38" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="13" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="190" texture="2" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Deputy II</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_2</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="1" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_3</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="2" texture="0" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lieutenant</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="44" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Deputy</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					    <!--berd-->
+						<Component id="1" drawable="0" texture="0" />
+						<!--uppr-->
+						<Component id="3" drawable="9" texture="0" />
+						<!--lowr-->
+						<Component id="4" drawable="41" texture="1" />
+						<!--hand-->
+						<Component id="5" drawable="53" texture="0" />
+						<!--feet-->
+						<Component id="6" drawable="52" texture="0" />
+						<!--teef-->
+						<Component id="7" drawable="8" texture="0" />
+						<!--accs-->
+						<Component id="8" drawable="51" texture="1" />
+						<!--task-->
+						<Component id="9" drawable="0" texture="0" />
+						<!--decl-->
+						<Component id="10" drawable="0" texture="0" />
+						<!--jbib-->
+						<Component id="11" drawable="192" texture="2" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Deputy II</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_2</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="1" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_3</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="9" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="2" texture="0" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="1" /> <!-- hand -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Lieutenant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lieutenant</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="52" texture="6" /> <!-- decal -->
+					<Component id="5" drawable="53" texture="2" /> <!-- hand -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Jacket</Name>
+		<ScriptName>lssd_jacket</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+						<Component id="3" drawable="4" texture="0" />
+						<Component id="4" drawable="25" texture="0" />
+						<Component id="5" drawable="48" texture="0" />
+						<Component id="6" drawable="51" texture="0" />
+						<Component id="7" drawable="8" texture="0" />
+						<Component id="8" drawable="38" texture="1" />
+						<Component id="9" drawable="19" texture="1" />
+						<Component id="10" drawable="0" texture="0" />
+						<Component id="11" drawable="30" texture="0" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="13" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_bc</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="9" drawable="28" texture="1" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="22" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="41" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="51" texture="1" />
+					<Component id="9" drawable="30" texture="1" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="279" texture="0" />		
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="13" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_bc</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="9" drawable="31" texture="1" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="22" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Raincoat</Name>
+		<ScriptName>lssd_raincoat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Open</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="4" texture="0" />
+					<Component id="4" drawable="25" texture="0" />
+					<Component id="5" drawable="53" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="38" texture="1" />
+					<Component id="9" drawable="28" texture="1" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="187" texture="1" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="22" />	
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Open</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="41" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="51" texture="1" />
+					<Component id="9" drawable="30" texture="1" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="189" texture="1" />		
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="22" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Coat</Name>
+		<ScriptName>lssd_coat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="38" texture="0" />
+					<Component id="4" drawable="25" texture="0" />
+					<Component id="5" drawable="64" texture="17" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="38" texture="1" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="266" texture="1" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="13" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_bc</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="1" />
+					<Component id="11" drawable="265" texture="1" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="22" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Winter</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_winter</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="0" />
+					<Component id="11" drawable="265" texture="1" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="1" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="36" texture="0" />
+					<Component id="4" drawable="41" texture="1" />
+					<Component id="5" drawable="64" texture="17" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="51" texture="1" />
+					<Component id="9" drawable="16" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="275" texture="1" />	
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="13" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_bc</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="1" />		
+					<Component id="11" drawable="274" texture="1" />						
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="22" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Winter</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_winter</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="0" />		
+					<Component id="11" drawable="274" texture="1" />						
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="1" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Bicycle Uniform</Name>
+		<ScriptName>lssd_bicycle</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="19" texture="0" />
+					<Component id="4" drawable="12" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="2" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="37" texture="0" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="94" texture="2" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="49" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Officer</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="31" texture="0" />
+					<Component id="4" drawable="14" texture="3" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="10" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="2" texture="0" />
+					<Component id="9" drawable="16" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="85" texture="2" />			
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="47" texture="0" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD K-9 Class B</Name>
+		<ScriptName>lssd_k9_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Senior Deputy</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="4" texture="0" />
+					<Component id="4" drawable="87" texture="7" />
+					<Component id="5" drawable="65" texture="2" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="11" texture="0" />
+					<Component id="11" drawable="209" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Senior Deputy</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_deptv</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />
+					<Component id="9" drawable="20" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_3</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="2" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_3v</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />
+					<Component id="9" drawable="20" texture="4" />
+					<Component id="10" drawable="11" texture="2" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="11" texture="3" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgtv</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />
+					<Component id="9" drawable="20" texture="4" />
+					<Component id="10" drawable="11" texture="3" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Senior Deputy</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="90" texture="7" />
+					<Component id="5" drawable="65" texture="1" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="31" texture="1" />
+					<Component id="9" drawable="15" texture="0" />
+					<Component id="10" drawable="10" texture="0" />
+					<Component id="11" drawable="225" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Senior Deputy</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_deptv</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />				
+					<Component id="9" drawable="23" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_3</ScriptName>
+				<Gender>female</Gender>
+				<Components>			
+					<Component id="10" drawable="10" texture="2" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_3v</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />				
+					<Component id="9" drawable="23" texture="4" />	
+					<Component id="10" drawable="10" texture="2" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="3" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgtv</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />				
+					<Component id="9" drawable="23" texture="4" />
+					<Component id="10" drawable="10" texture="3" /> <!-- decal -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD K-9 Class C</Name>
+		<ScriptName>lssd_k9_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Senior Deputy</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				  <Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="11" texture="0" />
+					<Component id="4" drawable="87" texture="7" />
+					<Component id="5" drawable="65" texture="1" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="53" texture="0" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="1" texture="0" />
+					<Component id="11" drawable="212" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Senior Deputy</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_deptv</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />
+					<Component id="9" drawable="20" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_3</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="10" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_dept_3v</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />
+					<Component id="9" drawable="20" texture="4" />
+					<Component id="10" drawable="10" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgt</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="10" drawable="2" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_sgtv</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />
+					<Component id="9" drawable="20" texture="4" />
+					<Component id="10" drawable="2" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Senior Deputy</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="9" texture="0" />
+					<Component id="4" drawable="90" texture="7" />
+					<Component id="5" drawable="65" texture="1" />
+					<Component id="6" drawable="25" texture="0" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="31" texture="1" />
+					<Component id="9" drawable="15" texture="0" />
+					<Component id="10" drawable="1" texture="0" />
+					<Component id="11" drawable="226" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Senior Deputy</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_deptv</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />				
+					<Component id="9" drawable="23" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_3</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="9" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Master FTO</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_dept_3v</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />				
+					<Component id="9" drawable="23" texture="4" />
+					<Component id="10" drawable="9" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgt</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="10" drawable="2" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Sergeant</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_sgtv</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="20" texture="0" />				
+					<Component id="9" drawable="23" texture="4" />
+					<Component id="10" drawable="2" texture="0" /> <!-- decal -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Dirtbike Patrol</Name>
+		<ScriptName>lssd_dirtbike</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Dirtbike Patrol</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="179" texture="0" />
+					<Component id="4" drawable="67" texture="10" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="47" texture="3" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="55" texture="0" />
+					<Component id="9" drawable="18" texture="1" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="152" texture="1" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="16" texture="1" />
+					<Prop id="1" drawable="25" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Dirtbike Patrol</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="18" texture="0" />
+					<Component id="4" drawable="69" texture="10" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="48" texture="3" />
+					<Component id="7" drawable="1" texture="0" />
+					<Component id="8" drawable="32" texture="0" />
+					<Component id="9" drawable="22" texture="1" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="149" texture="1" />				
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="16" texture="1" />
+					<Prop id="1" drawable="27" texture="0" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Detective Suit</Name>
+		<ScriptName>lssd_suit</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Suit</Name>
+				<ScriptName>m_suit</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="10" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="68" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="10" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="38" texture="3,5-8" />
+					<!--accs-->
+					<Component id="8" drawable="178" texture="0-4,10,13-17" />
+					<!--task-->
+					<Component id="9" drawable="23" texture="1" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="4" texture="0-1,3-6" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Suit</Name>
+				<ScriptName>f_suit</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="7" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="68" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="0" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="64" texture="0-4" />
+					<!--task-->
+					<Component id="9" drawable="25" texture="1" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="24" texture="0,1,3,6" />	
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Detective</Name>
+		<ScriptName>lssd_formal</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>formal</Name>			
+				<ScriptName>m_formal</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<!--berd-->
+				<Component id="1" drawable="0" texture="0" />
+				<!--uppr-->
+				<Component id="3" drawable="4" texture="0" />
+				<!--lowr-->
+				<Component id="4" drawable="10" texture="0,3-5" />
+				<!--hand-->
+				<Component id="5" drawable="10" texture="3,5-8" />
+				<!--feet-->
+				<Component id="6" drawable="10" texture="0" />
+				<!--teef-->
+				<Component id="7" drawable="6" texture="0" />
+				<!--accs-->
+				<Component id="8" drawable="88" texture="0" />
+				<!--task-->
+				<Component id="9" drawable="23" texture="1" />
+				<!--decl-->
+				<Component id="10" drawable="0" texture="0" />
+				<!--jbib-->
+				<Component id="11" drawable="349" texture="0-4,10,13-17" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>formal</Name>
+				<ScriptName>f_formal</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="0" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="6" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="15" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="25" texture="1" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="27" texture="0,3-5" />	
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>Detective Winbreaker</Name>
+		<ScriptName>lssd_windbreaker</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Windbreaker</Name>			
+				<ScriptName>m_windbreaker</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+				<!--berd-->
+				<Component id="1" drawable="0" texture="0" />
+				<!--uppr-->
+				<Component id="3" drawable="12" texture="0" />
+				<!--lowr-->
+				<Component id="4" drawable="10" texture="0,3-5" />
+				<!--hand-->
+				<Component id="5" drawable="60" texture="1" />
+				<!--feet-->
+				<Component id="6" drawable="10" texture="0" />
+				<!--teef-->
+				<Component id="7" drawable="6" texture="0" />
+				<!--accs-->
+				<Component id="8" drawable="179" texture="0-4,10,13-17" />
+				<!--task-->
+				<Component id="9" drawable="17" texture="3" />
+				<!--decl-->
+				<Component id="10" drawable="0" texture="0" />
+				<!--jbib-->
+				<Component id="11" drawable="325" texture="1" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>Detective Winbreaker</Name>
+				<ScriptName>f_windbreaker</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="7" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="3" texture="0,3-5" />
+					<!--hand-->
+					<Component id="5" drawable="0" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="29" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="6" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="39" texture="0,3,4,13,14" />
+					<!--task-->
+					<Component id="9" drawable="25" texture="1" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="318" texture="1" />
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD Pilot</Name>
+		<ScriptName>lssd_pilot</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Visor Up</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="96" texture="0" />
+					<Component id="4" drawable="64" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="24" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="43" texture="1" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="108" texture="1" />
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="78" texture="0" /> <!-- p_head -->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Visor Down</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_vdown</ScriptName>
+				<Gender>male</Gender>
+				<Props>	
+					<Prop id="0" drawable="79" texture="0" /> <!-- p_head -->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Visor Up</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="36" texture="0" />
+					<Component id="4" drawable="66" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="24" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="30" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="99" texture="1" />	
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="77" texture="0" /> <!-- p_head -->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Visor Down</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_vdown</ScriptName>
+				<Gender>female</Gender>
+				<Props>	
+					<Prop id="0" drawable="78" texture="0" /> <!-- p_head -->
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSSD SWAT</Name>
+		<ScriptName>lssd_swat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Operator</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="179" texture="0" />
+					<Component id="4" drawable="31" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="35" texture="0" />
+					<Component id="7" drawable="110" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="25" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="220" texture="2" />	
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="150" texture="1" /> <!-- p_head -->
+					<Prop id="1" drawable="21" texture="0" /> <!-- p_glasses -->
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Operator</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="215" texture="0" />
+					<Component id="4" drawable="30" texture="1" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="36" texture="0" />
+					<Component id="7" drawable="81" texture="0" />
+					<Component id="8" drawable="14" texture="0" />
+					<Component id="9" drawable="27" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="230" texture="2" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="149" texture="1" /> <!-- p_head -->
+					<Prop id="1" drawable="22" texture="0" /> <!-- p_glasses -->
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

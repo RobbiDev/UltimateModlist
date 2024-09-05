@@ -1,0 +1,60 @@
+<Inventories>
+    <Inventory>
+        <!-- Simple patrol config with two pistol variants and small chance of a shotgun -->
+        <Name>Patrol</Name>
+        <ScriptName>patrol</ScriptName>
+        <Weapon>
+            <Model>WEAPON_PISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component> <!-- Flashlight -->
+        </Weapon>
+        <Weapon>WEAPON_VINTAGEPISTOL</Weapon>
+        <Weapon>WEAPON_FLASHLIGHT</Weapon>
+        <Weapon>WEAPON_NIGHTSTICK</Weapon>
+        <StunWeapon>WEAPON_STUNGUN</StunWeapon>
+    </Inventory>
+    <Inventory>
+        <!-- Same as above but with a stungun -->
+        <Name>Patrol (Stun)</Name>
+        <ScriptName>patrol_stun</ScriptName>
+        <StunWeapon>WEAPON_STUNGUN</StunWeapon>
+    </Inventory>
+    <Inventory>
+        <!-- Simple config with just a combat pistol for motor cops -->
+        <Name>Motor Patrol</Name>
+        <ScriptName>biker</ScriptName>
+        <Weapon>WEAPON_COMBATPISTOL</Weapon>
+    </Inventory>
+    <Inventory>
+        <!-- Simple config with only a pistol - good as a default -->
+        <Name>Default</Name>
+        <ScriptName>default</ScriptName>
+        <Weapon>
+            <Model>WEAPON_PISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component> <!-- Flashlight -->
+        </Weapon>
+        <Weapon>WEAPON_FLASHLIGHT</Weapon>
+        <Weapon>WEAPON_NIGHTSTICK</Weapon>
+        <StunWeapon>WEAPON_STUNGUN</StunWeapon>
+    </Inventory>
+    <Inventory>
+        <!-- SWAT config with heavier weapons + attachments + armor -->
+        <Name>SWAT</Name>
+        <ScriptName>swat</ScriptName>
+        <Weapon>
+            <Model>WEAPON_CARBINERIFLE</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component> <!-- Flashlight -->
+			<Component>COMPONENT_AT_AR_AFGRIP</Component> <!-- Grip -->
+			<Component>COMPONENT_AT_SCOPE_MEDIUM</Component> <!-- Scope -->
+        </Weapon>
+        <Weapon>
+            <Model>WEAPON_PUMPSHOTGUN</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component> <!-- Flashlight -->
+        </Weapon>
+        <Weapon>
+            <Model>WEAPON_COMBATPISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component> <!-- Flashlight -->
+        </Weapon>
+        <StunWeapon>WEAPON_STUNGUN</StunWeapon>
+        <Armor>100</Armor>
+    </Inventory>
+</Inventories>

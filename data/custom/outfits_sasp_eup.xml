@@ -1,0 +1,620 @@
+<Outfits>
+	<Outfit>
+		<Name>SASP Class A</Name>
+		<ScriptName>sasp_class_a</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Ranger</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="8" />
+					<!--hand-->
+					<Component id="5" drawable="36" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="49" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="0" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="200" texture="5" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="0" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Lifeguard</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lifeguard</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="4" drawable="86" texture="12" /> <!-- lowr -->
+					<Component id="11" drawable="200" texture="6" /> <!-- jbib -->
+					<Component id="5" drawable="36" texture="1" /> <!--hand-->
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="1" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Ranger</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="8" />
+					<!--hand-->
+					<Component id="5" drawable="36" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="31" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="14" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="202" texture="5" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="0" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Lifeguard</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lifeguard</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="4" drawable="89" texture="12" /> <!-- lowr -->
+					<Component id="11" drawable="202" texture="6" /> <!-- jbib -->
+					<Component id="5" drawable="36" texture="1" /> <!--hand-->
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="1" /> <!--p_head-->		
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASP Class B</Name>
+		<ScriptName>sasp_class_b</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Ranger</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="4" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="8" />
+					<!--hand-->
+					<Component id="5" drawable="36" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="49" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="13" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="193" texture="5" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="0" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Lifeguard</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lifeguard</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="4" drawable="86" texture="12" /> <!-- lowr -->
+					<Component id="11" drawable="193" texture="6" /> <!-- jbib -->
+					<Component id="5" drawable="36" texture="1" /> <!--hand-->
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="1" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Ranger</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="3" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="8" />
+					<!--hand-->
+					<Component id="5" drawable="36" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="31" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="14" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="195" texture="5" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="0" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Lifeguard</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lifeguard</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="4" drawable="89" texture="12" /> <!-- lowr -->
+					<Component id="11" drawable="195" texture="6" /> <!-- jbib -->
+					<Component id="5" drawable="36" texture="1" /> <!--hand-->
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="1" /> <!--p_head-->		
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASP Class C</Name>
+		<ScriptName>sasp_class_c</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Ranger</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="11" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="86" texture="8" />
+					<!--hand-->
+					<Component id="5" drawable="36" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="51" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="49" texture="1" />
+					<!--task-->
+					<Component id="9" drawable="13" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="190" texture="5" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="0" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Lifeguard</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_lifeguard</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="4" drawable="86" texture="12" /> <!-- lowr -->
+					<Component id="11" drawable="190" texture="6" /> <!-- jbib -->
+					<Component id="5" drawable="36" texture="1" /> <!--hand-->
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="1" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Ranger</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<!--berd-->
+					<Component id="1" drawable="0" texture="0" />
+					<!--uppr-->
+					<Component id="3" drawable="9" texture="0" />
+					<!--lowr-->
+					<Component id="4" drawable="89" texture="8" />
+					<!--hand-->
+					<Component id="5" drawable="36" texture="0" />
+					<!--feet-->
+					<Component id="6" drawable="52" texture="0" />
+					<!--teef-->
+					<Component id="7" drawable="8" texture="0" />
+					<!--accs-->
+					<Component id="8" drawable="31" texture="0" />
+					<!--task-->
+					<Component id="9" drawable="14" texture="0" />
+					<!--decl-->
+					<Component id="10" drawable="0" texture="0" />
+					<!--jbib-->
+					<Component id="11" drawable="192" texture="5" />
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="0" /> <!--p_head-->		
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Lifeguard</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_lifeguard</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="4" drawable="89" texture="12" /> <!-- lowr -->
+					<Component id="11" drawable="192" texture="6" /> <!-- jbib -->
+					<Component id="5" drawable="36" texture="1" /> <!--hand-->
+				</Components>
+				<Props>
+					<Prop id="0" drawable="4" texture="1" /> <!--p_head-->		
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASP Lifeguard Jacket</Name>
+		<ScriptName>sasp_ljacket</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="4" texture="0" />
+					<Component id="4" drawable="86" texture="12" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="49" texture="1" />
+					<Component id="9" drawable="19" texture="5" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="21" texture="2" />						
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="1" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_bc</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="9" drawable="28" texture="5" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="1" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="89" texture="12" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="31" texture="0" />
+					<Component id="9" drawable="31" texture="5" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="19" texture="2" />	
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="1" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_bc</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="9" drawable="30" texture="5" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="1" />	
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASP Ranger Jacket</Name>
+		<ScriptName>sasp_jacket</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="4" texture="0" />
+					<Component id="4" drawable="86" texture="8" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="49" texture="1" />
+					<Component id="9" drawable="19" texture="4" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="21" texture="0" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_bc</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="9" drawable="28" texture="4" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="3" texture="0" />
+					<Component id="4" drawable="89" texture="10" />
+					<Component id="5" drawable="48" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="31" texture="0" />
+					<Component id="9" drawable="31" texture="4" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="19" texture="0" />		
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_bc</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="9" drawable="30" texture="4" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="0" />	
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASP Ranger Coat</Name>
+		<ScriptName>sasp_coat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="38" texture="0" />
+					<Component id="4" drawable="86" texture="8" />
+					<Component id="5" drawable="64" texture="19" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="49" texture="1" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="266" texture="3" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_bc</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="5" />
+					<Component id="11" drawable="265" texture="3" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="18" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Winter</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_winter</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="6" />
+					<Component id="11" drawable="265" texture="3" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="3" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="36" texture="0" />
+					<Component id="4" drawable="89" texture="8" />
+					<Component id="5" drawable="64" texture="19" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="31" texture="0" />
+					<Component id="9" drawable="16" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="275" texture="3" />	
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="0" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_bc</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="5" />
+					<Component id="11" drawable="274" texture="3" />			
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="18" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Winter</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_winter</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="6" />
+					<Component id="11" drawable="274" texture="3" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="8" texture="3" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SASP Lifeguard Coat</Name>
+		<ScriptName>sasp_lcoat</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="38" texture="0" />
+					<Component id="4" drawable="86" texture="12" />
+					<Component id="5" drawable="64" texture="19" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="49" texture="1" />
+					<Component id="9" drawable="14" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="266" texture="4" />							
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="1" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_bc</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="8" />
+					<Component id="11" drawable="265" texture="4" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="135" texture="19" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Winter</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_winter</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="9" />
+					<Component id="11" drawable="265" texture="4" />					
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="2" texture="1" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class A</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="36" texture="0" />
+					<Component id="4" drawable="89" texture="12" />
+					<Component id="5" drawable="64" texture="19" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="8" texture="0" />
+					<Component id="8" drawable="31" texture="0" />
+					<Component id="9" drawable="16" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="275" texture="4" />	
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="4" texture="1" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Class B/C</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_bc</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="8" />
+					<Component id="11" drawable="274" texture="4" />			
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="134" texture="19" />
+				</Props>
+			</Variation>
+			<Variation>
+				<Name>Winter</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_winter</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="5" drawable="64" texture="9" />
+					<Component id="11" drawable="274" texture="4" />						
+				</Components>
+				<Props>	
+					<Prop id="0" drawable="5" texture="1" />
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

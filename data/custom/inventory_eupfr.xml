@@ -1,0 +1,156 @@
+<Inventories>
+    <Inventory>
+        <Name>Patrol/Traffic</Name>
+        <ScriptName>patrol_eup</ScriptName>
+        <Weapon>
+            <Model>WEAPON_PISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component>		<!-- Pistol Flashlight -->
+        </Weapon>
+        <Weapon>
+            <Model>WEAPON_PUMPSHOTGUN</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>		 <!-- Rifle Flashlight. -->
+        </Weapon>
+		<StunWeapon>WEAPON_STUNGUN</StunWeapon>
+        <Weapon>WEAPON_NIGHTSTICK</Weapon>
+        <Weapon>WEAPON_VINTAGEPISTOL</Weapon>
+        <Armor>25</Armor>
+    </Inventory>
+	<Inventory>
+        <Name>Detectives</Name>
+        <ScriptName>detective_eup</ScriptName>
+        <Weapon>
+            <Model>WEAPON_PISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component>		<!-- Pistol Flashlight -->
+        </Weapon>
+    </Inventory>
+	<Inventory>
+        <Name>Motorcycle</Name>
+        <ScriptName>motor_eup</ScriptName>
+        <Weapon>
+            <Model>WEAPON_COMBATPISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component>		<!-- Pistol Flashlight -->
+        </Weapon>
+		<StunWeapon>WEAPON_STUNGUN</StunWeapon>
+		<Weapon chance="0">
+            <Model>WEAPON_NIGHTSTICK</Model>
+        </Weapon>
+        <Armor>25</Armor>
+    </Inventory>
+	<Inventory>
+        <Name>SWAT</Name>
+        <ScriptName>swat_eup</ScriptName>
+        <Weapon chance="5">
+            <Model>WEAPON_COMBATPISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component>	<!-- Pistol Flashlight -->
+        </Weapon>
+        <Weapon chance="20">
+            <Model>WEAPON_PUMPSHOTGUN</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>	<!-- Rifle Flashlight -->
+        </Weapon>
+		<Weapon chance="40">
+            <Model>WEAPON_CARBINERIFLE</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>COMPONENT_AT_AR_AFGRIP</Component> 	 <!-- Rifle Foregrip -->
+			<Component>COMPONENT_AT_SCOPE_MEDIUM</Component>	<!-- Rifle Scope -->
+        </Weapon>
+		<Weapon chance="35">
+            <Model>WEAPON_SMG</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>COMPONENT_AT_SCOPE_MACRO_02</Component>	<!-- SMG Scope -->
+        </Weapon>
+		<StunWeapon>WEAPON_STUNGUN</StunWeapon>
+        <Armor>100</Armor>
+    </Inventory>
+	<Inventory>
+        <Name>NOOSE</Name>
+        <ScriptName>noose_eup</ScriptName>
+        <Weapon chance="5">
+            <Model>WEAPON_COMBATPISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component>
+        </Weapon>
+		<Weapon chance="20">
+            <Model>WEAPON_PUMPSHOTGUN_MK2</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>1108334355</Component>	<!-- Holographic Sights -->
+        </Weapon>
+		<Weapon chance="40">
+            <Model>WEAPON_CARBINERIFLE_MK2</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>2640679034</Component> 	<!-- Mk2 Rifle Foregrip -->
+			<Component>1108334355</Component>
+			<Component>3362234491</Component>	<!-- Tactical Muzzle Brake -->
+        </Weapon>
+		<Weapon chance="35">
+            <Model>WEAPON_SMG_MK2</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>2681951826</Component> <!-- Holographic SMG Sights -->
+			<Component>3362234491</Component>
+        </Weapon>
+		<StunWeapon>WEAPON_STUNGUN</StunWeapon>
+        <Armor>100</Armor>
+    </Inventory>
+	<Inventory>
+        <Name>NOOSE Gunner</Name>
+        <ScriptName>gunner_eup</ScriptName>
+		<Weapon chance="50">
+            <Model>WEAPON_MARKSMANRIFLE_MK2</Model>
+            <Component>COMPONENT_MARKSMANRIFLE_MK2_CLIP_02</Component>
+			<Component>2640679034</Component> 	<!-- Mk2 Rifle Foregrip -->
+			<Component>3362234491</Component>	<!-- Tactical Muzzle Brake -->
+        </Weapon>
+		<Weapon chance="50">
+            <Model>WEAPON_COMBATMG_MK2</Model>
+			<Component>400507625</Component>	<!-- Extended Magazine -->
+			<Component>2640679034</Component> 	<!-- Mk2 Rifle Foregrip -->
+			<Component>3328927042</Component>	<!-- Mk2 Rifle Scope -->
+			<Component>3362234491</Component>	<!-- Tactical Muzzle Brake -->
+        </Weapon>
+		<Armor>100</Armor>
+    </Inventory>
+	<Inventory>
+        <Name>USAF Patrol</Name>
+        <ScriptName>sf_eup</ScriptName>
+        <Weapon chance="80">
+            <Model>WEAPON_COMBATPISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component>	<!-- Pistol Flashlight -->
+        </Weapon>
+		<Weapon chance="20">
+            <Model>WEAPON_CARBINERIFLE</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>COMPONENT_AT_AR_AFGRIP</Component> 	 <!-- Rifle Foregrip -->
+			<Component>COMPONENT_AT_SCOPE_MEDIUM</Component>	<!-- Rifle Scope -->
+        </Weapon>
+		<Armor>25</Armor>
+    </Inventory>
+	<Inventory>
+        <Name>USAF Tactical</Name>
+        <ScriptName>sftac_eup</ScriptName>
+        <Weapon chance="20">
+            <Model>WEAPON_COMBATPISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component>	<!-- Pistol Flashlight -->
+        </Weapon>
+		<Weapon chance="80">
+            <Model>WEAPON_CARBINERIFLE</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>COMPONENT_AT_AR_AFGRIP</Component> 	 <!-- Rifle Foregrip -->
+			<Component>COMPONENT_AT_SCOPE_MEDIUM</Component>	<!-- Rifle Scope -->
+        </Weapon>
+		<Armor>75</Armor>
+    </Inventory>
+	<Inventory>
+        <Name>National Guard</Name>
+        <ScriptName>natguard_eup</ScriptName>
+		<Weapon chance="75">
+            <Model>WEAPON_CARBINERIFLE</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>COMPONENT_AT_AR_AFGRIP</Component> 	 <!-- Rifle Foregrip -->
+			<Component>COMPONENT_AT_SCOPE_MEDIUM</Component>	<!-- Rifle Scope -->
+        </Weapon>
+		<Weapon chance="25">
+            <Model>WEAPON_COMBATMG</Model>
+			<Component>COMPONENT_AT_AR_AFGRIP</Component> 	 <!-- Rifle Foregrip -->
+			<Component>COMPONENT_AT_SCOPE_MEDIUM</Component>	<!-- Rifle Scope -->
+        </Weapon>
+		<Armor>100</Armor>
+    </Inventory>
+</Inventories>

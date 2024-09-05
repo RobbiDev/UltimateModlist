@@ -1,0 +1,60 @@
+<Duty>
+    <!-- What agencies (and their models) are used during the selection process. -->
+    <!-- For peds this also includes the inventories available. -->
+    <!-- Child agencies listed here will merge with their parent agencies in the selection If a child agency is not specified, its
+    inventory will not be available for the parent agency. -->
+    <Peds>
+        <Agency>lspd</Agency>
+        <Agency>lspd_swat</Agency>
+        <Agency>lspd_asu</Agency>
+        <Agency>lssd</Agency>
+        <Agency>lssd_swat</Agency>
+        <Agency>sahp</Agency>
+        <Agency>ncshp</Agency>
+        <Agency>nysp</Agency>
+        <Agency>noose</Agency>
+        <Agency>fib</Agency>
+        <Agency>iaa</Agency>
+        <Agency>doa</Agency>
+        <Agency>saspa</Agency>
+        <Agency>sapr</Agency>
+    </Peds>
+    <Vehicles>
+        <Agency>lspd</Agency>
+        <Agency>lssd</Agency>
+        <Agency>sahp</Agency>
+        <Agency>nysp</Agency>
+        <Agency>ncshp</Agency>
+        <Agency>lspd_swat</Agency>
+        <Agency>lssd_swat</Agency>
+        <Agency>noose</Agency>
+        <Agency>fib</Agency>
+        <Agency>sapr</Agency>
+    </Vehicles>
+     <!-- Additional texts for the vehicle models that are displayed on screen when selecting a vehicle. -->
+    <VehicleDescriptions>
+        <Description name="Police Old" fullName="2005 Ford Vic" agencyRef="lspd">police</Description>
+        <Description name="Police Charger" fullName="2015 Dodge Charger" agencyRef="lspd">police2</Description>
+        <Description name="Police Interceptor" fullName="2018 Ford Police Interceptor" agencyRef="lspd">police3</Description>
+        <Description name="Police Transporter" fullName="Declasse Police Transporter" agencyRef="lspd">policet</Description>
+        <Description name="Police Biker" fullName="WMC Police Bike" agencyRef="sahp">policeb</Description>
+        <Description name="Sheriff Cruiser" fullName="Vapid Police Cruiser" agencyRef="lssd">sheriff</Description>
+        <Description name="Sheriff SUV" fullName="Declasse Granger" agencyRef="lssd">sheriff2</Description>
+        <Description name="Police Roadcruiser" fullName="Albany Roadcruiser" agencyRef="nysp">policeold1</Description>
+        <Description name="Police Rancher" fullName="Declasse Rancher" agencyRef="nysp">policeold2</Description>
+        <Description name="Unmarked Cruiser" fullName="Vapid Police Cruiser" agencyName="Local &amp; Federal Agencies">police4</Description>
+        <Description name="Unmarked Buffalo" fullName="Bravado Buffalo" agencyName="Local &amp; Federal Agencies">fbi</Description>
+        <Description name="Unmarked Granger" fullName="Declasse Granger" agencyName="Local &amp; Federal Agencies">fbi2</Description>
+        <Description name="Park Ranger" fullName="Declasse Granger" agencyRef="sapr">pranger</Description>
+        <Description name="Police Riot" fullName="Brute Police Stockade" agencyRef="noose">riot</Description>
+        <Description name="Hydra" fullName="Mammoth Hydra" agencyName="Ultimate Highway Patrol">hydra</Description>
+        <Description name="Stanier Cruiser" fullName="Stanier Law Enforcement Cruiser">police5</Description>
+        <Description name="Gauntlet Interceptor" fullName="Bravado Gauntlet Interceptor">polgauntlet</Description>
+        <Description name="Dominator FX Interceptor" fullName="Vapid Dominator FX Interceptor">poldominator10</Description>
+        <Description name="Dorado Cruiser" fullName="Bravado Dorado Cruiser">poldorado</Description>
+        <Description name="Greenwood Cruiser" fullName="Bravado Greenwood Cruiser">polgreenwood</Description>
+        <Description name="Declasse Burrito" fullName="Bail Enforcement Declasse Burrito">policet3</Description>
+        <Description name="Impaler SZ Cruiser" fullName="Declasse Impaler SZ Cruiser">polimpaler5</Description>
+        <Description name="Impaler LX Cruiser" fullName="Declasse Impaler LX Cruiser">polimpaler6</Description>
+    </VehicleDescriptions>
+</Duty>

@@ -1,0 +1,350 @@
+<Outfits>
+	<Outfit>
+		<Name>LSFD EMT</Name>
+		<ScriptName>lsfd_emt</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>EMT Class B</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="86" texture="0" />
+					<Component id="4" drawable="101" texture="0" />
+					<Component id="5" drawable="57" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="30" texture="0-3" />
+					<Component id="8" drawable="54" texture="0" />
+					<Component id="9" drawable="29" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="75" texture="0" />													
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Class C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_emt_c</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="3" drawable="92" texture="0" /> <!-- uppr -->
+					<Component id="11" drawable="74" texture="0" /> <!-- jbib -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Jacket</Name>
+				<Base>m_base</Base>
+				<ScriptName>emt_jacket</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="3" drawable="88" texture="0" /> <!-- uppr -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="7" drawable="126" texture="0" /> <!-- teeth -->
+					<Component id="8" drawable="15" texture="0" /> <!-- accs -->
+					<Component id="10" drawable="57" texture="0" /> <!-- decal -->
+					<Component id="11" drawable="249" texture="1" /> <!-- jbib -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Class B</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="101" texture="0" />
+					<Component id="4" drawable="105" texture="0" />
+					<Component id="5" drawable="57" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="14" texture="0-3" />
+					<Component id="8" drawable="6" texture="0" />
+					<Component id="9" drawable="33" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="26" texture="0" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Uniform Class C</Name>
+				<ScriptName>f_emt_c</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="3" drawable="106" texture="0" /> <!--uppr-->
+					<Component id="11" drawable="25" texture="0" /> <!--jbib-->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Jacket</Name>
+				<Base>f_base</Base>
+				<ScriptName>emt_jacket</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="3" drawable="101" texture="0" /> <!-- uppr -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="7" drawable="96" texture="0" /> <!-- teeth -->
+					<Component id="8" drawable="14" texture="0" /> <!-- accs -->
+					<Component id="10" drawable="65" texture="0" /> <!-- decal -->
+					<Component id="11" drawable="257" texture="1" /> <!-- jbib -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>LSCoFD EMT</Name>
+		<ScriptName>lscofd_emt</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>EMT Class B</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="86" texture="0" />
+					<Component id="4" drawable="101" texture="0" />
+					<Component id="5" drawable="37" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="30" texture="0-3" />
+					<Component id="8" drawable="54" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="75" texture="3" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Class C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_emt_c</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="3" drawable="92" texture="0" /> <!-- uppr -->
+					<Component id="11" drawable="74" texture="3" /> <!-- jbib -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Jacket</Name>
+				<Base>m_base</Base>
+				<ScriptName>emt_jacket</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="3" drawable="88" texture="0" /> <!-- uppr -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="7" drawable="126" texture="0" /> <!-- teeth -->
+					<Component id="8" drawable="15" texture="0" /> <!-- accs -->
+					<Component id="10" drawable="58" texture="1" /> <!-- decal -->
+					<Component id="11" drawable="249" texture="1" /> <!-- jbib -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Class B</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="101" texture="0" />
+					<Component id="4" drawable="105" texture="0" />
+					<Component id="5" drawable="37" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="14" texture="0-3" />
+					<Component id="8" drawable="6" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="26" texture="2" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Uniform Class C</Name>
+				<ScriptName>f_emt_c</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="3" drawable="106" texture="0" /> <!--uppr-->
+					<Component id="11" drawable="25" texture="2" /> <!--jbib-->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Jacket</Name>
+				<Base>f_base</Base>
+				<ScriptName>emt_jacket</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="3" drawable="101" texture="0" /> <!-- uppr -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="7" drawable="96" texture="0" /> <!-- teeth -->
+					<Component id="8" drawable="14" texture="0" /> <!-- accs -->
+					<Component id="10" drawable="66" texture="1" /> <!-- decal -->
+					<Component id="11" drawable="257" texture="1" /> <!-- jbib -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>BCFD EMT</Name>
+		<ScriptName>bcfd_emt</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>EMT Uniform Class B</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="86" texture="0" />
+					<Component id="4" drawable="101" texture="0" />
+					<Component id="5" drawable="38" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="30" texture="0-3" />
+					<Component id="8" drawable="54" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="75" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Class C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_emt_c</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="3" drawable="92" texture="0" /> <!-- uppr -->
+					<Component id="11" drawable="74" texture="4" /> <!-- jbib -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Jacket</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_emt_jacket</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="3" drawable="88" texture="0" /> <!-- uppr -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="7" drawable="126" texture="0" /> <!-- teeth -->
+					<Component id="8" drawable="15" texture="0" /> <!-- accs -->
+					<Component id="10" drawable="58" texture="0" /> <!-- decal -->
+					<Component id="11" drawable="249" texture="0" /> <!-- jbib -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Uniform Class B</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="101" texture="0" />
+					<Component id="4" drawable="105" texture="0" />
+					<Component id="5" drawable="38" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="14" texture="0-3" />
+					<Component id="8" drawable="6" texture="0" />
+					<Component id="9" drawable="0" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="26" texture="4" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Uniform Class C</Name>
+				<ScriptName>f_emt_c</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="3" drawable="106" texture="0" /> <!--uppr-->
+					<Component id="11" drawable="25" texture="4" /> <!--jbib-->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Jacket</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_emt_jacket</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="3" drawable="101" texture="0" /> <!-- uppr -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="7" drawable="96" texture="0" /> <!-- teeth -->
+					<Component id="8" drawable="14" texture="0" /> <!-- accs -->
+					<Component id="10" drawable="66" texture="0" /> <!-- decal -->
+					<Component id="11" drawable="257" texture="0" /> <!-- jbib -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>SAMS EMT</Name>
+		<ScriptName>sams_emt</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>EMT Class B</Name>
+				<ScriptName>m_base</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="86" texture="0" />
+					<Component id="4" drawable="101" texture="0" />
+					<Component id="5" drawable="71" texture="0" />
+					<Component id="6" drawable="51" texture="0" />
+					<Component id="7" drawable="30" texture="0-3" />
+					<Component id="8" drawable="54" texture="0" />
+					<Component id="9" drawable="29" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="214" texture="6" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Class C</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_emt_c</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="3" drawable="92" texture="0" /> <!-- uppr -->
+					<Component id="11" drawable="213" texture="6" /> <!-- jbib -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Jacket</Name>
+				<Base>m_base</Base>
+				<ScriptName>m_emt_jacket</ScriptName>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="3" drawable="88" texture="0" /> <!-- uppr -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="7" drawable="126" texture="0" /> <!-- teeth -->
+					<Component id="8" drawable="15" texture="0" /> <!-- accs -->
+					<Component id="10" drawable="59" texture="0" /> <!-- decal -->
+					<Component id="11" drawable="249" texture="0" /> <!-- jbib -->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Class B</Name>
+				<ScriptName>f_base</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="1" drawable="0" texture="0" />
+					<Component id="3" drawable="101" texture="0" />
+					<Component id="4" drawable="105" texture="0" />
+					<Component id="5" drawable="71" texture="0" />
+					<Component id="6" drawable="52" texture="0" />
+					<Component id="7" drawable="14" texture="0-3" />
+					<Component id="8" drawable="6" texture="0" />
+					<Component id="9" drawable="33" texture="0" />
+					<Component id="10" drawable="0" texture="0" />
+					<Component id="11" drawable="218" texture="6" />
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Uniform Class C</Name>
+				<ScriptName>f_emt_c</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="3" drawable="106" texture="0" /> <!--uppr-->
+					<Component id="11" drawable="219" texture="6" /> <!--jbib-->
+				</Components>
+			</Variation>
+			<Variation>
+				<Name>EMT Jacket</Name>
+				<Base>f_base</Base>
+				<ScriptName>f_emt_jacket</ScriptName>
+				<Gender>female</Gender>
+				<Components>
+					<Component id="3" drawable="101" texture="0" /> <!-- uppr -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="7" drawable="96" texture="0" /> <!-- teeth -->
+					<Component id="8" drawable="14" texture="0" /> <!-- accs -->
+					<Component id="10" drawable="67" texture="0" /> <!-- decal -->
+					<Component id="11" drawable="257" texture="0" /> <!-- jbib -->
+				</Components>
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

@@ -1,0 +1,172 @@
+<PoliceStations>
+   <Station>
+        <Name>Vespucci Beach Police Department</Name>
+        <Agency>lspd</Agency>
+        <ScriptName>lspd</ScriptName>
+        <Position>-1319.4854f, -1529.4604f, 4.4169f</Position>
+        <Heading>0</Heading>
+    </Station>
+	<Station>
+		<Name>Vinewood Police Station</Name>
+		<Agency>lspd</Agency>
+		<ScriptName>vinewoodPol</ScriptName>
+		<Position>638.5, 1.75, 82.8</Position>
+		<Heading>70</Heading>
+		<DropOffPosition>535.2194, -28.05378, 70.88766</DropOffPosition>
+		<GaragePosition>528.2743f, -26.18892f, 70.62952f; 210f</GaragePosition>
+		<GarageSpawnPosition>534.696f, -26.82411f, 70.24203f; 210f</GarageSpawnPosition>
+		<AmbientSpawns>
+			<SpawnPoint heading="32" position="531, -31, 70.88766" type ="vehicle"/>
+			<SpawnPoint heading="32" position="535.2194, -28.05378, 70.88766" chance="100">
+				<Vehicle livery="2">ambulance</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint heading="79" position="638.5, 1.75, 82.8" type="ped"/>
+			<SpawnPoint heading="79" position="638.5, 1.75, 82.8">
+				<Ped outfit="lspd_cop.m_base" inventory="lspd_test">mp_m_freemode_01</Ped>
+			</SpawnPoint>		
+		</AmbientSpawns>
+	</Station>
+	<Station>
+		<Name>La Mesa SAHP Station</Name>
+		<Agency>sahp</Agency>
+		<ScriptName>laMesaPol</ScriptName>
+		<Position>826.8f, -1290f, 28.24f</Position>
+		<Heading>270f</Heading>
+		<GaragePosition>871.0622f, -1350.213f, 26.30929f; 90f</GaragePosition>
+		<GarageSpawnPosition>859.6852f, -1342.589f, 25.63685f; 90f</GarageSpawnPosition>
+	</Station>
+	<Station>
+		<Name>Rockford Hills Police Station</Name>
+		<Agency>lspd</Agency>
+		<ScriptName>rockfordPol</ScriptName>
+		<Position>-561.65f, -131.65f, 38.21f</Position>
+		<Heading>20f</Heading>
+		<CamStartOffset>2f, -5f, 1f</CamStartOffset>
+		<CamEndOffset>18f, -25f, 3f</CamEndOffset>
+		<CamPointOffset>2f, 2f, 2f</CamPointOffset>
+		<GaragePosition>-571.2919f, -143.5269f, 37.07582f; 22f</GaragePosition>
+		<GarageSpawnPosition>-575.2366f, -150.0565f, 37.53278f; 202f</GarageSpawnPosition>
+	</Station>	
+	<Station>
+		<Name>Vespucci Police Station</Name>
+		<Agency>lspd</Agency>
+		<ScriptName>vespucciPol</ScriptName>
+		<Position>-1108.18f, -845.18f, 19.32f</Position>
+		<Heading>305f</Heading>
+		<GaragePosition>-1123.17f, -838.1166f, 13.36657f; 130f</GaragePosition>
+		<GarageSpawnPosition>-1123.946f, -845.0295f, 13.03633f; 128f</GarageSpawnPosition>
+	</Station>
+	<Station>
+		<Name>Del Perro Police</Name>
+		<Agency>dpunit</Agency>
+		<Heading>305f</Heading>
+		<Position>-1632.1453f, -1015.5528f, 13.1259f</Position>
+	</Station>
+	<Station>
+		<Name>Misson Row Police Station</Name>
+		<Agency>lspd</Agency>
+		<ScriptName>downtownInterior</ScriptName>
+		<Position>450.0654f, -993.0596f, 30f</Position>
+		<Heading>320f</Heading>	
+		<GaragePosition>434.0721f, -1014.013f, 28.7524ff; 90f</GaragePosition>
+		<GarageSpawnPosition>435.76f, -1017.744f, 28.48f; 90f</GarageSpawnPosition>
+		<CamStartOffset>3f, -35f, -1f</CamStartOffset>
+		<CamEndOffset>-20f, -37f, 3.75f</CamEndOffset>
+		<CamPointOffset>11f, -3f, 1.5f</CamPointOffset>
+		<DropOffPosition>477f, -1023f, 28.1f</DropOffPosition>
+	</Station>
+	<Station>
+		<Name>Davis Sheriff Station</Name>
+		<Agency>lssd</Agency>
+		<ScriptName>davisSheriff</ScriptName>
+		<Position>360.97f, -1584.70f, 29.29f</Position>
+		<Heading>230</Heading>
+		<CamStartOffset>-10f, -5f, 0f</CamStartOffset>
+		<CamEndOffset>-15f, 25f, 3f</CamEndOffset>
+		<CamPointOffset>10f, 5f, 1f</CamPointOffset>
+		<GaragePosition>378.4163f, -1629.533f, 28.44473f; 320f</GaragePosition>
+		<GarageSpawnPosition>384.5281f, -1622.423f, 28.89813f; 320f</GarageSpawnPosition>
+	</Station>
+	<Station>
+		<Name>FIB Headquarter</Name>
+		<Agency>fib</Agency>
+		<ScriptName>fib</ScriptName>
+		<Position>105.5396f, -744.6516f, 45.7547f</Position>
+		<Heading>20</Heading>
+	</Station>
+	<Station>
+		<Name>IAA Headquarter</Name>
+		<Agency>iaa</Agency>
+		<ScriptName>iaa</ScriptName>
+		<Position>139.8609f, -613.8039f, 44.2187f</Position>
+		<Heading>0</Heading>
+	</Station>
+	<Station>
+		<Name>Sandy Shores Sheriff Station</Name>
+		<Agency>lssd</Agency>
+		<ScriptName>sandySheriff</ScriptName>
+		<Position>1848.73f, 3689.98f, 34.27f</Position>
+		<Heading>28</Heading>
+		<GarageSpawnPosition>1854.31f, 3675.401f, 33.33306f; 210f</GarageSpawnPosition>
+		<CamStartOffset>0f, -15f, 0f</CamStartOffset>
+		<CamEndOffset>19f, -22f, 3f</CamEndOffset>
+		<CamPointOffset>-2f, 5f, 1.5f</CamPointOffset>
+		<DropOffPosition>1851f, 3711.92f, 33.17f</DropOffPosition>
+	</Station>
+	<Station>
+		<Name>Paleto Bay Sheriff Station</Name>
+		<Agency>lssd</Agency>
+		<ScriptName>paletoSheriff</ScriptName>
+		<Position>-448.22f, 6008.23f, 31.72f</Position>
+		<Heading>135</Heading>
+		<GarageSpawnPosition>-438.5157f, 6028.824f, 30.94723f; 31f</GarageSpawnPosition>
+		<CamStartOffset>3f, -14f, -1f</CamStartOffset>
+		<CamEndOffset>13f, -24f, 2f</CamEndOffset>
+		<CamPointOffset>-2f, 3f, 1f</CamPointOffset>
+		<DropOffPosition>-452.7f, 5998f, 31.4f</DropOffPosition>
+		<PrisonBusPosition>-458.7579f, 6019.035f, 31.59949f</PrisonBusPosition>
+		<PrisonBusHeading>314</PrisonBusHeading>	
+	</Station>
+	<Station>
+		<Name>Park Rangers Info</Name>
+		<Agency>sasp</Agency>
+		<ScriptName>sasp</ScriptName>
+		<Position>-1490.4384f, 4981.4014f, 63.3548f</Position>
+		<Heading>0</Heading>
+	</Station>
+	<Station>
+		<Name>Beaver Bush Ranger Station</Name>
+		<Agency>sasp</Agency>
+		<ScriptName>beaverRanger</ScriptName>
+		<Position>379.31f, 792.06f, 190.41f</Position>
+		<Heading>0</Heading>
+	</Station>
+	<Station>
+		<Name>Los Santos Intl. Airport Field Office</Name>
+		<Agency>noose</Agency>
+		<ScriptName>lsxAirport</ScriptName>
+		<Position>-864.61f, -2408.92f, 14.03f</Position>
+		<Heading>60</Heading>
+		<CamEndOffset>-17f, -43f, 3f</CamEndOffset>
+		<CamPointOffset>10f, -5f, 1f</CamPointOffset>
+		<DropOffPosition>-864.7288f, -2363.617f, 13.42871f</DropOffPosition>
+		<PrisonBusPosition>-861.2222f, -2346.491f, 14.21414f</PrisonBusPosition>
+		<PrisonBusHeading>86</PrisonBusHeading>
+		<GaragePosition>-887.7394f, -2373.455f, 14.02436f; 140f</GaragePosition>
+		<GarageSpawnPosition>-897.2624f, -2384.005f, 13.5493f; 148f</GarageSpawnPosition>
+	</Station>
+	<Station>
+		<Name>NOOSE Headquarter</Name>
+		<Agency>noose</Agency>
+		<ScriptName>noose</ScriptName>
+		<Position>2475.6021f, -384.0869f, 94.3993f</Position>
+		<Heading>0</Heading>
+	</Station>
+	<Station>
+		<Name>Bolingbroke Penitentiary</Name>
+		<Agency>sadcr</Agency>
+		<ScriptName>prison</ScriptName>
+		<Position>1846.49f, 2585.95f, 45.67f</Position>
+		<Heading>90</Heading>
+	</Station>
+</PoliceStations>

@@ -1,0 +1,1159 @@
+<Agencies>
+	<Agency>
+		<Name>Los Santos Police Department</Name>
+		<ShortName>LSPD</ShortName>
+		<ScriptName>lspd</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<BadgeModel>prop_lspd_badge</BadgeModel>
+		<TextureDictionary>web_lossantospolicedept</TextureDictionary>
+		<TextureName>web_lossantospolicedept</TextureName>
+		<Loadout chance="90">
+			<Name>Patrol</Name>
+			<Vehicles>
+				<Vehicle chance="10">police</Vehicle>
+				<Vehicle chance="5">police2</Vehicle>
+				<Vehicle chance="15">police3</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="15" outfit="lspd_class_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="lspd_class_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="lspd_class_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="5" outfit="lspd_class_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="lspd_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="lspd_class_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="lspd_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="lspd_class_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="lspd_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+				
+				<!-- for outfits selection -->
+				<Ped chance="0" outfit="lspd_jacket">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_jacket">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_coat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_coat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_raincoat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_raincoat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_bicycle">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_bicycle">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_b">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_b">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_c">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_c">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_dirtbike">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_dirtbike">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_gang">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_gang">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsTransport</Flag>
+				<Flag>RespondsAsBackup</Flag>
+				<Flag>SpawnsAmbiently</Flag>
+			</Flags>
+		</Loadout>
+		<Loadout chance="5">
+			<Name>Detectives</Name>
+			<Vehicles>
+				<Vehicle chance="10">police4</Vehicle>
+			</Vehicles>
+				<Peds>
+					<!-- 70% chance of male peds -->
+					<Ped chance="20" outfit="lspd_suit" inventory="detective_eup">mp_m_freemode_01</Ped> 
+					<Ped chance="20" outfit="lspd_formal" inventory="detective_eup">mp_m_freemode_01</Ped>
+					<Ped chance="30" outfit="lspd_windbreaker" inventory="detective_eup">mp_m_freemode_01</Ped> 					
+					<!-- 30% chance of female peds --> 
+					<Ped chance="5" outfit="lspd_suit" inventory="detective_eup">mp_f_freemode_01</Ped> 
+					<Ped chance="5" outfit="lspd_formal" inventory="detective_eup">mp_f_freemode_01</Ped>
+					<Ped chance="20" outfit="lspd_windbreaker" inventory="detective_eup">mp_f_freemode_01</Ped>
+				</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+				<Flag>SpawnsAmbiently</Flag>
+			</Flags>	
+		</Loadout>
+		<Loadout>
+			<Name>Transport Unit</Name>
+			<Vehicles>
+				<Vehicle chance="50">policet</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="15" outfit="lspd_class_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="lspd_class_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="lspd_class_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="5" outfit="lspd_class_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="lspd_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="lspd_class_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="lspd_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="lspd_class_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="lspd_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>LSPD Special Weapons And Tactics</Name>
+		<ShortName>LSPD SWAT</ShortName>
+		<ScriptName>lspd_swat</ScriptName>
+		<Inventory>swat_eup</Inventory>
+		<Parent>lspd</Parent>
+		<Loadout>
+			<Name>SWAT</Name>
+			<Vehicles>
+				<Vehicle>polriot</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="90" outfit="lspd_swat">mp_m_freemode_01</Ped>
+				<Ped chance="10" outfit="lspd_swat">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>SWAT</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>LSPD Del Perro Division</Name>
+		<ShortName>LSPD DP</ShortName>
+		<ScriptName>dpunit</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<Loadout>
+			<Name>Traffic Unit</Name>
+			<Vehicles>
+				<Vehicle chance="10">dppdcara2</Vehicle>
+				<Vehicle chance="15">dppdcara</Vehicle>
+				<Vehicle chance="20">dppdsgt</Vehicle>
+				<Vehicle chance="5">dppdscoutvol</Vehicle>
+				<Vehicle chance="50">dppdscout</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="15" outfit="lspd_class_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="lspd_class_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="lspd_class_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="5" outfit="lspd_class_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="lspd_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="lspd_class_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="lspd_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="lspd_class_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="lspd_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+				
+				<!-- for outfits selection -->
+				<Ped chance="0" outfit="lspd_jacket">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_jacket">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_coat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_coat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_raincoat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_raincoat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_bicycle">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_bicycle">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_b">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_b">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_c">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_c">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_dirtbike">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_dirtbike">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_gang">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_gang">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>SpawnsAmbiently</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+		<Loadout>
+			<Name>Detective Unit</Name>
+			<Vehicles>
+				<Vehicle chance="50">dppdscoutunmk</Vehicle>
+				<Vehicle chance="50">dppdunmk</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+					<Ped chance="20" outfit="lspd_suit" inventory="detective_eup">mp_m_freemode_01</Ped> 
+					<Ped chance="20" outfit="lspd_formal" inventory="detective_eup">mp_m_freemode_01</Ped>
+					<Ped chance="30" outfit="lspd_windbreaker" inventory="detective_eup">mp_m_freemode_01</Ped> 					
+					<!-- 30% chance of female peds --> 
+					<Ped chance="5" outfit="lspd_suit" inventory="detective_eup">mp_f_freemode_01</Ped> 
+					<Ped chance="5" outfit="lspd_formal" inventory="detective_eup">mp_f_freemode_01</Ped>
+					<Ped chance="20" outfit="lspd_windbreaker" inventory="detective_eup">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="1" max="1" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>LSPD Air Support Unit</Name>
+		<ShortName>LSPD ASU</ShortName>
+		<ScriptName>lspd_asu</ScriptName>
+		<Parent>lspd</Parent>
+		<Loadout>
+			<Name>Air Unit</Name>
+			<Vehicles>
+				<Vehicle>polmav</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="80" outfit="lspd_pilot">mp_m_freemode_01</Ped>
+				<Ped chance="20" outfit="lspd_pilot">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>Los Santos County Sheriff's Dept.</Name>
+		<ShortName>LSSD</ShortName>
+		<ScriptName>lssd</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<BadgeModel>prop_lssd_badge</BadgeModel>
+		<TextureDictionary>dia_police</TextureDictionary>
+		<TextureName>dia_police</TextureName>
+		<Loadout chance="95">
+			<Name>Patrol</Name>
+			<Vehicles>
+				<Vehicle chance="40">sheriff</Vehicle>
+				<Vehicle chance="10">sheriff2</Vehicle>
+				<Vehicle chance="10">sherifffug</Vehicle>
+				<Vehicle chance="40">sheriffscout</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="15" outfit="lssd_class_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="lssd_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="lssd_class_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="lssd_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="lssd_class_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="lssd_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="5" outfit="lssd_class_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="lssd_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="lssd_class_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="lssd_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="lssd_class_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="lssd_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+												
+				<!-- for outfits selection -->
+				<Ped chance="0" outfit="lssd_jacket">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_jacket">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_coat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_coat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_raincoat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_raincoat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_bicycle">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_bicycle">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_k9_b">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_k9_b">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_k9_c">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_k9_c">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_dirtbike">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_dirtbike">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_gang">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lssd_gang">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsTransport</Flag>
+				<Flag>RespondsAsBackup</Flag>
+				<Flag>SpawnsAmbiently</Flag>
+			</Flags>
+		</Loadout>
+		<Loadout>
+			<Name chance="5">Detectives</Name>
+			<Vehicles>
+				<Vehicle>sheriffoss</Vehicle>
+			</Vehicles>
+				<Peds>
+					<!-- 70% chance of male peds -->
+					<Ped chance="20" outfit="lssd_suit" inventory="detective_eup">mp_m_freemode_01</Ped> 
+					<Ped chance="20" outfit="lssd_formal" inventory="detective_eup">mp_m_freemode_01</Ped>
+					<Ped chance="30" outfit="lssd_windbreaker" inventory="detective_eup">mp_m_freemode_01</Ped> 					
+					<!-- 30% chance of female peds --> 
+					<Ped chance="5" outfit="lssd_suit" inventory="detective_eup">mp_f_freemode_01</Ped> 
+					<Ped chance="5" outfit="lssd_formal" inventory="detective_eup">mp_f_freemode_01</Ped>
+					<Ped chance="20" outfit="lssd_windbreaker" inventory="detective_eup">mp_f_freemode_01</Ped>
+				</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+		<Loadout>
+			<Name>Transport Unit</Name>
+			<Vehicles>
+				<Vehicle>sheriff2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="15" outfit="lssd_class_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="lssd_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="lssd_class_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="lssd_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="lssd_class_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="lssd_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				<Ped chance="5" outfit="lssd_class_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="lssd_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="lssd_class_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="lssd_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="lssd_class_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="lssd_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsTransport</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>LSSD Special Weapons And Tactics</Name>
+		<ShortName>LSSD SWAT</ShortName>
+		<ScriptName>lssd_swat</ScriptName>
+		<Inventory>swat_eup</Inventory>
+		<Parent>lssd</Parent>
+		<Loadout>
+			<Name>SEB</Name>
+			<Vehicles>
+				<Vehicle chance="10">sheriff2</Vehicle>
+				<Vehicle chance="90">sheriffinsurgent</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="90" outfit="lssd_swat">mp_m_freemode_01</Ped>
+				<Ped chance="10" outfit="lssd_swat">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>SWAT</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>LSSD Air Support Unit</Name>
+		<ShortName>LSSD ASU</ShortName>
+		<ScriptName>lssd_asu</ScriptName>
+		<Parent>lssd</Parent>
+		<Loadout>
+			<Name>Air Unit</Name>
+			<Vehicles>
+				<Vehicle>polmav</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="80" outfit="lssd_pilot">mp_m_freemode_01</Ped>
+				<Ped chance="20" outfit="lssd_pilot">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>San Andreas Highway Patrol</Name>
+		<ShortName>SAHP</ShortName>
+		<ScriptName>sahp</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<BadgeModel>prop_sahp_badge</BadgeModel>
+		<TextureDictionary>s_m_y_hwaycop_01</TextureDictionary>
+		<TextureName>decl_diff_000_a_uni</TextureName>
+		<Loadout chance="75">
+			<Name>Patrol Unit</Name>
+			<Vehicles>
+				<Vehicle chance="20">sahp</Vehicle>
+				<Vehicle chance="15">sahp1c</Vehicle>
+				<Vehicle chance="5">sahp1d</Vehicle>
+				<Vehicle chance="30">sahp3</Vehicle>
+				<Vehicle chance="10">sahp3a</Vehicle>
+				<Vehicle chance="5">sahp2</Vehicle>
+				<Vehicle chance="5">sahp2a</Vehicle>
+				<Vehicle chance="10">sahp5</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="15" outfit="sahp_class_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="sahp_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="sahp_class_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="sahp_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="sahp_class_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="sahp_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="5" outfit="sahp_class_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="sahp_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="sahp_class_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="sahp_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="sahp_class_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="sahp_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+				
+				<!-- for outfits selection -->
+				<Ped chance="0" outfit="sahp_cve_b">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_cve_c">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_cve_b">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_cve_c">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_jacket">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_jacket">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_raincoat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_raincoat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_bicycle">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_bicycle">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_k9_b">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_k9_b">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_k9_c">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_k9_c">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_suit" inventory="detective_eup">mp_m_freemode_01</Ped> 
+				<Ped chance="0" outfit="sahp_casual" inventory="detective_eup">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_windbreaker" inventory="detective_eup">mp_m_freemode_01</Ped> 					
+				<Ped chance="0" outfit="sahp_suit" inventory="detective_eup">mp_f_freemode_01</Ped> 
+				<Ped chance="0" outfit="sahp_casual" inventory="detective_eup">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_windbreaker" inventory="detective_eup">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_gang">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sahp_gang">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="1" max="1" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+				<Flag>SpawnsAmbiently</Flag>
+			</Flags>
+		</Loadout>
+		<Loadout chance="25">
+			<Name>Motor Unit</Name>
+			<Vehicles>
+				<Vehicle chance="60">sahpb</Vehicle>
+				<Vehicle chance="40">sahpb2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="15" outfit="sahp_motor_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="sahp_motor_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="sahp_motor_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="sahp_motor_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="sahp_motor_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="sahp_motor_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="5" outfit="sahp_motor_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="sahp_motor_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="sahp_motor_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="sahp_motor_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="sahp_motor_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="sahp_motor_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="1" max="1" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>SAHP Special Weapons And Tactics</Name>
+		<ShortName>SAHP SWAT</ShortName>
+		<ScriptName>sahp_swat</ScriptName>
+		<Inventory>swat_eup</Inventory>
+		<Parent>sahp</Parent>
+		<Loadout>
+			<Name>Tactical Unit</Name>
+			<Vehicles>
+				<Vehicle>sahp5a</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="40" outfit="sahp_swat">mp_m_freemode_01</Ped>
+				<Ped chance="2" outfit="sahp_swat">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>SAHP Air Support Unit</Name>
+		<ShortName>SAHP ASU</ShortName>
+		<ScriptName>sahp_asu</ScriptName>
+		<Parent>sahp</Parent>
+		<Loadout>
+			<Name>Air Unit</Name>
+			<Vehicles>
+				<Vehicle>sahpair</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="80" outfit="sahp_pilot">mp_m_freemode_01</Ped>
+				<Ped chance="20" outfit="sahp_pilot">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>North Yankton State Patrol</Name>
+		<ShortName>NYSP</ShortName>
+		<ScriptName>nysp</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<BadgeModel>prop_nysp_badge</BadgeModel>
+		<TextureDictionary>dia_police</TextureDictionary>
+		<TextureName>dia_police</TextureName>
+		<Loadout>
+			<Name>Patrol Unit</Name>
+			<Vehicles>
+				<Vehicle>policeold1</Vehicle>
+				<Vehicle>policeold2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="0" outfit="nysp_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="5" outfit="nysp_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="0" outfit="nysp_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				<Ped chance="0" outfit="nysp_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="5" outfit="nysp_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="0" outfit="nysp_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+				<Ped chance="65" outfit="nysp_coat">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				<Ped chance="25" outfit="nysp_coat">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>RespondsAsTransport</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>NYSP Special Weapons And Tactics</Name>
+		<ShortName>NYSP</ShortName>
+		<ScriptName>nysp_swat</ScriptName>
+		<Inventory>swat_eup</Inventory>
+		<Parent>nysp</Parent>
+		<Loadout>
+			<Name>SWAT</Name>
+			<Vehicles>
+				<Vehicle>policeold1</Vehicle>
+				<Vehicle>policeold2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="0" outfit="nysp_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="5" outfit="nysp_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="0" outfit="nysp_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				<Ped chance="0" outfit="nysp_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="5" outfit="nysp_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="0" outfit="nysp_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+				<Ped chance="65" outfit="nysp_coat">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				<Ped chance="25" outfit="nysp_coat">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>SWAT</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>San Andreas State Parks</Name>
+		<ShortName>SASP</ShortName>
+		<ScriptName>sasp</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<BadgeModel>prop_sasp_badge</BadgeModel>
+		<TextureDictionary>dia_police</TextureDictionary>
+		<TextureName>dia_police</TextureName>
+		<Loadout>
+			<Name>Park Rangers</Name>
+			<Vehicles>
+				<Vehicle chance="1">pranger</Vehicle>
+				<Vehicle chance="49">prangeral</Vehicle>
+				<Vehicle chance="15">prangerlr2</Vehicle>
+				<Vehicle chance="15">prangerscout</Vehicle>
+				<Vehicle chance="5">prangerbi</Vehicle>
+				<Vehicle chance="5">prangeryo2</Vehicle>
+				<Vehicle chance="5">prangersd</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="15" outfit="sasp_class_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="sasp_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="sasp_class_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="sasp_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="sasp_class_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="sasp_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="5" outfit="sasp_class_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="sasp_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="sasp_class_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="sasp_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="sasp_class_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="sasp_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+				
+				<!-- for outfits selection -->
+				<Ped chance="0" outfit="sasp_jacket">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sasp_jacket">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="sasp_ljacket">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="sasp_ljacket">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+				<Flag>SpawnsAmbiently</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>Ntl. Office of Security Enforcement</Name>
+		<ShortName>NOOSE</ShortName>
+		<ScriptName>noose</ScriptName>
+		<Inventory>noose_eup</Inventory>
+		<BadgeModel>prop_pia_badge</BadgeModel>
+		<TextureDictionary>ap1_03</TextureDictionary>
+		<TextureName>ap1_03_noose2bap1_03_noose2</TextureName>
+		<Loadout>
+			<Name>Police</Name>
+			<Vehicles>
+				<Vehicle chance="10">noosesep</Vehicle>
+				<Vehicle chance="5">noosesep2</Vehicle>
+				<Vehicle chance="5">noosesep3</Vehicle>
+				<Vehicle chance="60">noosesep4</Vehicle>
+				<Vehicle chance="20">noosesep5</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="35" outfit="sep_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit -->
+				<Ped chance="35" outfit="sep_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="15" outfit="sep_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit -->
+				<Ped chance="15" outfit="sep_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit -->
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>SpawnsAmbiently</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>NOOSE Tactical Response Team</Name>
+		<ShortName>NOOSE</ShortName>
+		<ScriptName>noose_tru</ScriptName>
+		<Inventory>noose_eup</Inventory>
+		<Parent>noose</Parent>
+		<TextureDictionary>dia_police</TextureDictionary>
+		<TextureName>dia_police</TextureName>
+		<Loadout>
+			<Name>Tactical Response Team</Name>
+			<Vehicles>
+				<Vehicle chance="60">noosetru</Vehicle>
+				<Vehicle chance="20">noosetru2</Vehicle>
+				<Vehicle chance="20">noosetru3</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="90" outfit="noose_swat">mp_m_freemode_01</Ped>
+				<Ped chance="10" outfit="noose_swat">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>SWAT</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>NOOSE Air Support Unit</Name>
+		<ShortName>NOOSE</ShortName>
+		<ScriptName>noose_asu</ScriptName>
+		<Parent>noose</Parent>
+		<Inventory>default</Inventory>
+		<Loadout>
+			<Name>Air Unit</Name>
+			<Vehicles>
+				<Vehicle>nooseair2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="90" outfit="noose_swat">mp_m_freemode_01</Ped>
+				<Ped chance="10" outfit="noose_swat">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>    <!-- Makes the unit eligible to be called as either Code 2, Code 3 or Pursuit backup. -->
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>NOOSE Patriotism and Immigration Authority</Name>
+		<ShortName>PIA</ShortName>
+		<ScriptName>noose_pia</ScriptName>
+		<Inventory>noose_eup</Inventory>
+		<Parent>noose</Parent>
+		<Loadout>
+			<Name>PIA</Name>
+			<Vehicles>
+				<Vehicle chance="10">noosepia</Vehicle>
+				<Vehicle chance="20">noosepia2</Vehicle>
+				<Vehicle chance="60">noosepia4</Vehicle>
+				<Vehicle chance="10">noosepia3</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="1" outfit="pia_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit -->
+				<Ped chance="35" outfit="pia_class_b.m_vest">mp_m_freemode_01</Ped> <!-- Class B outfit -->
+				<Ped chance="34" outfit="pia_class_c.m_vest">mp_m_freemode_01</Ped> <!-- Class C outfit -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="1" outfit="pia_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit -->
+				<Ped chance="15" outfit="pia_class_b.f_vest">mp_f_freemode_01</Ped> <!-- Class B outfit -->
+				<Ped chance="14" outfit="pia_class_c.f_vest">mp_f_freemode_01</Ped> <!-- Class C outfit -->
+				
+				<!-- for outfits selection -->
+				<Ped chance="0" outfit="bp_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit -->
+				<Ped chance="0" outfit="bp_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit -->
+				<Ped chance="0" outfit="bp_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit -->
+				<Ped chance="0" outfit="bp_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit -->
+				<Ped chance="0" outfit="pia_suit" inventory="detective_eup">mp_m_freemode_01</Ped> 
+				<Ped chance="0" outfit="pia_formal" inventory="detective_eup">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="pia_windbreaker" inventory="detective_eup">mp_m_freemode_01</Ped> 				
+				<Ped chance="0" outfit="pia_suit" inventory="detective_eup">mp_f_freemode_01</Ped> 
+				<Ped chance="0" outfit="pia_formal" inventory="detective_eup">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="pia_windbreaker" inventory="detective_eup">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>SpawnsAmbiently</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>Federal Investigation Bureau</Name>
+		<ShortName>FIB</ShortName>
+		<ScriptName>fib</ScriptName>
+		<Inventory>detective_eup</Inventory>
+		<BadgeModel>prop_fibb_badge</BadgeModel>
+		<TextureDictionary>s_m_m_fibsec_01</TextureDictionary>
+		<TextureName>decl_diff_001_a_uni</TextureName>
+		<Loadout>
+			<Name>Agents</Name>
+			<Vehicles>
+				<Vehicle>fbi</Vehicle>
+				<Vehicle>fbi2</Vehicle>
+			</Vehicles>
+				<Peds>
+					<!-- 70% chance of male peds -->
+					<Ped chance="20" outfit="fib_suit" inventory="detective_eup">mp_m_freemode_01</Ped> 
+					<Ped chance="20" outfit="fib_formal" inventory="detective_eup">mp_m_freemode_01</Ped>
+					<Ped chance="30" outfit="fib_windbreaker" inventory="detective_eup">mp_m_freemode_01</Ped> 					
+					<!-- 30% chance of female peds --> 
+					<Ped chance="5" outfit="fib_suit" inventory="detective_eup">mp_f_freemode_01</Ped> 
+					<Ped chance="5" outfit="fib_formal" inventory="detective_eup">mp_f_freemode_01</Ped>
+					<Ped chance="20" outfit="fib_windbreaker" inventory="detective_eup">mp_f_freemode_01</Ped>
+				</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>FIB Hostage Rescue Team</Name>
+		<ShortName>FIB HRT</ShortName>
+		<ScriptName>fib_swat</ScriptName>
+		<Inventory>noose_eup</Inventory>
+		<Parent>fib</Parent>
+		<Loadout>
+			<Name>Tactical Unit</Name>
+			<Vehicles>
+				<Vehicle>fbi2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="90" outfit="fib_swat">mp_m_freemode_01</Ped>
+				<Ped chance="10" outfit="fib_swat">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>SWAT</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>FIB Police</Name>
+		<ShortName>FIBP</ShortName>
+		<ScriptName>fib_police</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<Parent>fib</Parent>
+		<Loadout>
+			<Name>Officers</Name>
+			<Vehicles>
+				<Vehicle chance="10">fibp</Vehicle>
+				<Vehicle chance="20">fibp3</Vehicle>
+				<Vehicle chance="60">fibp6</Vehicle>
+				<Vehicle chance="10">fibp2</Vehicle>
+			</Vehicles>
+		<Peds>
+			<!-- 70% chance of male peds -->
+			<Ped chance="5" outfit="fibp_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+			<Ped chance="30" outfit="fibp_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+			<Ped chance="35" outfit="fibp_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+			<!-- 30% chance of female peds --> 
+			<Ped chance="5" outfit="fibp_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+			<Ped chance="10" outfit="fibp_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+			<Ped chance="10" outfit="fibp_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+			<!-- for outfits selection -->
+			<Ped chance="0" outfit="fibp_k9_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+			<Ped chance="0" outfit="fibp_k9_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+			<Ped chance="0" outfit="fibp_k9_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+			<Ped chance="0" outfit="fibp_k9_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->				
+		</Peds>
+		<NumPeds min="1" max="2" />
+		<Flags>
+            <Flag>RespondsAsTransport</Flag> 
+            <Flag>RespondsAsBackup</Flag>
+			<Flag>SpawnsAmbiently</Flag>
+          </Flags>		
+	</Loadout>
+	</Agency>
+		<Agency>
+		<Name>United States Army</Name>
+		<ShortName>Army</ShortName>
+		<ScriptName>army</ScriptName>
+		<Inventory>swat_eup</Inventory>
+		<TextureDictionary>dia_police</TextureDictionary>
+		<TextureName>dia_police</TextureName>
+		<Loadout>
+			<Name>National Guard</Name>
+			<Vehicles>
+				<Vehicle>crusader</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="90" outfit="sang_combat">mp_m_freemode_01</Ped>
+				<Ped chance="10" outfit="sang_combat">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>SWAT</Flag>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>US Air Force Security Forces</Name>
+		<ShortName>USAF SF</ShortName>
+		<ScriptName>usaf</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<Parent>army</Parent>
+		<TextureDictionary>dia_police</TextureDictionary>
+		<TextureName>dia_police</TextureName>
+		<Loadout>
+			<Name>Military Police</Name>
+			<Vehicles>
+				<Vehicle>policeusaf</Vehicle>
+				<Vehicle>policeusaf2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="90" outfit="usaf_mp">mp_m_freemode_01</Ped>
+				<Ped chance="10" outfit="usaf_mp">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>SpawnsAmbiently</Flag>
+				<Flag>RespondsAsBackup</Flag>
+				<Flag>RespondsAsTransport</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>Los Santos Fire Department (EMS)</Name>
+		<ShortName>LSFD</ShortName>
+		<ScriptName>lsfd</ScriptName>
+		<Loadout>
+			<Name>Rescue Ambulance</Name>
+			<Vehicles>
+				<Vehicle chance="90" livery="1">lsfd3</Vehicle>
+				<Vehicle chance="5" >lsfd4</Vehicle>
+				<Vehicle livery="5">ambulance2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="60" outfit="lsfd_emt">mp_m_freemode_01</Ped> <!-- EMT/Paramedic outfit (Any Variation) -->
+				<Ped chance="40" outfit="lsfd_emt">mp_f_freemode_01</Ped> <!-- EMT/Paramedic outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>Los Santos Fire Department (Fire)</Name>
+		<ShortName>LSFD</ShortName>
+		<ScriptName>lsfd_fire</ScriptName>
+		<Parent>lsfd</Parent>
+		<Loadout>
+			<Name>Fire Truck</Name>
+			<Vehicles>
+				<Vehicle chance="80" livery="1">lsfdtruck</Vehicle>
+				<Vehicle chance="20">lsfd5</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="50" outfit="lsfd_fire.m_base">mp_m_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="10" outfit="lsfd_fr">mp_m_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="30" outfit="lsfd_fire.f_base">mp_f_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="10" outfit="lsfd_fr">mp_f_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+		<Loadout>
+			<Name>Fire Truck (SCBA)</Name>
+			<Vehicles>
+				<Vehicle livery="1">lsfdtruck</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="60" outfit="lsfd_fire.m_scba">mp_m_freemode_01</Ped> <!-- Fire outfit (SCBA) -->
+				<Ped chance="40" outfit="lsfd_fire.f_scba">mp_f_freemode_01</Ped> <!-- Fire outfit (SCBA) -->
+			</Peds>
+			<NumPeds min="4" max="6" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>    <!-- Makes the unit eligible to be called as either Code 2, Code 3 or Pursuit backup. -->
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>Los Santos County Fire Department (EMS)</Name>
+		<ShortName>LSCoFD</ShortName>
+		<ScriptName>lscofd</ScriptName>	
+		<Loadout>
+			<Name>Rescue Ambulance</Name>
+			<Vehicles>
+				<Vehicle livery="2">ambulance</Vehicle>
+				<Vehicle livery="2">ambulance2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="60" outfit="lscofd_emt">mp_m_freemode_01</Ped> <!-- EMT/Paramedic outfit (Any Variation) -->
+				<Ped chance="40" outfit="lscofd_emt">mp_f_freemode_01</Ped> <!-- EMT/Paramedic outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>	
+	<Agency>
+		<Name>Los Santos County Fire Department (Fire)</Name>
+		<ShortName>LSCoFD</ShortName>
+		<ScriptName>lscofd_fire</ScriptName>
+		<Parent>lscofd</Parent>
+		<Loadout>
+			<Name>Fire Truck</Name>
+			<Vehicles>
+				<Vehicle chance="40">firetruk</Vehicle>
+				<Vehicle chance="60" livery="2">firetruk3</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="50" outfit="lscofd_fire.m_base">mp_m_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="10" outfit="lscofd_fr">mp_m_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="30" outfit="lscofd_fire.f_base">mp_f_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="10" outfit="lscofd_fr">mp_f_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+			</Peds>
+			<NumPeds min="4" max="4" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+		<Loadout>
+			<Name>Fire Truck (SCBA)</Name>
+			<Vehicles>
+				<Vehicle>firetruk</Vehicle>
+				<Vehicle livery="2">firetruk3</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="60" outfit="lscofd_fire.m_scba">mp_m_freemode_01</Ped> <!-- Fire outfit (Bunker pants) -->
+				<Ped chance="40" outfit="lscofd_fire.f_scba">mp_f_freemode_01</Ped> <!-- Fire outfit (Bunker pants) -->
+			</Peds>
+			<NumPeds min="4" max="6" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>Blaine County Fire Department (EMS)</Name>
+		<ShortName>BCFD</ShortName>
+		<ScriptName>bcfd</ScriptName>
+		<Loadout>
+			<Name>Ambulance Rescue</Name>
+			<Vehicles>
+				<Vehicle livery="4">ambulance2</Vehicle>
+				<Vehicle livery="4">ambulance</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="60" outfit="bcfd_emt">mp_m_freemode_01</Ped> <!-- EMT/Paramedic outfit (Any Variation) -->
+				<Ped chance="40" outfit="bcfd_emt">mp_f_freemode_01</Ped> <!-- EMT/Paramedic outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>Blaine County Fire Department</Name>
+		<ShortName>BCFD</ShortName>
+		<ScriptName>bcfd_fire</ScriptName>
+		<Parent>bcfd</Parent>		
+		<Loadout>
+			<Name>Fire Truck</Name>
+			<Vehicles>
+				<Vehicle chance="10">bcfd2</Vehicle>
+				<Vehicle chance="90" livery="1">firetruk2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="50" outfit="bcfd_fire.m_base">mp_m_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="10" outfit="bcfd_fr">mp_m_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="30" outfit="bcfd_fire.f_base">mp_f_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+				<Ped chance="10" outfit="bcfd_fr">mp_f_freemode_01</Ped> <!-- Fire outfit (Turnouts) -->
+			</Peds>
+			<NumPeds min="2" max="4" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+		<Loadout>
+			<Name>Fire Truck (SCBA)</Name>
+			<Vehicles>
+				<Vehicle livery="1">firetruk2</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="60" outfit="bcfd_fire.m_scba">mp_m_freemode_01</Ped> <!-- Fire outfit (SCBA) -->
+				<Ped chance="40" outfit="bcfd_fire.f_scba">mp_f_freemode_01</Ped> <!-- Fire outfit (SCBA) -->
+			</Peds>
+			<NumPeds min="4" max="6" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>    <!-- Makes the unit eligible to be called as either Code 2, Code 3 or Pursuit backup. -->
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>San Andreas Medical Services</Name>
+		<ShortName>SAMS</ShortName>
+		<ScriptName>sams</ScriptName>
+		<Loadout>
+			<Name>Ambulance</Name>
+			<Vehicles>
+				<Vehicle>emsnspeedo</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="60" outfit="sams_emt">mp_m_freemode_01</Ped> <!-- EMT/Paramedic outfit (Any Variation) -->
+				<Ped chance="40" outfit="sams_emt">mp_f_freemode_01</Ped> <!-- EMT/Paramedic outfit (Any Variation) -->
+			</Peds>
+			<NumPeds min="2" max="2" />
+			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<!-- The following agencies do not respond as backup and are only used for the ped/vehicle selection when going on duty. -->
+		<Agency>
+		<Name>Drug Observation Agency</Name>
+		<ShortName>DOA</ShortName>
+		<ScriptName>doa</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<BadgeModel>prop_doa_badge</BadgeModel>
+		<TextureDictionary>web_doa</TextureDictionary>
+		<TextureName>web_doa</TextureName>
+		<Loadout>
+			<Name>Agents</Name>
+				<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="20" outfit="doa_suit" inventory="detective_eup">mp_m_freemode_01</Ped> 
+				<Ped chance="20" outfit="doa_formal" inventory="detective_eup">mp_m_freemode_01</Ped>
+				<Ped chance="30" outfit="doa_windbreaker" inventory="detective_eup">mp_m_freemode_01</Ped>
+ 					
+				<!-- 30% chance of female peds --> 
+				<Ped chance="5" outfit="doa_suit" inventory="detective_eup">mp_f_freemode_01</Ped> 
+				<Ped chance="5" outfit="doa_formal" inventory="detective_eup">mp_f_freemode_01</Ped>
+				<Ped chance="20" outfit="doa_windbreaker" inventory="detective_eup">mp_f_freemode_01</Ped>
+				</Peds>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>San Andreas State Prison Authority</Name>
+		<ShortName>SASPA</ShortName>
+		<ScriptName>saspa</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<BadgeModel>prop_saspa_badge</BadgeModel>
+		<TextureDictionary>dia_security</TextureDictionary>
+		<TextureName>dia_security</TextureName>
+		<Loadout>
+			<Name>Corrections</Name>
+			<Vehicles>
+				<Vehicle chance="60" >pcar</Vehicle>
+				<Vehicle chance="10" >saspacar</Vehicle>
+				<Vehicle chance="10" >saspacar2</Vehicle>
+				<Vehicle chance="10" >saspacar3</Vehicle>
+				<Vehicle chance="10" >saspacar4</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="35" outfit="saspa_class_b.m_armed">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="35" outfit="saspa_class_c.m_armed">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="15" outfit="saspa_class_b.f_armed">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="15" outfit="saspa_class_c.f_armed">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				
+				<!-- For outfits selection -->
+				<Ped chance="0" outfit="saspa_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="0" outfit="saspa_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="0" outfit="saspa_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="0" outfit="saspa_jumpsuit">mp_m_freemode_01</Ped> <!-- Jumpsuit (Base) -->
+				<Ped chance="0" outfit="saspa_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="0" outfit="saspa_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="0" outfit="saspa_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="0" outfit="saspa_jumpsuit">mp_f_freemode_01</Ped> <!-- Jumpsuit (Base) -->
+			</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>SpawnsAmbiently</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>International Affairs Agency</Name>
+		<ShortName>IAA</ShortName>
+		<ScriptName>iaa</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<BadgeModel>prop_iaa_badge</BadgeModel>
+		<TextureDictionary>v_33_cur_of3_deta001+hidr</TextureDictionary>
+		<TextureName>dm_iaa_01</TextureName>
+		<Loadout>
+			<Name>Agents</Name>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="35" outfit="iaa_suit" inventory="detective_eup">mp_m_freemode_01</Ped> 
+				<Ped chance="35" outfit="iaa_casual" inventory="detective_eup">mp_m_freemode_01</Ped>
+ 					
+				<!-- 30% chance of female peds --> 
+				<Ped chance="15" outfit="iaa_suit" inventory="detective_eup">mp_f_freemode_01</Ped> 
+				<Ped chance="15" outfit="iaa_casual" inventory="detective_eup">mp_f_freemode_01</Ped>
+			</Peds>
+		</Loadout>
+	</Agency>
+</Agencies>
