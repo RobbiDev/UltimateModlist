@@ -6,10 +6,6 @@
             <Model>WEAPON_PISTOL</Model>
             <Component>COMPONENT_AT_PI_FLSH</Component>		<!-- Pistol Flashlight -->
         </Weapon>
-        <Weapon>
-            <Model>WEAPON_PUMPSHOTGUN</Model>
-            <Component>COMPONENT_AT_AR_FLSH</Component>		 <!-- Rifle Flashlight. -->
-        </Weapon>
 		<StunWeapon>WEAPON_STUNGUN</StunWeapon>
         <Weapon>WEAPON_NIGHTSTICK</Weapon>
         <Weapon>WEAPON_VINTAGEPISTOL</Weapon>
