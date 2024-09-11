@@ -31,8 +31,8 @@
 					<Vehicle>fbi2</Vehicle>
 				</Vehicles>
 				<Peds>
-<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
-<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+<!--Male-->            <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+<!--Female-->          <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
 				</Peds>
 			</VehicleSet>
 		</LosSantosCity>
