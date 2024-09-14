@@ -1,4 +1,4 @@
-# LSPDFR UltimateModlist
+# UltimateModlist
 This is my repo for all my GTA 5 LSPDFR Mods and Modtificatoons.
 
 # Custom Features
