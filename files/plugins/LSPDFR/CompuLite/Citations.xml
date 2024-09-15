@@ -1,0 +1,822 @@
+<!--
+    Acceptable attributes for each "Citation" tag:
+      - "name" is the citation name or title
+      - "fine" is the amount of fine money
+-->
+<CompuLiteCitations>
+    <CitationGroup name="~r~14 CFR Aircraft Violations~s~">
+        <!-- Safety Violations -->
+        <Citation name="~r~§91.13 - Careless or Reckless Operation~s~" fine="5000" description="Operating an aircraft in a manner that endangers the life or property of others, either by carelessness or recklessness."/>
+        <Citation name="~b~§91.119 - Minimum Safe Altitudes~s~" fine="3000" description="Failing to maintain minimum safe altitudes during flight, potentially endangering people or property on the ground."/>
+        <Citation name="~b~§91.151 - Fuel Requirements for Flight~s~" fine="2000" description="Beginning a flight without enough fuel reserves, taking into account weather conditions and other factors."/>
+        <Citation name="~r~§91.11 - Interference with Crew Members~s~" fine="7000" description="Interfering with, assaulting, or threatening crew members, thereby jeopardizing the safety and security of the flight."/>
+        <Citation name="~r~§91.17 - Alcohol or Drug Offenses~s~" fine="10000" description="Acting as a crewmember of an aircraft while under the influence of alcohol or drugs, compromising the safety of the flight."/>
+        
+        <!-- Operational Violations -->
+        <Citation name="~y~§91.123 - Compliance with ATC Clearances and Instructions~s~" fine="2500" description="Deviating from ATC clearances or instructions without an amended clearance, increasing the risk of collision or airspace conflict."/>
+        <Citation name="~y~§91.126 - Operations in Class G Airspace~s~" fine="1500" description="Improperly operating in the vicinity of an airport in Class G airspace, failing to follow traffic patterns or communicate with ATC."/>
+        <Citation name="~b~§91.147 - Passenger-Carrying Flights for Compensation~s~" fine="4000" description="Conducting passenger-carrying flights for hire without adhering to required safety regulations and procedures."/>
+        <Citation name="~y~§91.207 - Emergency Locator Transmitters~s~" fine="2000" description="Operating an aircraft without a functioning Emergency Locator Transmitter (ELT), essential for search and rescue operations."/>
+        <Citation name="~b~§91.209 - Aircraft Lights~s~" fine="1500" description="Failing to use required aircraft lights during conditions that mandate their use, such as night operations or poor visibility."/>
+        
+        <!-- Security Violations -->
+        <Citation name="~r~§1540.105 - Security Responsibilities~s~" fine="8000" description="Tampering with, or failing to comply with, security measures, procedures, or systems at airports or on aircraft, endangering public safety."/>
+        <Citation name="~r~§1544.201 - Acceptance and Screening of Checked Baggage~s~" fine="6000" description="Failing to properly screen or accept checked baggage in accordance with security regulations, posing a potential security threat."/>
+        <Citation name="~r~§99.7 - Special Security Instructions~s~" fine="10000" description="Failing to adhere to special security instructions issued by the FAA for national security purposes."/>
+        <Citation name="~r~§91.21 - Portable Electronic Devices~s~" fine="3000" description="Operating portable electronic devices that interfere with aircraft communication and navigation systems during flight, violating safety protocols."/>
+        <Citation name="~r~Unauthorized Access to Airfield~s~" fine="1000" description="Gaining unauthorized access to airfield areas, potentially compromising airport security."/>
+        <Citation name="~r~Trespassing on Restricted Area~s~" fine="750" description="Entering restricted areas of the airport without proper authorization, violating security protocols."/>
+        <Citation name="~r~Disregarding Air Traffic Control Instructions~s~" fine="2000" description="Failing to comply with instructions given by air traffic control, endangering aircraft operations."/>
+        <Citation name="~r~Operating Drone in No-Fly Zone~s~" fine="1500" description="Operating a drone in a designated no-fly zone, posing a risk to manned aircraft and violating airspace regulations."/>
+        <Citation name="~r~Carrying Prohibited Items Past Security~s~" fine="500" description="Attempting to bring items that are prohibited through airport security checkpoints, compromising safety."/>
+        <Citation name="~r~Failure to Comply with Security Screening~s~" fine="250" description="Refusing or failing to comply with airport security screening procedures, delaying operations."/>
+        <Citation name="~r~(A) False Bomb Threat~s~" fine="10000" description="Making a false bomb threat, causing significant disruption and security responses."/>
+        <Citation name="~r~Impersonating Airport Personnel~s~" fine="3000" description="Pretending to be airport staff or crew to gain unauthorized access or privileges."/>
+        <Citation name="~r~(A) Unauthorized Takeoff or Landing~s~" fine="5000" description="Taking off or landing an aircraft without proper clearance from air traffic control."/>
+        <Citation name="~r~Disrupting Airport Operations~s~" fine="1500" description="Engaging in activities that disrupt normal airport operations, causing delays or safety concerns."/>
+        <Citation name="~r~Unauthorized Aircraft Modification~s~" fine="4000" description="Making modifications to an aircraft without approval or certification, risking safety violations."/>
+        <Citation name="~r~(A) Smuggling Contraband through Airport~s~" fine="8000" description="Attempting to smuggle illegal goods through airport security, violating customs and security regulations."/>
+        <Citation name="~r~Intoxicated Behavior in Airport~s~" fine="750" description="Exhibiting intoxicated behavior within airport premises, potentially leading to safety or security incidents."/>
+        <Citation name="~r~Vandalism of Airport Property~s~" fine="2000" description="Damaging or defacing airport property, resulting in safety hazards or operational disruptions."/>
+        <Citation name="~r~Counterfeit Boarding Pass~s~" fine="3000" description="Attempting to use or produce a fake boarding pass to gain unauthorized access to flights."/>
+        <Citation name="~r~Falsifying Passenger Information~s~" fine="1500" description="Providing false information during the booking or check-in process, complicating security checks."/>
+        <Citation name="~r~Overstaying in Airport Terminal~s~" fine="500" description="Remaining in the airport terminal beyond the allowed time, potentially causing security concerns."/>
+        <Citation name="~r~Illegal Sale of Tickets or Passes~s~" fine="4000" description="Selling airline tickets or passes without proper authorization, violating airline and airport policies."/>
+        <Citation name="~r~Failure to Declare Excess Currency~s~" fine="2500" description="Not declaring amounts of currency that exceed the legal limit when passing through customs, violating financial regulations."/>
+        <Citation name="~r~(AC) Unauthorized Access to Aircraft~s~" fine="6000" description="Gaining unauthorized access to an aircraft, posing a security threat."/>
+        <Citation name="~r~Reckless Driving on Airport Grounds~s~" fine="1200" description="Driving in a reckless manner within airport premises, endangering pedestrians and other vehicles."/>
+        <Citation name="~r~Disobeying Airport Security Protocols~s~" fine="1750" description="Failing to follow established airport security protocols, risking operational and safety breaches."/>
+        <Citation name="~r~Unauthorized Photographing of Security Areas~s~" fine="1000" description="Taking photos or videos of restricted security areas without permission, violating airport security policies."/>
+        <Citation name="~r~Breach of Airline Security Procedures~s~" fine="3000" description="Violating specific security procedures set by an airline, risking passenger and crew safety."/>
+        <Citation name="~r~Illegal Operation of Ground Equipment~s~" fine="2000" description="Operating airport ground equipment without proper authorization or training, endangering airport operations."/>
+    </CitationGroup>
+    <CitationGroup name="~y~Bicycle Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§551.103 - Riding on Sidewalk Where Prohibited~s~" fine="100" description="Operating a bicycle on a sidewalk where local ordinances or signs prohibit bicycle riding, endangering pedestrians."/>
+        <Citation name="~b~§544.004 - Failure to Obey Traffic Signals~s~" fine="150" description="Failing to stop at red lights or stop signs while operating a bicycle, creating potential hazards at intersections."/>
+        <Citation name="~y~§551.102 - Riding Without a Helmet (Under 18)~s~" fine="75" description="Operating a bicycle without wearing a helmet, particularly applicable to riders under the age of 18."/>
+        <Citation name="~b~§551.101 - Riding Against Traffic~s~" fine="150" description="Riding a bicycle against the flow of traffic, increasing the risk of collisions with vehicles."/>
+        <Citation name="~y~§551.103 - Failure to Use Bicycle Lane~s~" fine="100" description="Failing to use a designated bicycle lane when available, creating unnecessary risks for both bicyclists and drivers."/>
+        <Citation name="~g~§551.104 - Failure to Signal Turn or Stop~s~" fine="50" description="Failing to signal when turning or stopping while operating a bicycle, increasing the likelihood of accidents."/>
+        <Citation name="~b~§551.105 - Riding Without Lights at Night~s~" fine="100" description="Operating a bicycle at night without proper lighting, making the rider less visible to drivers and increasing the risk of accidents."/>
+        <Citation name="~r~§550.024 - Leaving Scene of an Accident~s~" fine="500" description="Leaving the scene of an accident involving a bicycle without providing necessary information, violating traffic laws."/>
+        <Citation name="~b~§552.003 - Failure to Yield to Pedestrians~s~" fine="150" description="Failing to yield the right of way to pedestrians while operating a bicycle, potentially causing collisions."/>
+        
+        <!-- New citations -->
+        <Citation name="~b~§551.107 - Riding with More Than One Person~s~" fine="100" description="Carrying more than one person on a bicycle not designed for multiple riders, creating unsafe conditions."/>
+        <Citation name="~r~§551.109 - Hitching onto Vehicle~s~" fine="200" description="Holding onto a moving vehicle while riding a bicycle, significantly increasing the risk of accidents."/>
+        <Citation name="~y~§551.111 - Failure to Have Proper Brakes~s~" fine="100" description="Operating a bicycle without functioning brakes, compromising the rider's ability to stop safely."/>
+        <Citation name="~g~§551.113 - Riding While Wearing Headphones~s~" fine="75" description="Operating a bicycle while wearing headphones or earphones in both ears, reducing the rider's awareness of surroundings."/>
+        <Citation name="~b~§551.115 - Carrying Objects that Prevent Both-Hand Control~s~" fine="150" description="Carrying an object that prevents the rider from maintaining control with both hands on the handlebars."/>
+        <Citation name="~r~§551.117 - Failure to Stop for School Bus~s~" fine="300" description="Failing to stop for a school bus that is loading or unloading children, while riding a bicycle."/>
+        <Citation name="~r~§551.119 - Disobeying Bicycle Traffic Signals~s~" fine="150" description="Ignoring traffic signals specifically meant for bicycles, endangering other road users."/>
+        <Citation name="~y~§551.121 - Riding on Highways~s~" fine="200" description="Riding a bicycle on a highway where such activity is prohibited, creating a dangerous situation."/>
+        <Citation name="~b~§551.123 - Illegal Bicycle Racing~s~" fine="250" description="Participating in an unauthorized bicycle race on public roads, endangering participants and others."/>
+        <Citation name="~r~§551.125 - Endangering Public Safety~s~" fine="400" description="Operating a bicycle in a manner that endangers public safety, such as riding recklessly or performing stunts in public areas."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 31) Coastal Citations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§31.021 - Operating Vessel Without Registration~s~" fine="250" description="Operating a vessel on public waters without proper registration, in violation of state boating laws."/>
+        <Citation name="~b~§31.073 - Failure to Display Proper Navigation Lights~s~" fine="150" description="Failing to display the required navigation lights on a vessel during periods of low visibility, such as night or fog."/>
+        <Citation name="~r~§31.099 - Reckless or Negligent Operation of Vessel~s~" fine="500" description="Operating a vessel in a manner that endangers life, limb, or property, showing disregard for the safety of others."/>
+        <Citation name="~b~§31.106 - Failure to Carry Required Safety Equipment~s~" fine="200" description="Failing to have required safety equipment on board, such as life jackets, fire extinguishers, or distress signals."/>
+        <Citation name="~y~§31.107 - Exceeding Speed Limits in Restricted Areas~s~" fine="150" description="Operating a vessel at a speed exceeding the posted limits in restricted areas, such as no-wake zones or near docks."/>
+        <Citation name="~b~§31.127 - Operating Vessel Under the Influence (BUI)~s~" fine="1000" description="Operating a vessel while under the influence of alcohol or drugs, impairing the ability to navigate safely."/>
+        <Citation name="~r~§31.133 - Operating Vessel Without Proper Boater Education~s~" fine="250" description="Operating a vessel without having completed the required boater education courses, as mandated by state law."/>
+        <Citation name="~g~§31.143 - Unauthorized Mooring to Buoy or Navigational Aid~s~" fine="100" description="Mooring a vessel to buoys, beacons, or other navigational aids, which is prohibited under state regulations."/>
+        <Citation name="~b~§31.153 - Creating Hazardous Wake~s~" fine="200" description="Creating a wake that endangers other vessels, swimmers, or causes damage to nearby property."/>
+        <Citation name="~r~§31.167 - Interference with Commercial Fishing~s~" fine="500" description="Operating a vessel in a manner that interferes with lawful commercial fishing operations, causing disruption or danger."/>
+        <Citation name="~r~§31.185 - Illegal Dumping in Waterways~s~" fine="1000" description="Discharging or dumping waste, oil, or other hazardous materials into public waterways, polluting the environment."/>
+        <Citation name="~y~§31.203 - Failure to Report Boating Accident~s~" fine="300" description="Failing to report an accident involving a vessel that results in injury, death, or significant property damage, as required by law."/>
+        <Citation name="~b~§31.219 - Fishing Without a License~s~" fine="200" description="Engaging in fishing activities without a valid fishing license, violating state wildlife regulations."/>
+        <Citation name="~r~§31.237 - Unlawful Use of Fireworks on Watercraft~s~" fine="250" description="Using or discharging fireworks from a watercraft without proper authorization, posing a risk to others."/>
+        
+        <!-- New citations -->
+        <Citation name="~b~§31.240 - Operating Vessel Without Insurance~s~" fine="300" description="Operating a vessel without the required insurance coverage, in violation of state regulations."/>
+        <Citation name="~r~§31.253 - Failure to Yield Right of Way~s~" fine="250" description="Failing to yield the right of way to other vessels when required, increasing the risk of collisions."/>
+        <Citation name="~b~§31.267 - Operating Vessel in a Restricted Area~s~" fine="200" description="Operating a vessel in an area restricted for environmental protection, military operations, or other designated purposes."/>
+        <Citation name="~y~§31.279 - Improper Anchoring~s~" fine="150" description="Anchoring a vessel in a manner that obstructs navigation or violates local anchoring regulations."/>
+        <Citation name="~r~§31.283 - Failure to Stop After Accident~s~" fine="500" description="Failing to stop and provide information after a boating accident, as required by law."/>
+        <Citation name="~r~§31.291 - Unauthorized Salvage Operations~s~" fine="400" description="Engaging in salvage operations without proper authorization, potentially violating state or federal salvage laws."/>
+        <Citation name="~b~§31.307 - Operating Vessel with Excessive Noise~s~" fine="200" description="Operating a vessel that exceeds the permissible noise levels, disturbing nearby residents and wildlife."/>
+        <Citation name="~y~§31.321 - Failure to Display Diving Flag~s~" fine="150" description="Failing to display the appropriate diving flag while conducting diving activities from a vessel, endangering divers and other vessels."/>
+        <Citation name="~r~§31.333 - Unauthorized Water Skiing in Restricted Areas~s~" fine="300" description="Engaging in water skiing activities in areas where such activities are prohibited, posing risks to others."/>
+        <Citation name="~b~§31.345 - Operating Vessel During Temporary Restrictions~s~" fine="200" description="Operating a vessel during periods of temporary restrictions, such as during special events or weather warnings, violating local regulations."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 644) Commercial Vehicle Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§644.051 - Operating Without Required Permits~s~" fine="1000" description="Operating a commercial vehicle without the necessary permits, violating state and federal regulations."/>
+        <Citation name="~b~§644.052 - Exceeding Weight Limits~s~" fine="750" description="Operating a commercial vehicle that exceeds the legal weight limits, potentially causing damage to roads and infrastructure."/>
+        <Citation name="~r~§644.053 - Failure to Secure Load~s~" fine="500" description="Failing to properly secure a load on a commercial vehicle, risking spills or accidents."/>
+        <Citation name="~b~§644.054 - Operating Without Proper Insurance~s~" fine="800" description="Operating a commercial vehicle without the required insurance coverage, violating state laws."/>
+        <Citation name="~r~§644.055 - Driving Without a Commercial Driver's License (CDL)~s~" fine="1200" description="Operating a commercial vehicle without a valid CDL, violating state and federal requirements."/>
+        <Citation name="~y~§644.056 - Failure to Display USDOT Number~s~" fine="300" description="Failing to display the required USDOT number on a commercial vehicle, violating federal regulations."/>
+        <Citation name="~r~§644.057 - Operating in Violation of Hours of Service (HOS) Rules~s~" fine="600" description="Operating a commercial vehicle beyond the allowable hours of service, risking driver fatigue and accidents."/>
+        <Citation name="~b~§644.058 - Failure to Maintain Proper Logs~s~" fine="500" description="Failing to maintain accurate logbooks for a commercial vehicle, violating state and federal regulations."/>
+        <Citation name="~r~§644.059 - Transporting Hazardous Materials Without Proper Placards~s~" fine="1000" description="Transporting hazardous materials without displaying the required placards, violating safety regulations."/>
+        <Citation name="~r~§644.060 - Operating with Defective Equipment~s~" fine="700" description="Operating a commercial vehicle with defective or unsafe equipment, such as brakes or tires, risking accidents."/>
+        <Citation name="~b~§644.061 - Failure to Comply with Weight Station Requirements~s~" fine="500" description="Failing to stop or comply with weight station requirements, violating state and federal regulations."/>
+        <Citation name="~r~§644.062 - Unauthorized Use of Emergency Lane~s~" fine="750" description="Using the emergency lane for non-emergency purposes while operating a commercial vehicle, endangering others."/>
+        <Citation name="~r~§644.063 - Transporting Oversized Load Without Permit~s~" fine="1200" description="Transporting an oversized load without obtaining the necessary permits, violating state and federal laws."/>
+        <Citation name="~r~§644.064 - Operating Without Required Safety Inspections~s~" fine="800" description="Operating a commercial vehicle without passing the required safety inspections, increasing the risk of mechanical failure."/>
+        <Citation name="~b~§644.065 - Failure to Maintain Proper Maintenance Records~s~" fine="400" description="Failing to keep accurate maintenance records for a commercial vehicle, violating state and federal requirements."/>
+        <Citation name="~r~§644.066 - Operating with Expired or Invalid Registration~s~" fine="500" description="Operating a commercial vehicle with expired or invalid registration, violating state regulations."/>
+        <Citation name="~y~§644.067 - Failure to Display Company Name~s~" fine="300" description="Failing to display the company name on a commercial vehicle, as required by state and federal laws."/>
+        <Citation name="~r~§644.068 - Operating with Overdue Vehicle Maintenance~s~" fine="600" description="Operating a commercial vehicle that is overdue for scheduled maintenance, increasing the risk of mechanical issues."/>
+        <Citation name="~b~§644.069 - Illegal Transportation of Waste~s~" fine="800" description="Transporting waste without proper permits or in violation of environmental regulations, risking contamination."/>
+        <Citation name="~r~§644.070 - Transporting Passengers in a Non-Passenger Vehicle~s~" fine="750" description="Transporting passengers in a vehicle not designed or registered for passenger transport, violating safety regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§644.071 - Operating with False Logbook Entries~s~" fine="1000" description="Maintaining or presenting falsified entries in the logbook, violating federal regulations and risking driver safety."/>
+        <Citation name="~b~§644.072 - Operating with Unsecured Hazardous Materials~s~" fine="900" description="Transporting hazardous materials without properly securing them, increasing the risk of spills or contamination."/>
+        <Citation name="~r~§644.073 - Exceeding Permitted Dimensions for Load~s~" fine="1200" description="Operating a commercial vehicle with a load that exceeds the dimensions permitted by law, risking infrastructure damage and accidents."/>
+        <Citation name="~y~§644.074 - Failure to Display Hazardous Material Placards~s~" fine="300" description="Failing to display the appropriate placards for hazardous materials being transported, violating safety regulations."/>
+        <Citation name="~r~§644.075 - Operating in Violation of Road Restrictions~s~" fine="800" description="Operating a commercial vehicle on roads where restrictions apply, such as weight limits or height restrictions, without proper clearance."/>
+        <Citation name="~b~§644.076 - Illegal Transportation of Livestock~s~" fine="900" description="Transporting livestock without proper permits or in a manner that violates state regulations, risking animal welfare."/>
+        <Citation name="~r~§644.077 - Failure to Stop at Railroad Crossings~s~" fine="1000" description="Failing to stop a commercial vehicle at railroad crossings where required, endangering the safety of the vehicle and others."/>
+        <Citation name="~r~§644.078 - Operating with Tampered Emissions Control Systems~s~" fine="1200" description="Operating a commercial vehicle with tampered or disabled emissions control systems, violating environmental regulations."/>
+        <Citation name="~b~§644.079 - Operating a Vehicle in Excessive Wind Conditions~s~" fine="700" description="Operating a commercial vehicle during excessive wind conditions without proper precautions, risking vehicle control."/>
+        <Citation name="~r~§644.080 - Unauthorized Transportation of Explosives~s~" fine="1500" description="Transporting explosives without proper permits or in violation of safety regulations, posing a severe risk to public safety."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 472) Construction Zone Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§472.022 - Speeding in a Construction Zone~s~" fine="500" description="Exceeding the posted speed limit in a construction zone, endangering workers and other road users."/>
+        <Citation name="~b~§472.023 - Failure to Obey Construction Zone Signs~s~" fine="300" description="Failing to comply with posted signs in a construction zone, such as lane closures or detours."/>
+        <Citation name="~r~§472.024 - Unauthorized Entry into a Construction Zone~s~" fine="400" description="Entering a restricted construction zone without authorization, posing a risk to safety."/>
+        <Citation name="~b~§472.025 - Failure to Yield to Construction Vehicles~s~" fine="350" description="Failing to yield the right of way to construction vehicles or equipment operating within a construction zone."/>
+        <Citation name="~r~§472.026 - Reckless Driving in a Construction Zone~s~" fine="600" description="Driving recklessly in a construction zone, creating significant danger to workers and other motorists."/>
+        <Citation name="~b~§472.027 - Disobeying a Flagperson's Signal~s~" fine="400" description="Ignoring or disobeying a signal given by a flagperson in a construction zone, risking accidents."/>
+        <Citation name="~r~§472.028 - Endangering a Worker in a Construction Zone~s~" fine="750" description="Driving in a manner that endangers a worker in a construction zone, violating safety regulations."/>
+        <Citation name="~b~§472.029 - Failure to Use Headlights in a Construction Zone~s~" fine="300" description="Failing to use headlights as required in a construction zone, reducing visibility and increasing the risk of accidents."/>
+        <Citation name="~r~§472.030 - Illegal Overtaking in a Construction Zone~s~" fine="500" description="Overtaking another vehicle in a construction zone where overtaking is prohibited, endangering workers and other drivers."/>
+        <Citation name="~r~§472.031 - Hit and Run in a Construction Zone~s~" fine="1000" description="Leaving the scene of an accident in a construction zone without providing information or assistance."/>
+        <Citation name="~b~§472.032 - Failure to Follow Temporary Road Markings~s~" fine="350" description="Disregarding or failing to follow temporary road markings in a construction zone, risking accidents."/>
+        <Citation name="~r~§472.033 - Operating a Vehicle Without Proper Clearance~s~" fine="500" description="Driving a vehicle through a construction zone without proper clearance, risking collisions with equipment or structures."/>
+        <Citation name="~b~§472.034 - Blocking Construction Vehicle Access~s~" fine="400" description="Obstructing access to a construction zone by parking or stopping in a way that blocks construction vehicles."/>
+        <Citation name="~r~§472.035 - Endangering Pedestrians in a Construction Zone~s~" fine="600" description="Driving in a manner that endangers pedestrians in or near a construction zone, violating safety regulations."/>
+        <Citation name="~b~§472.036 - Failure to Reduce Speed When Approaching Construction~s~" fine="300" description="Failing to slow down when approaching a construction zone, increasing the risk of accidents."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§472.037 - Operating Heavy Machinery Without Authorization~s~" fine="700" description="Operating construction machinery or equipment in a zone without proper authorization, risking safety violations."/>
+        <Citation name="~b~§472.038 - Failure to Properly Mark Construction Zone~s~" fine="400" description="Failing to use cones, signs, or other markers to clearly identify a construction zone, leading to potential confusion and accidents."/>
+        <Citation name="~r~§472.039 - Failure to Wear Required Safety Gear~s~" fine="350" description="Not wearing the required safety gear, such as helmets or vests, while working in a construction zone, violating safety protocols."/>
+        <Citation name="~b~§472.040 - Illegal Parking in a Construction Zone~s~" fine="250" description="Parking in a construction zone without proper authorization, obstructing traffic or construction activities."/>
+        <Citation name="~r~§472.041 - Operating Vehicle Over Weight Limit in Construction Zone~s~" fine="600" description="Driving a vehicle that exceeds the weight limit in a construction zone, risking damage to the road or infrastructure."/>
+        <Citation name="~b~§472.042 - Ignoring Temporary Traffic Signals in Construction Zone~s~" fine="400" description="Failing to obey temporary traffic signals or lights in a construction zone, endangering workers and other drivers."/>
+        <Citation name="~r~§472.043 - Unlawful Entry of Pedestrians into Construction Zone~s~" fine="300" description="Entering a construction zone as a pedestrian without authorization, risking personal injury and interfering with construction."/>
+        <Citation name="~r~§472.044 - Carrying Unauthorized Passengers in Construction Vehicle~s~" fine="500" description="Transporting unauthorized passengers in construction vehicles within a construction zone, violating safety regulations."/>
+        <Citation name="~b~§472.045 - Obstructing Emergency Access in Construction Zone~s~" fine="750" description="Blocking or obstructing emergency vehicle access routes in a construction zone, risking delay in emergency response."/>
+        <Citation name="~r~§472.046 - Operating Vehicle with Hazardous Materials in Construction Zone~s~" fine="1000" description="Transporting hazardous materials through a construction zone without proper clearance, posing a risk to workers and the public."/>
+    </CitationGroup>
+    <CitationGroup name="~r~(§ 545) Driving Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.351 - Speeding~s~" fine="200" description="Exceeding the posted speed limit, endangering other road users."/>
+        <Citation name="~r~§545.104 - Failure to Signal Lane Change~s~" fine="100" description="Changing lanes without signaling, increasing the risk of collisions."/>
+        <Citation name="~r~§545.401 - Reckless Driving~s~" fine="500" description="Operating a vehicle in a manner that shows a willful disregard for the safety of persons or property."/>
+        <Citation name="~b~§545.058 - Driving on Shoulder~s~" fine="150" description="Driving on the shoulder of the road where it is not permitted, creating a hazard for other vehicles."/>
+        <Citation name="~r~§545.402 - Failure to Yield Right of Way~s~" fine="250" description="Failing to yield the right of way to other vehicles or pedestrians, leading to dangerous situations."/>
+        <Citation name="~b~§545.423 - Following Too Closely~s~" fine="100" description="Driving too close to the vehicle in front, increasing the risk of rear-end collisions."/>
+        <Citation name="~r~§545.151 - Running a Red Light~s~" fine="250" description="Failing to stop at a red traffic light, endangering other road users."/>
+        <Citation name="~b~§545.060 - Improper Lane Usage~s~" fine="100" description="Failing to stay within the lane markings, creating a hazard for other vehicles."/>
+        <Citation name="~r~§545.352 - Racing on Public Roads~s~" fine="500" description="Participating in unauthorized speed contests on public roads, endangering public safety."/>
+        <Citation name="~r~§545.363 - Obstructing Traffic~s~" fine="150" description="Driving at a slow speed that impedes the normal flow of traffic, creating a hazard for other road users."/>
+        <Citation name="~r~§545.365 - Illegal U-Turn~s~" fine="150" description="Making a U-turn where it is prohibited, endangering other vehicles and pedestrians."/>
+        <Citation name="~b~§545.412 - Child Passenger Safety Violation~s~" fine="300" description="Failing to properly secure a child in an appropriate child safety seat, risking the child's safety in case of an accident."/>
+        <Citation name="~r~§545.421 - Fleeing or Attempting to Elude Police Officer~s~" fine="1000" description="Failing to stop or attempting to evade a law enforcement officer, risking public safety."/>
+        <Citation name="~r~§545.302 - Stopping, Standing, or Parking in Prohibited Areas~s~" fine="150" description="Stopping, standing, or parking a vehicle in areas where it is prohibited, obstructing traffic or access."/>
+        <Citation name="~r~§545.424 - Driving Under the Influence (DUI)~s~" fine="2000" description="Operating a vehicle while under the influence of alcohol or drugs, severely impairing the driver's ability to operate the vehicle safely."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.256 - Failure to Stop for School Bus~s~" fine="500" description="Failing to stop when a school bus is loading or unloading children, risking the safety of students."/>
+        <Citation name="~b~§545.352 - Speeding in a School Zone~s~" fine="300" description="Exceeding the posted speed limit in a school zone, endangering students and other pedestrians."/>
+        <Citation name="~r~§545.365 - Running a Stop Sign~s~" fine="150" description="Failing to stop at a stop sign, creating a hazard for other vehicles and pedestrians."/>
+        <Citation name="~b~§545.058 - Improper Passing~s~" fine="200" description="Passing another vehicle in a manner that is illegal or unsafe, increasing the risk of a collision."/>
+        <Citation name="~r~§545.366 - Failure to Maintain Safe Distance from Bicycles~s~" fine="200" description="Failing to maintain a safe distance when passing a bicycle, endangering the cyclist."/>
+        <Citation name="~r~§545.424 - Driving Without a License~s~" fine="300" description="Operating a vehicle without a valid driver's license, violating state laws."/>
+        <Citation name="~r~§545.413 - Failure to Use Seatbelt~s~" fine="100" description="Failing to wear a seatbelt while operating or riding in a vehicle, increasing the risk of injury in an accident."/>
+        <Citation name="~r~§545.416 - Driving Without Headlights at Night~s~" fine="200" description="Operating a vehicle at night without headlights, reducing visibility and increasing the risk of an accident."/>
+        <Citation name="~b~§545.407 - Unsafe Backing~s~" fine="150" description="Backing a vehicle in a manner that is unsafe, risking a collision with other vehicles or pedestrians."/>
+        <Citation name="~r~§545.404 - Failure to Dim Headlights~s~" fine="100" description="Failing to dim headlights when approaching another vehicle, potentially blinding the other driver and increasing the risk of an accident."/>
+    </CitationGroup>
+    <CitationGroup name="~p~(§ 545) Electronics Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.4251 - Use of Wireless Communication Device While Driving~s~" fine="200" description="Using a wireless communication device, such as a smartphone, while operating a motor vehicle, increasing the risk of distraction-related accidents."/>
+        <Citation name="~b~§545.425 - Texting While Driving~s~" fine="300" description="Sending or reading text messages while driving, significantly diverting attention from the road and increasing the risk of collisions."/>
+        <Citation name="~r~§545.4252 - Use of Portable Electronic Device in School Zone~s~" fine="400" description="Using any portable electronic device while driving in a school zone, violating laws designed to protect children."/>
+        <Citation name="~b~§545.4253 - Use of GPS Device Without Hands-Free Mode~s~" fine="150" description="Using a GPS device without activating hands-free mode, diverting attention away from driving."/>
+        <Citation name="~r~§545.4254 - Watching Video or Display While Driving~s~" fine="500" description="Operating a vehicle while watching a video or other visual display that is not related to the operation of the vehicle, significantly increasing the risk of an accident."/>
+        <Citation name="~b~§545.4255 - Use of Electronic Device by Minor While Driving~s~" fine="250" description="A minor operating a vehicle while using an electronic device, violating restrictions aimed at reducing distractions for inexperienced drivers."/>
+        <Citation name="~r~§545.4256 - Use of Headphones or Earbuds While Driving~s~" fine="100" description="Operating a vehicle while wearing headphones or earbuds in both ears, reducing the driver's ability to hear important sounds, such as sirens or horns."/>
+        <Citation name="~b~§545.4257 - Use of Two-Way Radio While Driving~s~" fine="150" description="Operating a vehicle while using a two-way radio without a hands-free device, diverting attention from the road."/>
+        <Citation name="~r~§545.4258 - Impairment Due to In-Vehicle Entertainment System~s~" fine="200" description="Operating a vehicle while impaired by the use of an in-vehicle entertainment system, which distracts from the task of driving."/>
+        <Citation name="~b~§545.4259 - Illegal Installation of Aftermarket Electronics~s~" fine="300" description="Installing aftermarket electronics in a vehicle in a manner that violates safety standards, potentially causing distractions or impairing vehicle operation."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.4260 - Failure to Maintain Control While Using Electronic Device~s~" fine="400" description="Failing to maintain proper control of the vehicle while using an electronic device, increasing the risk of an accident."/>
+        <Citation name="~b~§545.4261 - Use of Multiple Electronic Devices While Driving~s~" fine="300" description="Simultaneously using multiple electronic devices while driving, greatly increasing the risk of distraction-related accidents."/>
+        <Citation name="~r~§545.4262 - Tampering with Vehicle’s Electronic Systems~s~" fine="500" description="Tampering with or modifying the vehicle's electronic systems, compromising vehicle safety and functionality."/>
+        <Citation name="~b~§545.4263 - Unauthorized Use of Vehicle's Emergency Communication System~s~" fine="250" description="Using the vehicle's emergency communication system for non-emergencies, potentially delaying real emergency responses."/>
+        <Citation name="~r~§545.4264 - Obstructing View with Electronic Devices~s~" fine="200" description="Placing electronic devices in a way that obstructs the driver's view of the road, increasing the risk of an accident."/>
+        <Citation name="~b~§545.4265 - Illegal Use of Electronic Device During Adverse Weather Conditions~s~" fine="300" description="Using an electronic device in adverse weather conditions, such as heavy rain or fog, when heightened attention is necessary for safe driving."/>
+        <Citation name="~r~§545.4266 - Distracted Driving Due to Hands-Free Device~s~" fine="150" description="Driving distracted even while using a hands-free device, indicating that attention is not fully on the road."/>
+        <Citation name="~b~§545.4267 - Illegal Use of Vehicle’s Entertainment System by Passengers~s~" fine="150" description="Allowing passengers to use the vehicle’s entertainment system in a manner that distracts the driver."/>
+        <Citation name="~r~§545.4268 - Use of Electronic Device at Railroad Crossing~s~" fine="500" description="Using an electronic device while approaching or crossing a railroad track, risking severe accidents."/>
+        <Citation name="~b~§545.4269 - Use of Electronic Device in Construction Zone~s~" fine="400" description="Using an electronic device while driving through a construction zone, increasing the risk of accidents due to distracted driving."/>
+    </CitationGroup>
+    <CitationGroup name="~y~(§ 547) Equipment Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§547.321 - Failure to Maintain Proper Lighting~s~" fine="150" description="Operating a vehicle without the required headlights, taillights, or other lighting equipment, reducing visibility and safety."/>
+        <Citation name="~b~§547.322 - Defective or Missing Brake Lights~s~" fine="100" description="Driving a vehicle with defective or missing brake lights, increasing the risk of rear-end collisions."/>
+        <Citation name="~r~§547.333 - Illegal Window Tint~s~" fine="200" description="Using window tint that exceeds the legal limits, impairing visibility and violating state regulations."/>
+        <Citation name="~b~§547.382 - Defective or Missing Mirrors~s~" fine="100" description="Operating a vehicle with missing or defective mirrors, reducing the driver's ability to see other vehicles or hazards."/>
+        <Citation name="~r~§547.602 - Failure to Maintain Exhaust System~s~" fine="250" description="Operating a vehicle with a defective or modified exhaust system that increases noise or emissions, violating state regulations."/>
+        <Citation name="~b~§547.611 - Improperly Mounted License Plates~s~" fine="75" description="Driving a vehicle with improperly mounted or obscured license plates, making it difficult for law enforcement to identify the vehicle."/>
+        <Citation name="~r~§547.615 - Defective or Missing Windshield Wipers~s~" fine="100" description="Operating a vehicle without functional windshield wipers, reducing visibility during adverse weather conditions."/>
+        <Citation name="~b~§547.621 - Defective Horn or Warning Device~s~" fine="50" description="Operating a vehicle with a defective or missing horn, reducing the driver's ability to warn others of their presence."/>
+        <Citation name="~r~§547.622 - Failure to Maintain Safe Tires~s~" fine="150" description="Driving a vehicle with tires that are worn, damaged, or improperly inflated, increasing the risk of tire failure and accidents."/>
+        <Citation name="~b~§547.625 - Failure to Maintain Vehicle Brakes~s~" fine="300" description="Operating a vehicle with defective or improperly maintained brakes, significantly increasing the risk of accidents."/>
+        <Citation name="~r~§547.703 - Unauthorized Vehicle Modifications~s~" fine="400" description="Operating a vehicle with modifications that violate state regulations, such as lift kits, exhaust modifications, or illegal lighting."/>
+        <Citation name="~b~§547.613 - Failure to Maintain Reflectors~s~" fine="75" description="Operating a vehicle without the required reflectors or with reflectors that are not properly maintained, reducing the vehicle's visibility to others."/>
+        <Citation name="~r~§547.616 - Driving Without Proper Rearview Mirrors~s~" fine="100" description="Operating a vehicle without properly adjusted or functional rearview mirrors, limiting the driver's visibility."/>
+        <Citation name="~b~§547.617 - Defective or Missing Turn Signals~s~" fine="150" description="Operating a vehicle without functional turn signals, increasing the risk of accidents when changing lanes or turning."/>
+        <Citation name="~r~§547.6225 - Failure to Maintain Windshield and Windows~s~" fine="100" description="Driving with cracked or obstructed windshields and windows, impairing the driver's visibility and violating safety regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§547.323 - Unauthorized Use of Neon or Underbody Lights~s~" fine="200" description="Operating a vehicle with unauthorized neon or underbody lights, violating state vehicle lighting regulations."/>
+        <Citation name="~b~§547.324 - Failure to Maintain Proper Headlight Alignment~s~" fine="150" description="Driving a vehicle with headlights that are misaligned, reducing visibility and potentially blinding other drivers."/>
+        <Citation name="~r~§547.332 - Illegal Use of High Beams~s~" fine="100" description="Using high beams in a manner that impairs the visibility of other drivers, increasing the risk of accidents."/>
+        <Citation name="~b~§547.356 - Operating Vehicle Without Mud Flaps~s~" fine="75" description="Operating a vehicle that is required to have mud flaps without them, increasing the risk of debris being thrown onto other vehicles."/>
+        <Citation name="~r~§547.371 - Unauthorized Vehicle Lifting or Lowering~s~" fine="250" description="Modifying a vehicle's suspension in a way that violates state regulations, potentially compromising vehicle safety."/>
+        <Citation name="~b~§547.401 - Failure to Display Vehicle Inspection Sticker~s~" fine="100" description="Operating a vehicle without a current and visible vehicle inspection sticker, violating state inspection requirements."/>
+        <Citation name="~r~§547.605 - Failure to Maintain Emergency Braking System~s~" fine="300" description="Operating a vehicle without a functional emergency braking system, significantly increasing the risk of accidents in emergencies."/>
+        <Citation name="~b~§547.604 - Failure to Equip Vehicle with Required Safety Belts~s~" fine="150" description="Operating a vehicle that is not equipped with the required safety belts, violating state safety regulations."/>
+        <Citation name="~r~§547.607 - Unauthorized Exhaust System Modifications~s~" fine="200" description="Modifying a vehicle's exhaust system in a way that increases noise or emissions, violating state environmental regulations."/>
+        <Citation name="~b~§547.6215 - Defective or Missing Airbags~s~" fine="300" description="Operating a vehicle without functional airbags or with deployed airbags that have not been replaced, compromising vehicle safety."/>
+    </CitationGroup>
+    <CitationGroup name="~r~(§ 38) Failure to Comply Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§38.04 - Evading Arrest or Detention~s~" fine="1000" description="Failing to stop and attempting to flee from law enforcement when being lawfully detained or arrested, endangering public safety."/>
+        <Citation name="~b~§38.15 - Interference with Public Duties~s~" fine="500" description="Failing to comply with orders given by law enforcement officers while they are performing their official duties, obstructing justice."/>
+        <Citation name="~r~§38.02 - Failure to Identify to Law Enforcement~s~" fine="300" description="Refusing to provide identification when lawfully requested by a law enforcement officer, violating state regulations."/>
+        <Citation name="~b~§38.05 - Hindering Apprehension or Prosecution~s~" fine="750" description="Failing to comply with efforts to apprehend a suspect or obstructing the prosecution process, hindering law enforcement activities."/>
+        <Citation name="~r~§38.12 - Coercion of Public Servant or Voter~s~" fine="1000" description="Using threats or coercion to prevent a public servant or voter from performing their duties, violating state law."/>
+        <Citation name="~b~§38.03 - Resisting Arrest, Search, or Transportation~s~" fine="600" description="Resisting or obstructing law enforcement during an arrest, search, or transportation, endangering both the officer and others."/>
+        <Citation name="~r~§38.06 - Escape from Custody~s~" fine="1500" description="Escaping or attempting to escape from custody after being lawfully arrested or detained, violating state regulations."/>
+        <Citation name="~b~§38.09 - Tampering with Government Record~s~" fine="800" description="Failing to comply with legal requirements by altering, destroying, or tampering with government records, violating state laws."/>
+        <Citation name="~r~§38.151 - Failure to Comply with Evacuation Order~s~" fine="400" description="Refusing to comply with a lawful evacuation order during an emergency, endangering oneself and others."/>
+        <Citation name="~b~§38.17 - Failure to Report a Felony~s~" fine="600" description="Failing to report a felony crime when there is a legal duty to do so, obstructing justice and public safety efforts."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§38.10 - Bail Jumping and Failure to Appear~s~" fine="1200" description="Failing to appear in court after being released on bail, violating the terms of release and obstructing the judicial process."/>
+        <Citation name="~b~§38.13 - Hindering Proceedings by Disorderly Conduct~s~" fine="500" description="Engaging in disorderly conduct that disrupts or obstructs legal proceedings, hindering justice."/>
+        <Citation name="~r~§38.14 - Taking or Attempting to Take Weapon from Law Enforcement~s~" fine="1500" description="Attempting to take a weapon from a law enforcement officer, severely endangering public safety."/>
+        <Citation name="~b~§38.19 - Failure to Report Death of a Person~s~" fine="800" description="Failing to report the death of a person under circumstances where it is required by law, obstructing legal processes."/>
+        <Citation name="~r~§38.122 - Failure to Comply with Lawful Dispersal Order~s~" fine="600" description="Refusing to comply with a lawful order to disperse during an unlawful assembly, violating public safety regulations."/>
+        <Citation name="~b~§38.123 - Failure to Comply with Quarantine or Isolation Order~s~" fine="500" description="Refusing to comply with a quarantine or isolation order issued during a public health emergency, risking the spread of disease."/>
+        <Citation name="~r~§38.16 - Preventing Execution of Civil Process~s~" fine="700" description="Obstructing or attempting to prevent the execution of a civil process, such as serving court documents, violating state law."/>
+        <Citation name="~b~§38.18 - Failure to Comply with State Registration Requirements~s~" fine="400" description="Failing to comply with state registration requirements, such as sex offender registration, violating state laws."/>
+        <Citation name="~r~§38.153 - Failure to Comply with Lawful Command of Law Enforcement~s~" fine="500" description="Refusing to obey a lawful command given by a law enforcement officer during an emergency situation, endangering public safety."/>
+        <Citation name="~b~§38.154 - Failure to Comply with Vehicle Inspection Order~s~" fine="300" description="Failing to comply with a vehicle inspection order issued by law enforcement, violating state regulations."/>
+    </CitationGroup>
+    <CitationGroup name="~y~(§ 545) Failure to Yield Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.153 - Failure to Yield Right of Way at Stop Sign~s~" fine="200" description="Failing to yield the right of way to another vehicle at a stop sign, increasing the risk of collisions."/>
+        <Citation name="~b~§545.155 - Failure to Yield Right of Way When Turning Left~s~" fine="250" description="Failing to yield the right of way to oncoming traffic when making a left turn, creating a hazard."/>
+        <Citation name="~r~§545.156 - Failure to Yield to Emergency Vehicle~s~" fine="500" description="Failing to yield the right of way to an emergency vehicle with active lights and sirens, endangering public safety."/>
+        <Citation name="~b~§545.157 - Failure to Yield to Pedestrian in Crosswalk~s~" fine="300" description="Failing to yield the right of way to a pedestrian legally crossing the street, increasing the risk of injury."/>
+        <Citation name="~r~§545.158 - Failure to Yield Right of Way When Entering Roadway~s~" fine="200" description="Failing to yield the right of way when entering a roadway from a private drive, alley, or other location, risking a collision."/>
+        <Citation name="~b~§545.159 - Failure to Yield at Yield Sign~s~" fine="150" description="Failing to yield at a yield sign, creating a potential hazard for other road users."/>
+        <Citation name="~r~§545.160 - Failure to Yield Right of Way to School Bus~s~" fine="500" description="Failing to yield the right of way to a school bus that is loading or unloading children, endangering student safety."/>
+        <Citation name="~b~§545.161 - Failure to Yield to Construction Vehicle~s~" fine="300" description="Failing to yield the right of way to construction vehicles or equipment in a work zone, increasing the risk of accidents."/>
+        <Citation name="~r~§545.162 - Failure to Yield Right of Way in Roundabout~s~" fine="250" description="Failing to yield to traffic already in a roundabout, creating a hazard for other vehicles."/>
+        <Citation name="~b~§545.163 - Failure to Yield Right of Way When Merging~s~" fine="200" description="Failing to yield when merging into traffic, increasing the risk of a collision."/>
+        <Citation name="~r~§545.164 - Failure to Yield to Funeral Procession~s~" fine="300" description="Failing to yield the right of way to a funeral procession, violating state regulations and public respect."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.165 - Failure to Yield to Bicycles in Bike Lane~s~" fine="200" description="Failing to yield the right of way to bicycles legally traveling in a designated bike lane, increasing the risk of a collision."/>
+        <Citation name="~b~§545.166 - Failure to Yield to Trains at Railroad Crossing~s~" fine="400" description="Failing to yield to an oncoming train at a railroad crossing, endangering lives and violating state regulations."/>
+        <Citation name="~r~§545.167 - Failure to Yield to Vehicles Exiting a Highway~s~" fine="250" description="Failing to yield the right of way to vehicles exiting a highway, creating a potential hazard for merging traffic."/>
+        <Citation name="~b~§545.168 - Failure to Yield to Parked Emergency Vehicle~s~" fine="350" description="Failing to yield the right of way and move over for a parked emergency vehicle with active lights, violating state move-over laws."/>
+        <Citation name="~r~§545.169 - Failure to Yield Right of Way at Intersection~s~" fine="200" description="Failing to yield the right of way at an uncontrolled or marked intersection, increasing the risk of a collision."/>
+        <Citation name="~b~§545.170 - Failure to Yield to Vehicle Backing Up~s~" fine="150" description="Failing to yield the right of way to a vehicle that is backing out of a driveway or parking space, risking a collision."/>
+        <Citation name="~r~§545.171 - Failure to Yield to Pedestrian with Guide Dog or Cane~s~" fine="400" description="Failing to yield to a pedestrian using a guide dog or white cane, violating state regulations designed to protect visually impaired individuals."/>
+        <Citation name="~b~§545.172 - Failure to Yield to Buses Re-Entering Traffic~s~" fine="250" description="Failing to yield to buses that are re-entering traffic from a designated stop, increasing the risk of a collision."/>
+        <Citation name="~r~§545.173 - Failure to Yield to Vehicles in Dedicated Turn Lane~s~" fine="200" description="Failing to yield to vehicles that are in a dedicated turn lane, violating traffic regulations and increasing the risk of accidents."/>
+        <Citation name="~b~§545.174 - Failure to Yield to Vehicles Entering from Ramp~s~" fine="250" description="Failing to yield to vehicles entering the roadway from an on-ramp, creating potential hazards for merging traffic."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 545) Improper Lane Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.060 - Failure to Maintain a Single Lane~s~" fine="200" description="Failing to stay within a single lane, weaving or drifting between lanes, increasing the risk of a collision."/>
+        <Citation name="~b~§545.061 - Improper Lane Change~s~" fine="150" description="Changing lanes without signaling or when unsafe, creating a hazard for other drivers."/>
+        <Citation name="~r~§545.062 - Following Too Closely in Lane~s~" fine="100" description="Driving too close to the vehicle in front, reducing the time available to react to sudden stops or hazards."/>
+        <Citation name="~b~§545.063 - Driving in Center Lane (When Prohibited)~s~" fine="200" description="Driving in the center lane of a multi-lane road when it is designated for turning or restricted to certain vehicles, increasing the risk of accidents."/>
+        <Citation name="~r~§545.064 - Failure to Use Designated Lane for Turn~s~" fine="150" description="Failing to use the correct lane when making a turn, increasing the risk of collisions with other vehicles."/>
+        <Citation name="~b~§545.065 - Driving in a Restricted Lane~s~" fine="250" description="Operating a vehicle in a lane restricted to certain types of vehicles, such as buses or HOV lanes, violating traffic regulations."/>
+        <Citation name="~r~§545.066 - Improper Passing in Lane~s~" fine="200" description="Attempting to pass another vehicle in the same lane, increasing the risk of side-swipe collisions."/>
+        <Citation name="~b~§545.067 - Driving on Wrong Side of Divided Highway~s~" fine="300" description="Driving on the wrong side of a divided highway, creating a head-on collision risk."/>
+        <Citation name="~r~§545.068 - Failure to Yield When Changing Lanes~s~" fine="250" description="Failing to yield the right of way when changing lanes, increasing the risk of a collision."/>
+        <Citation name="~b~§545.069 - Improper Use of Turn Lane~s~" fine="200" description="Using a turn lane improperly, such as driving straight through it, violating traffic regulations and increasing the risk of accidents."/>
+        <Citation name="~r~§545.070 - Failure to Obey Lane Use Control Signals~s~" fine="150" description="Failing to comply with lane use control signals, such as those indicating closed or open lanes, increasing the risk of collisions."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.071 - Unsafe Lane Entry~s~" fine="200" description="Entering a lane in an unsafe manner, creating a hazard for other vehicles in the lane."/>
+        <Citation name="~b~§545.072 - Improper Lane Usage on Roundabout~s~" fine="150" description="Failing to follow lane discipline within a roundabout, increasing the risk of accidents."/>
+        <Citation name="~r~§545.073 - Failure to Yield to Traffic in Parallel Lanes~s~" fine="250" description="Failing to yield to traffic already in a parallel lane when merging or changing lanes, creating a potential collision risk."/>
+        <Citation name="~b~§545.074 - Improper Use of Bicycle Lane~s~" fine="150" description="Driving a motor vehicle in a bicycle lane, violating state regulations and endangering cyclists."/>
+        <Citation name="~r~§545.075 - Improper Lane Usage in Work Zone~s~" fine="300" description="Failing to comply with lane restrictions or markings in a work zone, increasing the risk of accidents with workers and equipment."/>
+        <Citation name="~b~§545.076 - Failure to Use Correct Lane for Exit~s~" fine="200" description="Failing to use the correct lane when exiting a highway or freeway, increasing the risk of a collision."/>
+        <Citation name="~r~§545.077 - Lane Straddling~s~" fine="150" description="Driving with the vehicle straddling two lanes, increasing the risk of collisions with other vehicles."/>
+        <Citation name="~b~§545.078 - Failure to Merge Properly~s~" fine="250" description="Failing to merge properly into traffic from an on-ramp or side street, creating a hazard for other vehicles."/>
+        <Citation name="~r~§545.079 - Crossing Solid White Line~s~" fine="150" description="Crossing a solid white line when it is prohibited, violating state lane usage regulations."/>
+        <Citation name="~b~§545.080 - Improper Use of Emergency Lane~s~" fine="300" description="Using the emergency lane for non-emergency purposes, violating state regulations and endangering other drivers."/>
+    </CitationGroup>
+    <CitationGroup name="~y~(§ 601) Insurance Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§601.051 - Operating Vehicle Without Insurance~s~" fine="500" description="Operating a motor vehicle without the required liability insurance, violating state law and increasing financial risk in case of an accident."/>
+        <Citation name="~b~§601.052 - Failure to Present Proof of Insurance~s~" fine="150" description="Failing to present valid proof of insurance when requested by law enforcement, violating state regulations."/>
+        <Citation name="~r~§601.053 - Driving with Expired Insurance~s~" fine="300" description="Driving with insurance coverage that has expired, violating state insurance requirements."/>
+        <Citation name="~b~§601.054 - Failure to Maintain Continuous Insurance Coverage~s~" fine="400" description="Failing to maintain continuous liability insurance coverage on a registered vehicle, violating state law."/>
+        <Citation name="~r~§601.055 - Fraudulent Use of Insurance Card~s~" fine="750" description="Using a fraudulent or counterfeit insurance card to deceive law enforcement or other authorities, violating state law."/>
+        <Citation name="~b~§601.056 - Providing False Information to Insurance Provider~s~" fine="500" description="Providing false or misleading information to an insurance provider, committing insurance fraud and violating state regulations."/>
+        <Citation name="~r~§601.057 - Operating Vehicle with Suspended Insurance~s~" fine="600" description="Operating a motor vehicle while the insurance policy is suspended or canceled, violating state insurance requirements."/>
+        <Citation name="~b~§601.058 - Failure to Update Insurance Information~s~" fine="200" description="Failing to update insurance information after changes in vehicle ownership or address, violating state regulations."/>
+        <Citation name="~r~§601.059 - Operating Vehicle with Insurance for Another Vehicle~s~" fine="500" description="Operating a vehicle with an insurance policy that covers a different vehicle, violating state insurance regulations."/>
+        <Citation name="~b~§601.060 - Failure to Provide Insurance Information After Accident~s~" fine="300" description="Failing to provide valid insurance information after being involved in an accident, violating state requirements."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§601.061 - Driving with Insurance for Incorrect Coverage Type~s~" fine="300" description="Operating a vehicle with an insurance policy that does not cover the correct usage, such as personal use versus commercial use."/>
+        <Citation name="~b~§601.062 - Allowing Uninsured Driver to Operate Vehicle~s~" fine="400" description="Allowing an uninsured driver to operate your vehicle, increasing liability and violating state insurance regulations."/>
+        <Citation name="~r~§601.063 - Failure to Notify Insurer of Vehicle Modification~s~" fine="250" description="Failing to notify your insurance provider of significant vehicle modifications, potentially invalidating coverage."/>
+        <Citation name="~b~§601.064 - Operating Vehicle with Suspended License and Insurance~s~" fine="600" description="Operating a vehicle with a suspended license while still holding insurance, violating state driving and insurance regulations."/>
+        <Citation name="~r~§601.065 - Failure to Reinstate Insurance After Lapse~s~" fine="400" description="Failing to reinstate insurance coverage after a lapse, continuing to drive without proper insurance."/>
+        <Citation name="~b~§601.066 - Failure to Provide Insurance for Commercial Vehicle~s~" fine="500" description="Operating a commercial vehicle without the required insurance coverage, violating state and federal regulations."/>
+        <Citation name="~r~§601.067 - Using Personal Insurance for Commercial Purposes~s~" fine="500" description="Using a personal vehicle insurance policy for commercial activities, violating insurance regulations and risking denied claims."/>
+        <Citation name="~b~§601.068 - Failure to Report Insurance Fraud~s~" fine="600" description="Failing to report known insurance fraud, violating state regulations and obstructing justice."/>
+        <Citation name="~r~§601.069 - Forging Insurance Documents~s~" fine="1000" description="Forging or altering insurance documents, committing fraud and violating state law."/>
+        <Citation name="~b~§601.070 - Failure to Maintain Required Insurance Limits~s~" fine="300" description="Maintaining insurance coverage that does not meet the state's minimum required limits, violating insurance regulations."/>
+    </CitationGroup>
+    <CitationGroup name="~r~(§ 521) License Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§521.021 - Driving Without a Valid License~s~" fine="300" description="Operating a motor vehicle without holding a valid driver’s license, violating state law."/>
+        <Citation name="~b~§521.054 - Failure to Change Address on License~s~" fine="150" description="Failing to update the address on your driver’s license within the required timeframe after moving, violating state regulations."/>
+        <Citation name="~r~§521.025 - Failure to Carry License While Driving~s~" fine="100" description="Driving without carrying a valid driver’s license, making it difficult for law enforcement to verify your driving privileges."/>
+        <Citation name="~b~§521.026 - Failure to Present License to Law Enforcement~s~" fine="200" description="Failing to present a valid driver’s license when requested by law enforcement, violating state regulations."/>
+        <Citation name="~r~§521.027 - Driving with Expired License~s~" fine="250" description="Operating a motor vehicle with an expired driver’s license, violating state driving requirements."/>
+        <Citation name="~b~§521.028 - Driving with Suspended or Revoked License~s~" fine="500" description="Operating a motor vehicle while your driver’s license is suspended or revoked, violating state law and risking further penalties."/>
+        <Citation name="~r~§521.029 - Providing False Information on License Application~s~" fine="400" description="Providing false or misleading information when applying for a driver’s license, committing fraud and violating state regulations."/>
+        <Citation name="~b~§521.030 - Driving with Altered or Fake License~s~" fine="750" description="Using an altered or counterfeit driver’s license, violating state law and committing identity fraud."/>
+        <Citation name="~r~§521.031 - Allowing Unlicensed Driver to Operate Vehicle~s~" fine="300" description="Permitting someone without a valid driver’s license to operate your vehicle, violating state driving regulations."/>
+        <Citation name="~b~§521.032 - Operating Vehicle with Improper Class of License~s~" fine="350" description="Driving a vehicle that requires a different class of driver’s license, violating state regulations and increasing the risk of accidents."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§521.033 - Driving with Learner’s Permit Without Supervision~s~" fine="250" description="Operating a motor vehicle with only a learner’s permit without the required supervision, violating state regulations."/>
+        <Citation name="~b~§521.034 - Failure to Complete Driver Education for License Renewal~s~" fine="200" description="Failing to complete required driver education or defensive driving courses for license renewal, violating state law."/>
+        <Citation name="~r~§521.035 - Driving with License Issued for Another State~s~" fine="300" description="Operating a motor vehicle with a license issued by another state without proper transfer, violating state residency regulations."/>
+        <Citation name="~b~§521.036 - Failure to Surrender Suspended License~s~" fine="400" description="Failing to surrender a driver’s license after it has been suspended, violating state law and risking further penalties."/>
+        <Citation name="~r~§521.037 - Allowing Another Person to Use Your License~s~" fine="500" description="Allowing another individual to use your driver’s license, violating state identification laws and committing identity fraud."/>
+        <Citation name="~b~§521.038 - Driving with Foreign License Without State Approval~s~" fine="300" description="Operating a motor vehicle with a foreign driver’s license without obtaining proper state approval, violating state regulations."/>
+        <Citation name="~r~§521.039 - Failure to Obtain Commercial Driver’s License (CDL)~s~" fine="600" description="Operating a commercial vehicle without obtaining the necessary CDL, violating state and federal regulations."/>
+        <Citation name="~b~§521.040 - Driving with Restricted License~s~" fine="350" description="Operating a motor vehicle in violation of the restrictions imposed on your driver’s license, such as corrective lenses or time-of-day restrictions."/>
+        <Citation name="~r~§521.041 - Failure to Report License Suspension or Revocation~s~" fine="400" description="Failing to report the suspension or revocation of your driver’s license to the appropriate authorities, violating state regulations."/>
+        <Citation name="~b~§521.042 - Driving with Expired Commercial Driver’s License (CDL)~s~" fine="500" description="Operating a commercial vehicle with an expired CDL, violating state and federal regulations."/>
+    </CitationGroup>
+    <CitationGroup name="~r~(§ 30) Trespassing Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§30.05 - Criminal Trespass~s~" fine="500" description="Entering or remaining on another's property without consent and without legal authority, violating state law."/>
+        <Citation name="~b~§30.06 - Trespass by License Holder with a Concealed Handgun~s~" fine="1000" description="Entering a property with a concealed handgun despite posted signs prohibiting firearms, violating state law."/>
+        <Citation name="~r~§30.07 - Trespass by License Holder with an Openly Carried Handgun~s~" fine="1000" description="Entering a property with an openly carried handgun despite posted signs prohibiting firearms, violating state law."/>
+        <Citation name="~b~§30.02 - Burglary of a Vehicle~s~" fine="1500" description="Entering or remaining in a vehicle with the intent to commit theft, assault, or another felony, violating state law."/>
+        <Citation name="~r~§30.03 - Burglary of a Coin-Operated or Coin Collection Machine~s~" fine="750" description="Entering a coin-operated machine, such as a vending machine, with the intent to steal or commit another felony, violating state law."/>
+        <Citation name="~b~§30.04 - Burglary of a Vehicle at Night~s~" fine="1200" description="Entering or attempting to enter a vehicle at night with the intent to commit theft or another felony, violating state law."/>
+        <Citation name="~r~§30.05 - Trespassing on Agricultural Land~s~" fine="400" description="Entering agricultural land without the owner's consent, violating state property laws and potentially causing damage to crops or livestock."/>
+        <Citation name="~b~§30.06 - Trespassing on Critical Infrastructure Facility~s~" fine="1500" description="Entering or remaining on a critical infrastructure facility, such as a power plant or water treatment facility, without authorization, violating state law."/>
+        <Citation name="~r~§30.07 - Trespassing with Intent to Commit Theft~s~" fine="800" description="Entering another's property with the intent to commit theft, violating state law and property rights."/>
+        <Citation name="~b~§30.08 - Trespassing in a School Zone~s~" fine="600" description="Entering a school zone or school property without authorization, violating state regulations and endangering student safety."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§30.09 - Trespassing on Government Property~s~" fine="1000" description="Entering government property without authorization, violating state regulations and potentially compromising security."/>
+        <Citation name="~b~§30.10 - Trespassing on Railroad Property~s~" fine="700" description="Entering or remaining on railroad property without permission, violating state laws and endangering safety."/>
+        <Citation name="~r~§30.11 - Trespassing on Military Installation~s~" fine="2000" description="Entering or remaining on a military installation without authorization, violating federal law and compromising national security."/>
+        <Citation name="~b~§30.12 - Trespassing in a Public Park After Hours~s~" fine="300" description="Remaining in a public park after it has closed, violating local regulations and potentially disrupting public safety."/>
+        <Citation name="~r~§30.13 - Trespassing on Private Residence~s~" fine="600" description="Entering or remaining on a private residence without permission, violating property rights and state law."/>
+        <Citation name="~b~§30.14 - Trespassing on Utility Property~s~" fine="800" description="Entering or remaining on property owned by a utility company, such as power lines or water facilities, without permission, violating state laws."/>
+        <Citation name="~r~§30.15 - Trespassing on Wildlife Conservation Area~s~" fine="500" description="Entering or remaining in a wildlife conservation area without authorization, violating state conservation regulations."/>
+        <Citation name="~b~§30.16 - Trespassing on University Campus~s~" fine="400" description="Entering a university campus without authorization or after hours, violating campus regulations and potentially endangering students."/>
+        <Citation name="~r~§30.17 - Trespassing with Intent to Commit Vandalism~s~" fine="900" description="Entering another's property with the intent to commit vandalism, violating state law and property rights."/>
+        <Citation name="~b~§30.18 - Trespassing on Construction Site~s~" fine="700" description="Entering a construction site without authorization, violating state safety regulations and potentially risking injury."/>
+    </CitationGroup>
+    <CitationGroup name="~y~(§ 42) Loitering Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§42.03 - Obstructing Public Passageway~s~" fine="200" description="Loitering in a way that obstructs or impedes the free passage of others on a public passageway, violating state law."/>
+        <Citation name="~b~§42.01 - Loitering in Public Place with Intent to Engage in Prostitution~s~" fine="500" description="Loitering in a public place with the intent to engage in or solicit prostitution, violating state law."/>
+        <Citation name="~r~§42.04 - Loitering in or Near School Property~s~" fine="300" description="Loitering on or near school property without a lawful reason, creating a potential safety concern and violating state law."/>
+        <Citation name="~b~§42.05 - Loitering in Parking Lot~s~" fine="150" description="Loitering in a parking lot or garage without a legitimate reason, creating a potential nuisance or safety hazard."/>
+        <Citation name="~r~§42.06 - Loitering in or Around Public Restroom~s~" fine="250" description="Loitering in or around a public restroom without a legitimate reason, potentially causing public concern and violating state regulations."/>
+        <Citation name="~b~§42.07 - Loitering with Intent to Distribute Controlled Substances~s~" fine="1000" description="Loitering with the intent to distribute or sell controlled substances, violating state drug laws."/>
+        <Citation name="~r~§42.08 - Loitering in or Around Government Buildings~s~" fine="300" description="Loitering in or around government buildings without a lawful reason, potentially disrupting official activities and violating state law."/>
+        <Citation name="~b~§42.09 - Loitering with Intent to Commit Vandalism~s~" fine="400" description="Loitering with the intent to commit vandalism or property damage, violating state law and property rights."/>
+        <Citation name="~r~§42.10 - Loitering in a Public Park After Hours~s~" fine="150" description="Remaining in a public park after it has closed, violating local regulations and potentially disrupting public safety."/>
+        <Citation name="~b~§42.11 - Loitering Around a Bus Stop~s~" fine="100" description="Loitering around a bus stop without a legitimate reason, potentially causing a public nuisance or safety concern."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§42.12 - Loitering with Intent to Commit Theft~s~" fine="400" description="Loitering in an area with the intent to commit theft, violating state law and property rights."/>
+        <Citation name="~b~§42.13 - Loitering Near a Hospital or Healthcare Facility~s~" fine="250" description="Loitering near a hospital or healthcare facility without a lawful reason, potentially disrupting services and violating state regulations."/>
+        <Citation name="~r~§42.14 - Loitering Around Residential Areas at Night~s~" fine="300" description="Loitering in residential areas during night hours without a legitimate reason, creating a safety concern and violating local ordinances."/>
+        <Citation name="~b~§42.15 - Loitering with Intent to Harass or Intimidate~s~" fine="500" description="Loitering with the intent to harass or intimidate others, violating public order laws and potentially causing distress."/>
+        <Citation name="~r~§42.16 - Loitering in or Near an ATM or Bank~s~" fine="300" description="Loitering near an ATM or bank without a legitimate reason, potentially causing a safety concern and violating state law."/>
+        <Citation name="~b~§42.17 - Loitering Near a Place of Worship~s~" fine="200" description="Loitering near a place of worship without a lawful reason, potentially disrupting services and violating public order."/>
+        <Citation name="~r~§42.18 - Loitering Around a Playground or Recreation Area~s~" fine="250" description="Loitering around a playground or recreation area without a legitimate reason, potentially causing a safety concern for children and families."/>
+        <Citation name="~b~§42.19 - Loitering Near a Public Transportation Hub~s~" fine="150" description="Loitering near a public transportation hub without a legitimate reason, potentially causing a public nuisance or safety concern."/>
+        <Citation name="~r~§42.20 - Loitering in or Around Abandoned Buildings~s~" fine="350" description="Loitering in or around abandoned buildings without permission, violating state laws and potentially endangering public safety."/>
+        <Citation name="~b~§42.21 - Loitering with Intent to Commit Fraud~s~" fine="600" description="Loitering with the intent to commit fraudulent activities, violating state law and public trust."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 551) Motorbike Infractions~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§551.101 - Operating Without a Motorcycle License~s~" fine="300" description="Operating a motorbike without the required motorcycle license or endorsement, violating state law."/>
+        <Citation name="~b~§551.102 - Failure to Wear a Helmet~s~" fine="200" description="Riding a motorbike without wearing a helmet, violating state safety regulations."/>
+        <Citation name="~r~§551.103 - Failure to Use Required Safety Equipment~s~" fine="150" description="Operating a motorbike without required safety equipment such as mirrors, turn signals, or proper lighting, violating state law."/>
+        <Citation name="~b~§551.104 - Reckless Operation of Motorbike~s~" fine="400" description="Operating a motorbike in a reckless manner that endangers the safety of others, violating state law."/>
+        <Citation name="~r~§551.105 - Illegal Lane Splitting~s~" fine="250" description="Riding a motorbike between lanes of traffic, which is prohibited under state law."/>
+        <Citation name="~b~§551.106 - Operating Motorbike on Sidewalk~s~" fine="150" description="Operating a motorbike on a sidewalk or pedestrian path, violating state regulations and endangering pedestrians."/>
+        <Citation name="~r~§551.107 - Failure to Display License Plate~s~" fine="100" description="Operating a motorbike without a visible and properly mounted license plate, violating state registration laws."/>
+        <Citation name="~b~§551.108 - Operating Motorbike in Prohibited Areas~s~" fine="200" description="Operating a motorbike in areas where motorbike traffic is prohibited, such as parks or restricted zones."/>
+        <Citation name="~r~§551.109 - Excessive Noise from Exhaust~s~" fine="150" description="Operating a motorbike with an exhaust system that exceeds noise limits, violating state environmental regulations."/>
+        <Citation name="~b~§551.110 - Failure to Obey Traffic Signals on Motorbike~s~" fine="200" description="Failing to obey traffic signals or signs while operating a motorbike, increasing the risk of accidents and violating state law."/>
+        <Citation name="~r~§551.111 - Riding with Passenger Without Proper Equipment~s~" fine="250" description="Carrying a passenger on a motorbike without proper safety equipment, such as footrests or handlebars, violating state law."/>
+        <Citation name="~b~§551.112 - Operating Motorbike Under the Influence~s~" fine="1000" description="Operating a motorbike while under the influence of alcohol or drugs, significantly endangering public safety and violating state law."/>
+        <Citation name="~r~§551.113 - Failure to Use Headlights at Night~s~" fine="150" description="Operating a motorbike at night without using headlights, reducing visibility and increasing the risk of accidents."/>
+        <Citation name="~b~§551.114 - Operating Motorbike with Obstructed View~s~" fine="200" description="Operating a motorbike with a load or modifications that obstruct the rider’s view, violating state safety regulations."/>
+        <Citation name="~r~§551.115 - Carrying Items on Handlebars~s~" fine="100" description="Carrying items on the handlebars of a motorbike in a manner that obstructs control of the vehicle, violating state law."/>
+        <Citation name="~b~§551.116 - Operating Motorbike Without Insurance~s~" fine="300" description="Operating a motorbike without the required liability insurance, violating state insurance regulations."/>
+        <Citation name="~r~§551.117 - Operating Motorbike with Modified Exhaust~s~" fine="150" description="Operating a motorbike with an exhaust system that has been illegally modified, violating state environmental and noise regulations."/>
+        <Citation name="~b~§551.118 - Operating Motorbike Without Proper Registration~s~" fine="200" description="Operating a motorbike without proper registration or with expired registration, violating state regulations."/>
+        <Citation name="~r~§551.119 - Failure to Signal Turns or Lane Changes~s~" fine="100" description="Failing to signal turns or lane changes while operating a motorbike, increasing the risk of accidents and violating state traffic laws."/>
+        <Citation name="~b~§551.120 - Stunting or Performing Tricks on Public Roadway~s~" fine="400" description="Performing stunts or tricks on a motorbike on a public roadway, endangering public safety and violating state law."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§551.121 - Operating Motorbike Without Eye Protection~s~" fine="150" description="Operating a motorbike without wearing eye protection when required by state law, increasing the risk of injury."/>
+        <Citation name="~b~§551.122 - Carrying Excess Passengers on Motorbike~s~" fine="250" description="Carrying more passengers on a motorbike than it is designed to safely accommodate, violating state safety regulations."/>
+        <Citation name="~r~§551.123 - Operating Motorbike with Faulty Brakes~s~" fine="200" description="Operating a motorbike with brakes that are not properly maintained or are faulty, increasing the risk of accidents."/>
+        <Citation name="~b~§551.124 - Racing Motorbike on Public Roadway~s~" fine="1000" description="Engaging in motorbike racing on public roadways, significantly endangering public safety and violating state law."/>
+        <Citation name="~r~§551.125 - Operating Motorbike on Private Property Without Permission~s~" fine="300" description="Operating a motorbike on private property without the owner's permission, violating property rights and state law."/>
+        <Citation name="~b~§551.126 - Operating Motorbike with Excessive Speed~s~" fine="400" description="Operating a motorbike at a speed that is considered excessive and unsafe for the conditions, violating state speed limits."/>
+        <Citation name="~r~§551.127 - Failure to Yield to Emergency Vehicles on Motorbike~s~" fine="500" description="Failing to yield the right of way to emergency vehicles while operating a motorbike, violating state traffic laws."/>
+        <Citation name="~b~§551.128 - Operating Motorbike with Unsecured Load~s~" fine="200" description="Operating a motorbike with a load that is not properly secured, increasing the risk of accidents and violating state regulations."/>
+        <Citation name="~r~§551.129 - Carrying Child Passenger Without Safety Gear~s~" fine="300" description="Carrying a child passenger on a motorbike without the required safety gear, violating state child passenger safety laws."/>
+        <Citation name="~b~§551.130 - Improper Towing with Motorbike~s~" fine="250" description="Towing another vehicle or object with a motorbike in a manner that is unsafe or illegal, violating state regulations."/>
+    </CitationGroup>
+    <CitationGroup name="~y~(§ 502) Non-Moving Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§502.473 - Expired Vehicle Registration~s~" fine="150" description="Operating or parking a vehicle with an expired registration, violating state vehicle registration laws."/>
+        <Citation name="~b~§502.474 - Failure to Display Registration Sticker~s~" fine="100" description="Failing to display a current and valid registration sticker on the vehicle, violating state registration requirements."/>
+        <Citation name="~r~§502.475 - Parking in a No-Parking Zone~s~" fine="75" description="Parking a vehicle in a designated no-parking zone, obstructing traffic or violating local ordinances."/>
+        <Citation name="~b~§502.476 - Parking in a Handicap Space Without Permit~s~" fine="500" description="Parking a vehicle in a designated handicap space without displaying a valid handicap permit, violating state and local laws."/>
+        <Citation name="~r~§502.477 - Improper Display of License Plate~s~" fine="100" description="Displaying a license plate in a manner that obscures or alters the plate's visibility, violating state regulations."/>
+        <Citation name="~b~§502.478 - Failure to Display License Plate~s~" fine="150" description="Failing to display a valid license plate on the vehicle, violating state registration laws."/>
+        <Citation name="~r~§502.479 - Parking in Fire Lane~s~" fine="200" description="Parking a vehicle in a fire lane, obstructing emergency access and violating local ordinances."/>
+        <Citation name="~b~§502.480 - Abandoned Vehicle~s~" fine="300" description="Leaving a vehicle unattended for an extended period on public property, violating state and local ordinances regarding abandoned vehicles."/>
+        <Citation name="~r~§502.481 - Parking in Front of Fire Hydrant~s~" fine="250" description="Parking a vehicle in front of a fire hydrant, obstructing access for emergency services and violating local laws."/>
+        <Citation name="~b~§502.482 - Parking in a Loading Zone~s~" fine="150" description="Parking in a designated loading zone without authorization, violating local regulations and obstructing commercial activity."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§502.483 - Double Parking~s~" fine="100" description="Parking a vehicle parallel to another parked vehicle, blocking traffic and violating local parking laws."/>
+        <Citation name="~b~§502.484 - Parking Without Permit in Residential Zone~s~" fine="200" description="Parking in a residential zone that requires a permit without displaying the required permit, violating local parking regulations."/>
+        <Citation name="~r~§502.485 - Parking on Sidewalk~s~" fine="150" description="Parking a vehicle on a sidewalk, obstructing pedestrian traffic and violating local ordinances."/>
+        <Citation name="~b~§502.486 - Parking in a Restricted Area~s~" fine="200" description="Parking in an area designated for specific uses, such as a bus stop or taxi stand, without authorization, violating local laws."/>
+        <Citation name="~r~§502.487 - Parking in a Crosswalk~s~" fine="150" description="Parking a vehicle in a crosswalk, obstructing pedestrian access and violating local regulations."/>
+        <Citation name="~b~§502.488 - Parking Against the Flow of Traffic~s~" fine="100" description="Parking a vehicle against the flow of traffic, creating a hazard and violating local parking laws."/>
+        <Citation name="~r~§502.489 - Failure to Pay Parking Meter~s~" fine="50" description="Parking in a metered space without paying the required fee, violating local parking regulations."/>
+        <Citation name="~b~§502.490 - Parking in a No-Standing Zone~s~" fine="150" description="Parking in a designated no-standing zone, obstructing traffic and violating local ordinances."/>
+        <Citation name="~r~§502.491 - Parking in Front of a Driveway~s~" fine="200" description="Parking a vehicle in front of a driveway, blocking access and violating local regulations."/>
+        <Citation name="~b~§502.492 - Parking in an Electric Vehicle Charging Station~s~" fine="100" description="Parking in a space designated for electric vehicle charging without actively charging the vehicle, violating local regulations."/>
+    </CitationGroup>
+    <CitationGroup name="~r~(§ 49) Open Container Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§49.031 - Possession of Alcoholic Beverage in Motor Vehicle~s~" fine="300" description="Possessing an open container of alcohol in the passenger area of a motor vehicle, violating state law."/>
+        <Citation name="~b~§49.032 - Consumption of Alcohol While Operating a Vehicle~s~" fine="500" description="Consuming alcohol while operating a motor vehicle, significantly endangering public safety and violating state law."/>
+        <Citation name="~r~§49.033 - Open Container in Passenger Area~s~" fine="200" description="Allowing an open container of alcohol to be present in the passenger area of a vehicle, violating state regulations."/>
+        <Citation name="~b~§49.034 - Open Container in Public Place~s~" fine="150" description="Carrying or consuming an open container of alcohol in a public place where such activity is prohibited, violating local ordinances."/>
+        <Citation name="~r~§49.035 - Open Container in Parked Vehicle~s~" fine="250" description="Possessing an open container of alcohol in a parked vehicle in a public space, violating state law."/>
+        <Citation name="~b~§49.036 - Open Container Near School Property~s~" fine="400" description="Possessing or consuming an open container of alcohol near school property, violating state regulations and potentially endangering student safety."/>
+        <Citation name="~r~§49.037 - Open Container in Vehicle on a Public Highway~s~" fine="300" description="Having an open container of alcohol in a vehicle on a public highway, violating state and federal laws."/>
+        <Citation name="~b~§49.038 - Open Container on Public Transit~s~" fine="200" description="Possessing an open container of alcohol while on public transportation, violating local regulations and potentially disrupting public safety."/>
+        <Citation name="~r~§49.039 - Open Container at Public Event~s~" fine="150" description="Possessing an open container of alcohol at a public event where such activity is prohibited, violating local ordinances."/>
+        <Citation name="~b~§49.040 - Open Container in a Commercial Vehicle~s~" fine="500" description="Possessing or allowing an open container of alcohol in a commercial vehicle, violating state and federal regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§49.041 - Open Container in Park or Recreation Area~s~" fine="250" description="Possessing or consuming an open container of alcohol in a park or recreation area where prohibited, violating local regulations."/>
+        <Citation name="~b~§49.042 - Open Container in Workplace~s~" fine="300" description="Possessing or consuming an open container of alcohol in the workplace where such activity is prohibited, violating workplace regulations and state law."/>
+        <Citation name="~r~§49.043 - Open Container in a Vehicle with Minors Present~s~" fine="500" description="Possessing an open container of alcohol in a vehicle while minors are present, violating state laws and endangering child safety."/>
+        <Citation name="~b~§49.044 - Open Container in Proximity to Sensitive Areas~s~" fine="400" description="Possessing an open container of alcohol near sensitive areas such as hospitals, rehabilitation centers, or government buildings, violating local ordinances."/>
+        <Citation name="~r~§49.045 - Open Container at Sporting Event~s~" fine="200" description="Possessing or consuming an open container of alcohol at a sporting event where such activity is prohibited, violating event regulations."/>
+        <Citation name="~b~§49.046 - Open Container in Vehicle on School Grounds~s~" fine="400" description="Having an open container of alcohol in a vehicle on school grounds, violating state and local regulations."/>
+        <Citation name="~r~§49.047 - Open Container in Public Housing Area~s~" fine="300" description="Possessing an open container of alcohol in a public housing area where such activity is prohibited, violating local housing regulations."/>
+        <Citation name="~b~§49.048 - Open Container on Pedestrian Walkway~s~" fine="150" description="Carrying or consuming an open container of alcohol on a pedestrian walkway, violating local ordinances and potentially disrupting public safety."/>
+        <Citation name="~r~§49.049 - Open Container at Educational Institution~s~" fine="400" description="Possessing or consuming an open container of alcohol on the grounds of an educational institution, violating state and institutional regulations."/>
+        <Citation name="~b~§49.050 - Open Container Near Places of Worship~s~" fine="300" description="Possessing or consuming an open container of alcohol near a place of worship, violating local ordinances and potentially disrupting religious activities."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 545) Operational Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.401 - Reckless Driving~s~" fine="500" description="Operating a vehicle in a manner that exhibits a willful disregard for the safety of persons or property, violating state traffic laws."/>
+        <Citation name="~b~§545.402 - Failure to Control Speed~s~" fine="300" description="Operating a vehicle at a speed that is not reasonable and prudent under the circumstances, leading to loss of control, violating state traffic regulations."/>
+        <Citation name="~r~§545.403 - Unsafe Lane Change~s~" fine="250" description="Changing lanes without ensuring that it is safe to do so, endangering other road users and violating state traffic laws."/>
+        <Citation name="~b~§545.404 - Failure to Yield Right of Way~s~" fine="300" description="Failing to yield the right of way to another vehicle or pedestrian when required by law, creating a hazard and violating state regulations."/>
+        <Citation name="~r~§545.405 - Disobeying Traffic Control Devices~s~" fine="200" description="Failing to obey traffic signals, signs, or markings, leading to potential traffic hazards and violating state laws."/>
+        <Citation name="~b~§545.406 - Driving on Wrong Side of Road~s~" fine="400" description="Operating a vehicle on the wrong side of the road, creating a risk of head-on collisions and violating state traffic regulations."/>
+        <Citation name="~r~§545.407 - Driving Without Headlights at Night~s~" fine="150" description="Operating a vehicle at night without using headlights, reducing visibility and violating state safety regulations."/>
+        <Citation name="~b~§545.408 - Failure to Signal Turn or Lane Change~s~" fine="100" description="Failing to signal when turning or changing lanes, increasing the risk of accidents and violating state traffic laws."/>
+        <Citation name="~r~§545.409 - Following Too Closely~s~" fine="200" description="Driving too close to the vehicle in front, reducing the time available to react to sudden stops or hazards, violating state regulations."/>
+        <Citation name="~b~§545.410 - Improper Passing~s~" fine="250" description="Passing another vehicle in a manner that is unsafe or illegal, such as on a curve or hill, violating state traffic laws."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.411 - Failure to Yield to Emergency Vehicle~s~" fine="500" description="Failing to yield the right of way to an emergency vehicle with active lights and sirens, endangering public safety and violating state law."/>
+        <Citation name="~b~§545.412 - Driving with Obstructed View~s~" fine="150" description="Operating a vehicle with a load or other obstruction that limits the driver's view, violating state safety regulations."/>
+        <Citation name="~r~§545.413 - Improper Use of Turn Lane~s~" fine="200" description="Using a designated turn lane improperly, such as for passing or driving straight through, violating state traffic laws."/>
+        <Citation name="~b~§545.414 - Failure to Maintain Safe Distance from Cyclists~s~" fine="200" description="Failing to maintain a safe distance when passing cyclists, increasing the risk of accidents and violating state traffic laws."/>
+        <Citation name="~r~§545.415 - Driving Without Required Safety Equipment~s~" fine="250" description="Operating a vehicle without the required safety equipment, such as seat belts or mirrors, violating state safety regulations."/>
+        <Citation name="~b~§545.416 - Unsafe Backing~s~" fine="150" description="Backing a vehicle in a manner that is unsafe or without regard for other traffic, increasing the risk of accidents and violating state laws."/>
+        <Citation name="~r~§545.417 - Failure to Yield at Intersection~s~" fine="300" description="Failing to yield the right of way at an intersection, creating a potential collision risk and violating state traffic regulations."/>
+        <Citation name="~b~§545.418 - Improper U-Turn~s~" fine="200" description="Making a U-turn in an unsafe location or where prohibited, violating state traffic laws and endangering other road users."/>
+        <Citation name="~r~§545.419 - Driving Through Safety Zone~s~" fine="250" description="Operating a vehicle through a designated safety zone, such as a pedestrian area, violating state and local regulations."/>
+        <Citation name="~b~§545.420 - Operating Vehicle in Prohibited Area~s~" fine="200" description="Driving a vehicle in an area where vehicle traffic is prohibited, such as parks or restricted zones, violating state and local laws."/>
+    </CitationGroup>
+    <CitationGroup name="~g~(§ 552) Pedestrian Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§552.001 - Jaywalking~s~" fine="100" description="Crossing a street outside of a designated crosswalk or against a traffic signal, violating state and local pedestrian laws."/>
+        <Citation name="~b~§552.002 - Failure to Obey Pedestrian Signals~s~" fine="150" description="Failing to obey traffic control signals designated for pedestrians, such as 'Walk' or 'Don't Walk' signs, violating state traffic regulations."/>
+        <Citation name="~r~§552.003 - Walking Along Roadway Where Prohibited~s~" fine="100" description="Walking along a roadway where pedestrian access is prohibited, such as highways or bridges, violating state safety regulations."/>
+        <Citation name="~b~§552.004 - Soliciting Rides or Business on Roadway~s~" fine="200" description="Soliciting rides (hitchhiking) or business from the roadway, interfering with traffic flow and violating state laws."/>
+        <Citation name="~r~§552.005 - Pedestrian Interference with Traffic~s~" fine="150" description="Stepping into the roadway in a manner that disrupts or interferes with the flow of traffic, violating state traffic laws."/>
+        <Citation name="~b~§552.006 - Crossing Roadway Outside of Crosswalk~s~" fine="100" description="Crossing a roadway at any point other than within a marked or unmarked crosswalk, violating pedestrian safety regulations."/>
+        <Citation name="~r~§552.007 - Walking on Roadway While Intoxicated~s~" fine="300" description="Walking along or crossing a roadway while under the influence of alcohol or drugs, posing a danger to oneself and others, violating state laws."/>
+        <Citation name="~b~§552.008 - Failure to Yield Right of Way to Vehicles~s~" fine="150" description="Failing to yield the right of way to vehicles when required by law, increasing the risk of accidents and violating state regulations."/>
+        <Citation name="~r~§552.009 - Obstructing Sidewalk or Pathway~s~" fine="75" description="Standing or walking in a manner that obstructs the free passage of others on a sidewalk or pathway, violating local ordinances."/>
+        <Citation name="~b~§552.010 - Crossing Street Between Intersections~s~" fine="100" description="Crossing the street between intersections where crosswalks are not provided, violating pedestrian safety regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§552.011 - Walking on Railroad Tracks~s~" fine="150" description="Walking on or along railroad tracks where pedestrian access is prohibited, posing a safety hazard and violating state laws."/>
+        <Citation name="~b~§552.012 - Failure to Use Pedestrian Bridge or Tunnel~s~" fine="100" description="Failing to use a pedestrian bridge or tunnel where provided, instead crossing at street level, violating state safety regulations."/>
+        <Citation name="~r~§552.013 - Walking Against Traffic on Roadway~s~" fine="100" description="Walking on a roadway facing away from traffic, increasing the risk of accidents and violating state regulations."/>
+        <Citation name="~b~§552.014 - Pedestrian Failure to Yield to Emergency Vehicle~s~" fine="200" description="Failing to yield the right of way to an emergency vehicle with active lights and sirens, endangering public safety and violating state law."/>
+        <Citation name="~r~§552.015 - Pedestrian Interference with Public Event~s~" fine="150" description="Entering or remaining on a roadway during a permitted public event, such as a parade or marathon, without authorization, violating local ordinances."/>
+        <Citation name="~b~§552.016 - Walking on Roadway While Distracted~s~" fine="100" description="Walking on a roadway while distracted by a mobile device or other activities, reducing awareness of traffic and violating state safety regulations."/>
+        <Citation name="~r~§552.017 - Pedestrian Failure to Use Sidewalk Where Available~s~" fine="75" description="Walking on the roadway when a sidewalk is available, increasing the risk of accidents and violating pedestrian safety laws."/>
+        <Citation name="~b~§552.018 - Crossing Against Pedestrian Traffic Light~s~" fine="150" description="Crossing a street against a pedestrian traffic light, such as crossing on a red or 'Don't Walk' signal, violating state traffic laws."/>
+        <Citation name="~r~§552.019 - Entering Roadway from Between Parked Cars~s~" fine="100" description="Entering a roadway from between parked cars, reducing visibility to drivers and increasing the risk of accidents, violating state pedestrian laws."/>
+        <Citation name="~b~§552.020 - Pedestrian Interference with Construction Zone~s~" fine="200" description="Entering or remaining in a construction zone where pedestrian access is prohibited, violating state and local safety regulations."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 460) Public Transportation Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§460.001 - Fare Evasion~s~" fine="150" description="Failing to pay the required fare or ticket for public transportation services, violating state and local regulations."/>
+        <Citation name="~b~§460.002 - Unauthorized Entry or Exit~s~" fine="200" description="Entering or exiting a public transportation vehicle or facility at unauthorized points, violating transportation security protocols."/>
+        <Citation name="~r~§460.003 - Disorderly Conduct on Public Transportation~s~" fine="250" description="Engaging in disruptive behavior that disturbs other passengers or the operation of the service, violating public transportation rules."/>
+        <Citation name="~b~§460.004 - Smoking on Public Transportation~s~" fine="100" description="Smoking or using electronic cigarettes on public transportation vehicles or in stations where prohibited, violating state and local regulations."/>
+        <Citation name="~r~§460.005 - Eating or Drinking in Prohibited Areas~s~" fine="75" description="Consuming food or beverages in areas of public transportation vehicles or facilities where such activities are prohibited, violating local rules."/>
+        <Citation name="~b~§460.006 - Failure to Comply with Safety Instructions~s~" fine="150" description="Failing to comply with safety instructions or signage on public transportation vehicles or in facilities, violating transportation safety protocols."/>
+        <Citation name="~r~§460.007 - Loitering in Public Transportation Facilities~s~" fine="100" description="Loitering in public transportation facilities without a legitimate reason, violating state and local regulations."/>
+        <Citation name="~b~§460.008 - Blocking Doors or Aisles~s~" fine="150" description="Obstructing doors, aisles, or emergency exits on public transportation vehicles, violating safety regulations and impeding passenger movement."/>
+        <Citation name="~r~§460.009 - Vandalism of Public Transportation Property~s~" fine="500" description="Damaging or defacing public transportation vehicles, stations, or equipment, violating state property laws."/>
+        <Citation name="~b~§460.010 - Unauthorized Use of Emergency Equipment~s~" fine="300" description="Using emergency equipment, such as alarms or exits, without cause or authorization, violating public safety regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§460.011 - Public Intoxication on Public Transportation~s~" fine="200" description="Being publicly intoxicated while using public transportation, disturbing other passengers, and violating state public order laws."/>
+        <Citation name="~b~§460.012 - Sleeping in Public Transportation Facilities~s~" fine="100" description="Sleeping in public transportation facilities in a manner that obstructs other passengers or disrupts services, violating local ordinances."/>
+        <Citation name="~r~§460.013 - Fraudulent Use of Public Transportation Pass~s~" fine="300" description="Using a fraudulent, expired, or counterfeit pass or ticket to access public transportation services, violating state fraud laws."/>
+        <Citation name="~b~§460.014 - Failure to Vacate Priority Seating~s~" fine="75" description="Failing to vacate priority seating designated for elderly or disabled passengers when required, violating public transportation rules."/>
+        <Citation name="~r~§460.015 - Carrying Prohibited Items on Public Transportation~s~" fine="250" description="Bringing items that are prohibited on public transportation, such as hazardous materials or oversized luggage, violating safety regulations."/>
+        <Citation name="~b~§460.016 - Riding Public Transportation Without Proper Attire~s~" fine="100" description="Using public transportation without wearing appropriate clothing, violating public decency laws and transportation rules."/>
+        <Citation name="~r~§460.017 - Tampering with Public Transportation Equipment~s~" fine="500" description="Interfering with or tampering with equipment or devices on public transportation vehicles or in facilities, violating state and federal laws."/>
+        <Citation name="~b~§460.018 - Unlawful Use of Public Transportation Discount~s~" fine="150" description="Using a public transportation discount for which the individual is not eligible, violating local regulations."/>
+        <Citation name="~r~§460.019 - Failure to Provide Proof of Payment~s~" fine="150" description="Failing to provide proof of payment, such as a valid ticket or pass, when requested by public transportation officials, violating local rules."/>
+        <Citation name="~b~§460.020 - Endangering Public Safety on Public Transportation~s~" fine="400" description="Engaging in behavior that endangers the safety of other passengers or the operation of public transportation services, violating state and local laws."/>
+    </CitationGroup>
+    <CitationGroup name="~r~(§ 545) Reckless Driving Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.401 - Reckless Driving~s~" fine="500" description="Operating a vehicle in a manner that exhibits a willful disregard for the safety of persons or property, violating state traffic laws."/>
+        <Citation name="~b~§545.402 - Racing on Public Roadways~s~" fine="1000" description="Participating in a speed contest or race on public roadways, significantly endangering public safety and violating state law."/>
+        <Citation name="~r~§545.403 - Excessive Speeding~s~" fine="400" description="Driving at a speed significantly higher than the posted limit or safe speed for conditions, demonstrating reckless disregard for safety."/>
+        <Citation name="~b~§545.404 - Aggressive Driving~s~" fine="350" description="Engaging in aggressive driving behaviors such as tailgating, frequent lane changes, or road rage, violating state traffic regulations."/>
+        <Citation name="~r~§545.405 - Fleeing from Law Enforcement~s~" fine="1000" description="Attempting to evade law enforcement by driving recklessly or at high speeds, violating state law and endangering public safety."/>
+        <Citation name="~b~§545.406 - Reckless Driving in School Zone~s~" fine="600" description="Driving recklessly in a school zone, where children and other pedestrians are present, violating state safety laws."/>
+        <Citation name="~r~§545.407 - Reckless Driving in Construction Zone~s~" fine="750" description="Operating a vehicle recklessly in a construction zone, endangering workers and violating state traffic regulations."/>
+        <Citation name="~b~§545.408 - Reckless Driving Under the Influence~s~" fine="1000" description="Operating a vehicle recklessly while under the influence of alcohol or drugs, violating state DUI laws and endangering public safety."/>
+        <Citation name="~r~§545.409 - Reckless Driving with Passengers~s~" fine="500" description="Driving recklessly while carrying passengers, increasing the risk of injury and violating state traffic laws."/>
+        <Citation name="~b~§545.410 - Reckless Driving with Commercial Vehicle~s~" fine="750" description="Operating a commercial vehicle recklessly, significantly endangering public safety and violating state and federal regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.411 - Reckless Driving in Residential Area~s~" fine="400" description="Driving recklessly in a residential area where pedestrians, children, and other vehicles are likely to be present, violating state safety regulations."/>
+        <Citation name="~b~§545.412 - Reckless Driving Near Pedestrians~s~" fine="600" description="Operating a vehicle recklessly in close proximity to pedestrians, significantly increasing the risk of injury or death, violating state laws."/>
+        <Citation name="~r~§545.413 - Reckless Driving with Intent to Intimidate~s~" fine="700" description="Driving recklessly with the intent to intimidate or harass other drivers or pedestrians, violating state laws and endangering public safety."/>
+        <Citation name="~b~§545.414 - Reckless Driving with Hazardous Materials~s~" fine="1000" description="Operating a vehicle carrying hazardous materials in a reckless manner, significantly endangering public safety and violating state and federal regulations."/>
+        <Citation name="~r~§545.415 - Reckless Driving on Freeway~s~" fine="500" description="Engaging in reckless driving on a freeway or highway, where higher speeds and traffic volume increase the risk of serious accidents."/>
+        <Citation name="~b~§545.416 - Reckless Driving During Inclement Weather~s~" fine="600" description="Operating a vehicle recklessly during adverse weather conditions, such as rain, snow, or fog, increasing the risk of accidents and violating state safety regulations."/>
+        <Citation name="~r~§545.417 - Reckless Driving with Animal in Vehicle~s~" fine="300" description="Driving recklessly while an animal is unrestrained inside the vehicle, increasing the risk of distraction and accidents, violating state traffic laws."/>
+        <Citation name="~b~§545.418 - Reckless Driving While Using Mobile Device~s~" fine="750" description="Operating a vehicle recklessly while using a mobile device, such as texting or calling, significantly increasing the risk of accidents and violating state laws."/>
+        <Citation name="~r~§545.419 - Reckless Driving with Unsecured Load~s~" fine="500" description="Operating a vehicle with an unsecured load in a reckless manner, increasing the risk of losing control or causing accidents, violating state regulations."/>
+        <Citation name="~b~§545.420 - Reckless Driving Near School Bus~s~" fine="800" description="Driving recklessly in the vicinity of a school bus, particularly when children are boarding or alighting, violating state laws and endangering student safety."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 545) Speeding Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.351 - Speeding Over Posted Limit~s~" fine="200" description="Driving at a speed that exceeds the posted speed limit, violating state traffic laws and increasing the risk of accidents."/>
+        <Citation name="~b~§545.352 - Excessive Speeding (20+ MPH Over Limit)~s~" fine="400" description="Driving at a speed that is 20 miles per hour or more over the posted speed limit, demonstrating reckless disregard for safety."/>
+        <Citation name="~r~§545.353 - Speeding in a School Zone~s~" fine="500" description="Exceeding the posted speed limit in a school zone during designated hours, endangering the safety of children and violating state laws."/>
+        <Citation name="~b~§545.354 - Speeding in a Construction Zone~s~" fine="600" description="Exceeding the posted speed limit in a construction zone, where workers are present, violating state safety regulations."/>
+        <Citation name="~r~§545.355 - Speeding in a Residential Area~s~" fine="300" description="Driving at a speed that exceeds the posted limit in a residential area, where pedestrians and children are likely to be present, violating state traffic laws."/>
+        <Citation name="~b~§545.356 - Speeding in a School Bus Zone~s~" fine="400" description="Exceeding the posted speed limit in a designated school bus zone, endangering the safety of children and violating state regulations."/>
+        <Citation name="~r~§545.357 - Speeding During Adverse Weather Conditions~s~" fine="350" description="Driving at a speed that is unsafe for the current weather conditions, such as rain, snow, or fog, violating state safety laws."/>
+        <Citation name="~b~§545.358 - Speeding in a Parking Lot~s~" fine="150" description="Driving at an excessive speed in a parking lot, where pedestrians and vehicles are present, violating state traffic regulations."/>
+        <Citation name="~r~§545.359 - Speeding on a Freeway~s~" fine="250" description="Exceeding the posted speed limit on a freeway or highway, increasing the risk of high-speed collisions and violating state laws."/>
+        <Citation name="~b~§545.360 - Speeding in a No-Passing Zone~s~" fine="300" description="Exceeding the speed limit in a designated no-passing zone, where overtaking other vehicles is prohibited, violating state traffic laws."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.361 - Speeding in a Heavy Traffic Area~s~" fine="200" description="Driving at a speed that is unsafe for heavy traffic conditions, increasing the risk of collisions and violating state traffic laws."/>
+        <Citation name="~b~§545.362 - Speeding in a School Crossing~s~" fine="450" description="Exceeding the posted speed limit in a designated school crossing area, endangering students and violating state safety regulations."/>
+        <Citation name="~r~§545.363 - Speeding Near Emergency Vehicle~s~" fine="500" description="Exceeding the speed limit near an active emergency vehicle or scene, endangering responders and violating state laws."/>
+        <Citation name="~b~§545.364 - Speeding with Hazardous Materials~s~" fine="700" description="Driving at an excessive speed while transporting hazardous materials, significantly increasing the risk of accidents and violating state and federal regulations."/>
+        <Citation name="~r~§545.365 - Speeding Near Pedestrian Crossing~s~" fine="300" description="Exceeding the speed limit near a pedestrian crossing, endangering pedestrians and violating state traffic laws."/>
+        <Citation name="~b~§545.366 - Speeding in an Alley~s~" fine="150" description="Driving at a speed that exceeds the safe limit in an alley, where visibility is limited and pedestrians may be present, violating state traffic regulations."/>
+        <Citation name="~r~§545.367 - Speeding with Unsecured Load~s~" fine="350" description="Exceeding the speed limit while carrying an unsecured load, increasing the risk of losing control or causing accidents, violating state regulations."/>
+        <Citation name="~b~§545.368 - Speeding with a Trailer~s~" fine="250" description="Driving at an excessive speed while towing a trailer, increasing the risk of instability and accidents, violating state traffic laws."/>
+        <Citation name="~r~§545.369 - Speeding in Tunnel or Underpass~s~" fine="300" description="Exceeding the speed limit in a tunnel or underpass, where visibility and road conditions may be compromised, violating state safety regulations."/>
+        <Citation name="~b~§545.370 - Speeding Near Railroad Crossing~s~" fine="400" description="Exceeding the speed limit near a railroad crossing, increasing the risk of collisions with trains and violating state laws."/>
+    </CitationGroup>
+    <CitationGroup name="~y~(§ 545) Seat Belt Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.412 - Failure to Wear Seat Belt~s~" fine="150" description="Operating a vehicle without wearing a seat belt, violating state safety regulations and increasing the risk of injury in the event of an accident."/>
+        <Citation name="~b~§545.413 - Failure to Ensure Passenger Wears Seat Belt~s~" fine="200" description="Operating a vehicle without ensuring that all passengers are wearing seat belts, violating state safety laws."/>
+        <Citation name="~r~§545.414 - Child Not Properly Secured in Safety Seat~s~" fine="300" description="Operating a vehicle with a child passenger who is not properly secured in a safety seat, violating state child passenger safety laws."/>
+        <Citation name="~b~§545.415 - Failure to Wear Seat Belt in Rear Seat~s~" fine="100" description="Failing to wear a seat belt while seated in the rear of the vehicle, violating state safety regulations."/>
+        <Citation name="~r~§545.416 - Failure to Use Seat Belt in Commercial Vehicle~s~" fine="200" description="Operating a commercial vehicle without wearing a seat belt, violating state and federal safety regulations."/>
+        <Citation name="~b~§545.417 - Transporting Unrestrained Child in Vehicle~s~" fine="350" description="Operating a vehicle with a child passenger who is not restrained by a seat belt or safety seat, violating state child safety laws."/>
+        <Citation name="~r~§545.418 - Failure to Use Seat Belt in School Bus~s~" fine="250" description="Failing to wear a seat belt while operating or riding in a school bus equipped with seat belts, violating state school safety regulations."/>
+        <Citation name="~b~§545.419 - Tampering with Seat Belt~s~" fine="400" description="Tampering with or disabling a seat belt in a vehicle, violating state safety regulations and increasing the risk of injury in an accident."/>
+        <Citation name="~r~§545.420 - Failure to Ensure Seat Belt Use by All Occupants~s~" fine="300" description="Operating a vehicle without ensuring that all occupants are using seat belts, violating state safety regulations and increasing the risk of injury."/>
+        <Citation name="~b~§545.421 - Transporting Multiple Passengers Without Seat Belts~s~" fine="500" description="Operating a vehicle with multiple passengers who are not wearing seat belts, significantly increasing the risk of injury in the event of an accident and violating state laws."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.422 - Failure to Use Seat Belt in Taxi or Ride-Share~s~" fine="150" description="Failing to wear a seat belt while riding in a taxi or ride-share vehicle, violating state safety regulations."/>
+        <Citation name="~b~§545.423 - Failure to Use Seat Belt in Rental Vehicle~s~" fine="150" description="Failing to wear a seat belt while operating or riding in a rental vehicle, violating state safety laws."/>
+        <Citation name="~r~§545.424 - Failure to Wear Seat Belt While Driving for Delivery Service~s~" fine="200" description="Failing to wear a seat belt while driving for a delivery service, violating state safety regulations and increasing the risk of injury."/>
+        <Citation name="~b~§545.425 - Failure to Ensure Proper Use of Seat Belt Adjusters~s~" fine="100" description="Operating a vehicle without ensuring that seat belt adjusters are used correctly, violating state safety regulations."/>
+        <Citation name="~r~§545.426 - Operating Vehicle with Defective Seat Belts~s~" fine="300" description="Operating a vehicle with seat belts that are defective or inoperable, violating state safety laws."/>
+        <Citation name="~b~§545.427 - Failure to Use Seat Belt on High-Speed Roadway~s~" fine="200" description="Failing to wear a seat belt while operating or riding in a vehicle on a high-speed roadway, violating state safety regulations."/>
+        <Citation name="~r~§545.428 - Failure to Use Seat Belt on Motorcycle or ATV~s~" fine="250" description="Failing to wear a seat belt or safety harness while operating or riding on a motorcycle or ATV equipped with such devices, violating state safety laws."/>
+        <Citation name="~b~§545.429 - Failure to Ensure Seat Belt Use by Elderly Passengers~s~" fine="200" description="Operating a vehicle without ensuring that elderly passengers are properly restrained by seat belts, violating state safety regulations."/>
+        <Citation name="~r~§545.430 - Improper Use of Seat Belt for Child Passenger~s~" fine="300" description="Using a seat belt incorrectly for a child passenger, such as not using a booster seat when required, violating state child safety laws."/>
+        <Citation name="~b~§545.431 - Failure to Use Seat Belt in Agricultural Vehicle~s~" fine="150" description="Failing to wear a seat belt while operating or riding in an agricultural vehicle equipped with seat belts, violating state safety regulations."/>
+    </CitationGroup>
+    <CitationGroup name="~g~(§ 545) Zone Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.501 - Violation of No-Parking Zone~s~" fine="100" description="Parking a vehicle in a designated no-parking zone, obstructing traffic flow or violating local regulations."/>
+        <Citation name="~b~§545.502 - Violation of No-Entry Zone~s~" fine="150" description="Entering a restricted zone where vehicle access is prohibited, violating state and local traffic laws."/>
+        <Citation name="~r~§545.503 - Violation of Pedestrian-Only Zone~s~" fine="200" description="Operating a vehicle in a zone designated for pedestrian use only, endangering pedestrians and violating state regulations."/>
+        <Citation name="~b~§545.504 - Violation of Residential Parking Zone~s~" fine="75" description="Parking a vehicle in a residential parking zone without a valid permit, violating local parking regulations."/>
+        <Citation name="~r~§545.505 - Violation of Loading/Unloading Zone~s~" fine="100" description="Parking or stopping a vehicle in a loading/unloading zone for purposes other than loading or unloading, violating local regulations."/>
+        <Citation name="~b~§545.506 - Violation of School Zone Speed Limit~s~" fine="500" description="Exceeding the speed limit in a designated school zone, endangering the safety of children and violating state traffic laws."/>
+        <Citation name="~r~§545.507 - Violation of Construction Zone Speed Limit~s~" fine="600" description="Exceeding the speed limit in a construction zone where workers are present, violating state safety regulations."/>
+        <Citation name="~b~§545.508 - Violation of Environmental Zone Restrictions~s~" fine="250" description="Operating a vehicle in an environmental zone where vehicle access is restricted to reduce pollution, violating local environmental regulations."/>
+        <Citation name="~r~§545.509 - Violation of Emergency Vehicle Zone~s~" fine="300" description="Entering or obstructing a zone designated for emergency vehicles only, violating state safety laws."/>
+        <Citation name="~b~§545.510 - Violation of Quiet Zone Regulations~s~" fine="150" description="Operating a vehicle in a designated quiet zone where noise restrictions are in place, violating local noise ordinances."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.511 - Violation of No-Idling Zone~s~" fine="100" description="Idling a vehicle in a designated no-idling zone, contributing to air pollution and violating local environmental regulations."/>
+        <Citation name="~b~§545.512 - Violation of Toll Zone Regulations~s~" fine="200" description="Failing to pay or properly use a toll road or bridge within a designated toll zone, violating state and local regulations."/>
+        <Citation name="~r~§545.513 - Violation of Loading Zone Time Limits~s~" fine="150" description="Exceeding the time limit for parking or stopping in a designated loading zone, violating local traffic regulations."/>
+        <Citation name="~b~§545.514 - Violation of Bicycle Lane Zone~s~" fine="100" description="Operating or parking a motor vehicle in a designated bicycle lane, endangering cyclists and violating state and local traffic laws."/>
+        <Citation name="~r~§545.515 - Violation of Fire Lane Regulations~s~" fine="250" description="Parking or stopping a vehicle in a designated fire lane, obstructing emergency access and violating state and local regulations."/>
+        <Citation name="~b~§545.516 - Violation of Restricted Parking Hours~s~" fine="75" description="Parking a vehicle in a zone with restricted parking hours outside of the allowed times, violating local parking regulations."/>
+        <Citation name="~r~§545.517 - Violation of Passenger Pickup/Drop-off Zone~s~" fine="100" description="Using a passenger pickup/drop-off zone for purposes other than picking up or dropping off passengers, violating local traffic laws."/>
+        <Citation name="~b~§545.518 - Violation of Park-and-Ride Zone Regulations~s~" fine="150" description="Parking or stopping a vehicle in a designated park-and-ride zone outside of the allowed times or without proper authorization, violating local regulations."/>
+        <Citation name="~r~§545.519 - Violation of Electric Vehicle Charging Zone~s~" fine="200" description="Parking a non-electric vehicle in a designated electric vehicle charging zone, violating state and local regulations."/>
+        <Citation name="~b~§545.520 - Violation of No-Commercial Vehicle Zone~s~" fine="300" description="Operating or parking a commercial vehicle in a zone where commercial vehicles are prohibited, violating local traffic regulations."/>
+    </CitationGroup>
+    <CompuLiteCitations>
+    <CitationGroup name="~b~(§ 545) Traffic Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§545.001 - Failure to Obey Traffic Signals~s~" fine="200" description="Failing to obey traffic control signals such as red lights or stop signs, violating state traffic laws and increasing the risk of accidents."/>
+        <Citation name="~b~§545.002 - Illegal U-Turn~s~" fine="150" description="Making a U-turn in a location where it is prohibited or unsafe, violating state traffic regulations."/>
+        <Citation name="~r~§545.003 - Failure to Yield Right of Way~s~" fine="250" description="Failing to yield the right of way to other vehicles or pedestrians when required, increasing the risk of collisions and violating state traffic laws."/>
+        <Citation name="~b~§545.004 - Unsafe Lane Change~s~" fine="200" description="Changing lanes without ensuring that it is safe to do so, endangering other road users and violating state traffic regulations."/>
+        <Citation name="~r~§545.005 - Failure to Use Turn Signal~s~" fine="100" description="Failing to use a turn signal when required, increasing the risk of accidents and violating state traffic laws."/>
+        <Citation name="~b~§545.006 - Following Too Closely~s~" fine="150" description="Driving too close to the vehicle in front, reducing the time available to react to sudden stops or hazards, violating state traffic regulations."/>
+        <Citation name="~r~§545.007 - Illegal Passing~s~" fine="200" description="Passing another vehicle in a manner that is unsafe or illegal, such as on a curve or hill, violating state traffic laws."/>
+        <Citation name="~b~§545.008 - Running a Red Light~s~" fine="300" description="Driving through an intersection while the traffic light is red, significantly increasing the risk of accidents and violating state traffic laws."/>
+        <Citation name="~r~§545.009 - Blocking Intersection~s~" fine="150" description="Entering an intersection when the traffic is not clear, causing obstruction and violating state traffic laws."/>
+        <Citation name="~b~§545.010 - Improper Turn~s~" fine="200" description="Making a turn that is prohibited or unsafe, such as turning from the wrong lane or turning without signaling, violating state traffic regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§545.011 - Failure to Stop at Stop Sign~s~" fine="150" description="Failing to come to a complete stop at a stop sign, violating state traffic laws and increasing the risk of collisions."/>
+        <Citation name="~b~§545.012 - Driving on Wrong Side of Road~s~" fine="250" description="Operating a vehicle on the wrong side of the road, creating a risk of head-on collisions and violating state traffic laws."/>
+        <Citation name="~r~§545.013 - Driving Without Headlights at Night~s~" fine="150" description="Operating a vehicle at night or in low-visibility conditions without using headlights, reducing visibility and violating state safety regulations."/>
+        <Citation name="~b~§545.014 - Failure to Yield to Emergency Vehicle~s~" fine="500" description="Failing to yield the right of way to an emergency vehicle with active lights and sirens, endangering public safety and violating state law."/>
+        <Citation name="~r~§545.015 - Improper Use of Horn~s~" fine="100" description="Using a vehicle's horn in a manner that is unnecessary or disruptive, violating state and local noise ordinances."/>
+        <Citation name="~b~§545.016 - Failure to Dim Headlights for Oncoming Traffic~s~" fine="100" description="Failing to dim high-beam headlights when approaching oncoming traffic, creating a hazard and violating state safety regulations."/>
+        <Citation name="~r~§545.017 - Driving with Obstructed View~s~" fine="150" description="Operating a vehicle with a load or other obstruction that limits the driver's view, violating state safety regulations."/>
+        <Citation name="~b~§545.018 - Failure to Maintain Safe Distance from Cyclists~s~" fine="200" description="Failing to maintain a safe distance when passing cyclists, increasing the risk of accidents and violating state traffic laws."/>
+        <Citation name="~r~§545.019 - Failure to Obey Railroad Crossing Signals~s~" fine="300" description="Failing to stop or obey signals at a railroad crossing, endangering public safety and violating state traffic laws."/>
+        <Citation name="~b~§545.020 - Driving in Wrong Lane~s~" fine="200" description="Operating a vehicle in the wrong lane, such as driving in a lane designated for oncoming traffic, violating state traffic laws."/>
+    </CitationGroup>
+</CompuLiteCitations>
+ <CitationGroup name="~b~(§ 502) Vehicle Registration Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§502.001 - Expired Vehicle Registration~s~" fine="150" description="Operating or parking a vehicle with an expired registration, violating state vehicle registration laws."/>
+        <Citation name="~b~§502.002 - Failure to Display Registration Sticker~s~" fine="100" description="Failing to display a current and valid registration sticker on the vehicle, violating state registration requirements."/>
+        <Citation name="~r~§502.003 - Improper Display of License Plates~s~" fine="100" description="Displaying license plates in a manner that obscures or alters their visibility, violating state registration laws."/>
+        <Citation name="~b~§502.004 - Operating Vehicle Without Registration~s~" fine="200" description="Operating a vehicle without proper registration, violating state vehicle registration laws."/>
+        <Citation name="~r~§502.005 - Displaying Fictitious License Plates~s~" fine="300" description="Displaying license plates that are counterfeit or not legally assigned to the vehicle, violating state laws and risking penalties."/>
+        <Citation name="~b~§502.006 - Failure to Renew Vehicle Registration~s~" fine="150" description="Failing to renew vehicle registration by the required deadline, violating state vehicle registration laws."/>
+        <Citation name="~r~§502.007 - Failure to Transfer Vehicle Registration~s~" fine="200" description="Failing to transfer registration to the new owner after purchasing a vehicle, violating state registration requirements."/>
+        <Citation name="~b~§502.008 - Operating Vehicle with Suspended Registration~s~" fine="250" description="Operating a vehicle with registration that has been suspended due to non-compliance with state regulations."/>
+        <Citation name="~r~§502.009 - Failure to Display Temporary Registration Permit~s~" fine="100" description="Failing to display a temporary registration permit when required, violating state registration laws."/>
+        <Citation name="~b~§502.010 - Operating Vehicle with Expired Temporary Registration~s~" fine="150" description="Operating a vehicle with a temporary registration that has expired, violating state vehicle registration laws."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§502.011 - Operating Vehicle with Altered Registration Sticker~s~" fine="200" description="Using a registration sticker that has been altered or tampered with, violating state vehicle registration laws."/>
+        <Citation name="~b~§502.012 - Operating Vehicle with Misassigned License Plates~s~" fine="300" description="Using license plates that are assigned to another vehicle, violating state registration requirements."/>
+        <Citation name="~r~§502.013 - Failure to Surrender Registration upon Vehicle Sale~s~" fine="150" description="Failing to surrender the vehicle's registration upon selling it, violating state registration transfer laws."/>
+        <Citation name="~b~§502.014 - Operating Vehicle with Expired Dealer Plates~s~" fine="200" description="Operating a vehicle with dealer plates that have expired, violating state vehicle registration laws."/>
+        <Citation name="~r~§502.015 - Failure to Apply for Registration in Timely Manner~s~" fine="150" description="Failing to apply for vehicle registration within the required time frame after purchasing a vehicle, violating state laws."/>
+        <Citation name="~b~§502.016 - Operating Vehicle with Fraudulent Registration~s~" fine="500" description="Using fraudulent registration documents or stickers, violating state laws and risking severe penalties."/>
+        <Citation name="~r~§502.017 - Failure to Display Commercial Vehicle Registration~s~" fine="250" description="Operating a commercial vehicle without displaying the required registration, violating state and federal regulations."/>
+        <Citation name="~b~§502.018 - Operating Vehicle with Out-of-State Registration~s~" fine="200" description="Operating a vehicle with out-of-state registration while residing in-state, violating state registration requirements."/>
+        <Citation name="~r~§502.019 - Failure to Register Vehicle after Residency Change~s~" fine="150" description="Failing to register a vehicle within the state after changing residency, violating state vehicle registration laws."/>
+        <Citation name="~b~§502.020 - Operating Vehicle with Mismatched VIN and Registration~s~" fine="500" description="Operating a vehicle where the Vehicle Identification Number (VIN) does not match the registration, violating state laws and risking severe penalties."/>
+    </CitationGroup>
+    <CitationGroup name="~r~(§ 28) Vandalism Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§28.03 - Criminal Mischief~s~" fine="500" description="Intentionally damaging or destroying someone else's property, including vehicles, buildings, or other assets, violating state vandalism laws."/>
+        <Citation name="~b~§28.08 - Graffiti~s~" fine="300" description="Illegally applying graffiti to public or private property, defacing surfaces and violating state vandalism laws."/>
+        <Citation name="~r~§28.04 - Reckless Damage or Destruction~s~" fine="400" description="Causing damage to someone else's property through reckless behavior, violating state laws against property damage."/>
+        <Citation name="~b~§28.09 - Vandalism of Public Property~s~" fine="600" description="Intentionally damaging or defacing public property, such as parks, government buildings, or public transportation, violating state and local laws."/>
+        <Citation name="~r~§28.10 - Tampering with Vehicles~s~" fine="350" description="Interfering with, damaging, or defacing vehicles, including slashing tires or breaking windows, violating state laws."/>
+        <Citation name="~b~§28.11 - Vandalism of Religious Sites~s~" fine="1000" description="Intentionally damaging or defacing places of worship or religious symbols, violating state and federal laws and risking enhanced penalties."/>
+        <Citation name="~r~§28.12 - Vandalism of Schools~s~" fine="800" description="Causing intentional damage to school property, such as breaking windows or defacing school buildings, violating state laws."/>
+        <Citation name="~b~§28.13 - Vandalism of Monuments or Memorials~s~" fine="750" description="Intentionally damaging or defacing monuments, memorials, or historical sites, violating state laws and risking severe penalties."/>
+        <Citation name="~r~§28.14 - Vandalism of Public Transportation~s~" fine="600" description="Damaging or defacing public transportation vehicles, stations, or equipment, violating state and local vandalism laws."/>
+        <Citation name="~b~§28.15 - Vandalism of Utility Services~s~" fine="500" description="Damaging or interfering with utility services, such as water, electricity, or communication lines, violating state laws and risking public safety."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§28.16 - Vandalism of Street Signs~s~" fine="200" description="Damaging, defacing, or removing street signs, disrupting traffic flow and violating state and local regulations."/>
+        <Citation name="~b~§28.17 - Vandalism of Park Facilities~s~" fine="300" description="Intentionally damaging or defacing park facilities, such as benches, playgrounds, or restrooms, violating state and local laws."/>
+        <Citation name="~r~§28.18 - Vandalism of Business Property~s~" fine="400" description="Causing intentional damage to business property, such as storefronts or signage, violating state vandalism laws."/>
+        <Citation name="~b~§28.19 - Vandalism of Government Property~s~" fine="700" description="Damaging or defacing government property, including offices, equipment, or vehicles, violating state and federal laws."/>
+        <Citation name="~r~§28.20 - Vandalism of Emergency Equipment~s~" fine="800" description="Tampering with or damaging emergency equipment, such as fire hydrants or extinguishers, violating state safety regulations."/>
+        <Citation name="~b~§28.21 - Vandalism of Agricultural Property~s~" fine="400" description="Damaging or defacing agricultural property, such as farm equipment, crops, or livestock facilities, violating state laws."/>
+        <Citation name="~r~§28.22 - Vandalism of Public Art~s~" fine="500" description="Intentionally damaging or defacing public art installations, violating local ordinances and cultural heritage protections."/>
+        <Citation name="~b~§28.23 - Vandalism of Cemeteries~s~" fine="1000" description="Damaging or defacing cemetery property, including headstones, markers, or memorials, violating state and federal laws."/>
+        <Citation name="~r~§28.24 - Vandalism of Bridges or Tunnels~s~" fine="600" description="Causing intentional damage to bridges or tunnels, endangering public safety and violating state and federal laws."/>
+        <Citation name="~b~§28.25 - Vandalism of Sports Facilities~s~" fine="500" description="Damaging or defacing sports facilities, such as stadiums, fields, or equipment, violating state and local laws."/>
+    </CitationGroup>
+    <CitationGroup name="~g~(§ 62) Wildlife Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§62.001 - Illegal Hunting~s~" fine="500" description="Engaging in hunting activities without the proper licenses, permits, or in prohibited areas, violating state wildlife conservation laws."/>
+        <Citation name="~b~§62.002 - Hunting Out of Season~s~" fine="400" description="Hunting wildlife outside of the legally designated hunting season, violating state hunting regulations."/>
+        <Citation name="~r~§62.003 - Illegal Trapping~s~" fine="300" description="Setting traps for wildlife without the proper permits or in prohibited areas, violating state wildlife conservation laws."/>
+        <Citation name="~b~§62.004 - Poaching~s~" fine="1000" description="Illegally hunting or capturing wildlife on protected lands or without proper authorization, violating state and federal laws."/>
+        <Citation name="~r~§62.005 - Hunting with Prohibited Weapons~s~" fine="600" description="Using prohibited weapons or methods, such as poison or explosives, for hunting, violating state wildlife regulations."/>
+        <Citation name="~b~§62.006 - Interfering with Wildlife Conservation Efforts~s~" fine="700" description="Disrupting or damaging wildlife conservation efforts, such as habitat restoration or species protection, violating state and federal laws."/>
+        <Citation name="~r~§62.007 - Illegal Fishing~s~" fine="300" description="Engaging in fishing activities without the proper licenses, permits, or in prohibited areas, violating state fishing regulations."/>
+        <Citation name="~b~§62.008 - Destruction of Wildlife Habitat~s~" fine="800" description="Intentionally damaging or destroying wildlife habitats, such as wetlands or forests, violating state conservation laws."/>
+        <Citation name="~r~§62.009 - Possession of Protected Species~s~" fine="1000" description="Possessing or trafficking in species that are protected by state or federal law, violating wildlife protection regulations."/>
+        <Citation name="~b~§62.010 - Feeding Wildlife in Prohibited Areas~s~" fine="200" description="Feeding wildlife in areas where it is prohibited, disrupting natural behavior and violating state wildlife regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§62.011 - Illegal Importation of Wildlife~s~" fine="1000" description="Illegally importing wildlife species into the state without proper permits, violating state and federal wildlife regulations."/>
+        <Citation name="~b~§62.012 - Release of Non-Native Species~s~" fine="800" description="Releasing non-native species into the wild without authorization, potentially harming local ecosystems and violating state laws."/>
+        <Citation name="~r~§62.013 - Disturbing Wildlife Nesting Sites~s~" fine="600" description="Disturbing or destroying nesting sites of wildlife, including birds and marine animals, violating state and federal wildlife protection laws."/>
+        <Citation name="~b~§62.014 - Collection of Wildlife without Permit~s~" fine="400" description="Collecting or capturing wildlife, such as reptiles or insects, without the required permits, violating state conservation laws."/>
+        <Citation name="~r~§62.015 - Trafficking in Wildlife Products~s~" fine="1500" description="Illegally trading or selling wildlife products, such as ivory, fur, or animal parts, violating state and federal regulations."/>
+        <Citation name="~b~§62.016 - Use of Unlawful Baiting Methods~s~" fine="500" description="Using unlawful baiting methods, such as electronic calls or toxic substances, to attract wildlife for hunting, violating state wildlife regulations."/>
+        <Citation name="~r~§62.017 - Obstructing Wildlife Corridors~s~" fine="700" description="Blocking or interfering with designated wildlife corridors, disrupting migration patterns and violating state conservation laws."/>
+        <Citation name="~b~§62.018 - Unlawful Harvesting of Marine Life~s~" fine="900" description="Harvesting marine life, such as shellfish or coral, in protected areas or without proper permits, violating state and federal laws."/>
+        <Citation name="~r~§62.019 - Use of Prohibited Fishing Gear~s~" fine="400" description="Using fishing gear that is prohibited, such as gillnets or explosives, in state waters, violating fishing regulations."/>
+        <Citation name="~b~§62.020 - Illegal Trade in Endangered Species~s~" fine="2000" description="Engaging in the illegal trade of endangered species, violating state, federal, and international wildlife protection laws."/>
+    </CitationGroup>
+    <CitationGroup name="~b~(§ 33) Cyber Violations~s~">
+        <!-- Existing citations -->
+        <Citation name="~r~§33.01 - Cyberbullying~s~" fine="500" description="Using electronic communication to bully, harass, or intimidate others, violating state cybercrime laws."/>
+        <Citation name="~b~§33.02 - Unauthorized Data Access~s~" fine="750" description="Accessing private or restricted data without authorization, violating state computer crime laws."/>
+        <Citation name="~r~§33.03 - Phishing Scams~s~" fine="1000" description="Creating or distributing fraudulent communications designed to deceive individuals into providing personal or financial information, violating state and federal laws."/>
+        <Citation name="~b~§33.04 - Identity Theft~s~" fine="1500" description="Using someone else's personal information without their consent to commit fraud, violating state identity theft laws."/>
+        <Citation name="~r~§33.05 - Spreading Malware~s~" fine="800" description="Intentionally distributing malicious software that disrupts, damages, or gains unauthorized access to computer systems, violating state and federal laws."/>
+        <Citation name="~b~§33.06 - Unauthorized Surveillance~s~" fine="1000" description="Using electronic devices or software to monitor or record individuals without their consent, violating privacy laws."/>
+        <Citation name="~r~§33.07 - Hacking Public Wi-Fi Networks~s~" fine="600" description="Illegally accessing or tampering with public Wi-Fi networks, violating state and federal computer crime laws."/>
+        <Citation name="~b~§33.08 - Distribution of Illicit Content~s~" fine="2000" description="Distributing or sharing illegal content, such as child pornography or pirated media, via digital platforms, violating state and federal laws."/>
+        <Citation name="~r~§33.09 - Cyberstalking~s~" fine="1200" description="Using electronic means to stalk, harass, or threaten individuals, violating state cyber harassment laws."/>
+        <Citation name="~b~§33.10 - Use of GPS Jammers~s~" fine="1000" description="Using devices that disrupt GPS signals, interfering with lawful navigation and violating state and federal regulations."/>
+        
+        <!-- New citations -->
+        <Citation name="~r~§33.11 - Unauthorized Use of Corporate Data~s~" fine="1500" description="Accessing or using corporate data without authorization, potentially causing financial or reputational damage, violating state and federal laws."/>
+        <Citation name="~b~§33.12 - Cyber Extortion~s~" fine="2000" description="Using digital means to demand money or services under threat, such as ransomware attacks, violating state and federal laws."/>
+        <Citation name="~r~§33.13 - Social Engineering Scams~s~" fine="1200" description="Manipulating individuals into divulging confidential information through deceptive tactics, violating state and federal laws."/>
+        <Citation name="~b~§33.14 - Denial of Service (DoS) Attacks~s~" fine="1800" description="Deliberately overloading or disrupting online services, rendering them inaccessible, violating state and federal computer crime laws."/>
+        <Citation name="~r~§33.15 - Unlawful Access to Cloud Services~s~" fine="1000" description="Gaining unauthorized access to cloud-based platforms or data, violating state and federal computer security laws."/>
+        <Citation name="~b~§33.16 - Unauthorized Use of Encryption Tools~s~" fine="800" description="Using encryption tools to conceal illegal activities, such as trafficking or terrorism, violating state and federal laws."/>
+        <Citation name="~r~§33.17 - Sale of Hacked Data~s~" fine="2500" description="Selling or distributing data obtained through hacking, such as credit card information, violating state and federal laws."/>
+        <Citation name="~b~§33.18 - Unlawful Monitoring of Employee Communications~s~" fine="1500" description="Monitoring or intercepting employee communications without consent, violating privacy and employment laws."/>
+        <Citation name="~r~§33.19 - Distribution of Deepfake Media~s~" fine="1000" description="Creating or sharing manipulated media to deceive or harm individuals, violating state and federal laws."/>
+        <Citation name="~b~§33.20 - Unauthorized Use of AI for Malicious Purposes~s~" fine="2000" description="Using artificial intelligence tools for illegal activities, such as fraud or data manipulation, violating state and federal laws."/>
+    </CitationGroup>
+
+    
+</CompuLiteCitations>

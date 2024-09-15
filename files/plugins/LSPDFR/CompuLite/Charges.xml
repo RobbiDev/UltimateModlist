@@ -1,0 +1,672 @@
+<!--
+    Acceptable attributes for each "Charge" tag:
+      - "name" is the charge name or title
+      - "traffic" determines whether the charge is in traffic category (true/false)
+      - "can_be_warrant" determines whether the charge will be included in the list of possible ped arrest warrant (true/false). If not set, default value is true.
+      - "susp_chance" probability of suspect's driver license gets suspended (0-100). This is only used when traffic="true"
+      - "min_susp" and "max_susp" is the range of driver license suspension time in months. This is only used when traffic="true"
+      - "revoke_chance" probability of suspect's driver license gets revoked (0-100). This is only used when traffic="true"
+      - "fine" is the maximum amount of fine money
+      - "fine_k" is the maximum amount of fine money in thousands
+      - "probation_chance" is chance percentage that the judge would grant probation
+      - "min_months" and "max_months" is range of jail time the suspect would get in months
+      - "min_years" and "max_years" is range of jail time the suspect would get in years
+
+    Note:
+      - You cannot use "fine" and "fine_k" in the same entry
+      - You cannot use "min_months-max_months" and "min_years-max_years" in the same entry)
+      - You can set "max_years" value with "life", if the charge has maximum sentence of life in prison
+      - If you don't want to apply fine or probation chance to a specified charge, just remove the attribute from the tag entry
+      - Fully customized by pherem
+-->
+
+<CompuLiteCharges>
+	<ChargeGroup name="~o~Traffic Offenses~s~">
+    <Charge name="~b~Reckless Driving~s~" fine="2000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="10" probation_chance="70" min_months="6" max_months="12" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~o~Driving Without a License~s~" fine="1500" susp_chance="40" min_susp="6" max_susp="12" revoke_chance="20" probation_chance="60" min_months="6" max_months="12" jail_chance="20" min_days="10" max_days="45"/>
+    <Charge name="~b~Running a Red Light~s~" fine="1000" susp_chance="30" min_susp="3" max_susp="6" revoke_chance="5" probation_chance="70" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Speeding 15-30 MPH Over the Limit~s~" fine="1200" susp_chance="35" min_susp="3" max_susp="6" revoke_chance="10" probation_chance="60" min_months="6" max_months="12" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Failure to Yield to Pedestrians~s~" fine="1000" susp_chance="30" min_susp="3" max_susp="6" revoke_chance="5" probation_chance="70" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Driving Under the Influence (DUI)~s~" fine="3000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="50" probation_chance="50" min_months="12" max_months="24" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Hit and Run~s~" fine="5000" susp_chance="85" min_susp="12" max_susp="24" revoke_chance="60" probation_chance="50" min_months="12" max_months="24" jail_chance="70" min_days="45" max_days="180"/>
+    <Charge name="~o~Street Racing~s~" fine="4000" susp_chance="65" min_susp="6" max_susp="18" revoke_chance="30" probation_chance="50" min_months="6" max_months="18" jail_chance="40" min_days="15" max_days="60"/>
+    <Charge name="~b~Driving Without Insurance~s~" fine="1500" susp_chance="40" min_susp="6" max_susp="12" revoke_chance="20" probation_chance="60" min_months="6" max_months="12" jail_chance="20" min_days="10" max_days="45"/>
+    <Charge name="~o~Driving on the Wrong Side of the Road~s~" fine="1200" susp_chance="35" min_susp="3" max_susp="6" revoke_chance="10" probation_chance="60" min_months="6" max_months="12" jail_chance="20" min_days="5" max_days="30"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Aggressive Driving~s~" fine="2000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="10" probation_chance="70" min_months="6" max_months="12" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~o~Driving with Expired License~s~" fine="1000" susp_chance="30" min_susp="3" max_susp="6" revoke_chance="5" probation_chance="70" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Tailgating~s~" fine="800" susp_chance="25" min_susp="3" max_susp="6" revoke_chance="5" probation_chance="60" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Failure to Signal~s~" fine="500" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="5" probation_chance="70" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Driving Without Headlights at Night~s~" fine="1000" susp_chance="30" min_susp="3" max_susp="6" revoke_chance="5" probation_chance="70" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Failure to Stop for School Bus~s~" fine="1500" susp_chance="40" min_susp="6" max_susp="12" revoke_chance="20" probation_chance="60" min_months="6" max_months="12" jail_chance="20" min_days="10" max_days="45"/>
+    <Charge name="~b~Driving with a Suspended License~s~" fine="2000" susp_chance="50" min_susp="12" max_susp="24" revoke_chance="40" probation_chance="60" min_months="12" max_months="24" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~o~Evading a Traffic Stop~s~" fine="3000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="50" probation_chance="50" min_months="12" max_months="24" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Failure to Obey Traffic Control Devices~s~" fine="800" susp_chance="25" min_susp="3" max_susp="6" revoke_chance="5" probation_chance="70" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Driving with an Open Container~s~" fine="1500" susp_chance="40" min_susp="6" max_susp="12" revoke_chance="20" probation_chance="60" min_months="6" max_months="12" jail_chance="20" min_days="10" max_days="45"/>
+</ChargeGroup>
+<ChargeGroup name="~b~Assaults~s~">
+    <Charge name="~b~Simple Assault~s~" fine="5000" susp_chance="65" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Aggravated Assault~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Assault with a Deadly Weapon~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Assault on a Public Official~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="20" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~b~Assault with Intent to Commit a Felony~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Battery~s~" fine="8000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="20" max_days="120"/>
+    <Charge name="~b~Domestic Assault~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Sexual Assault~s~" fine="30000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Assault on an Officer~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="20" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~o~Assault with a Firearm~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Assault/Battery~s~" fine="12000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    
+    <!-- New charges -->
+    <Charge name="~o~Assault in the First Degree~s~" fine="30000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="20" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~b~Assault in the Second Degree~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Assault on a Minor~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Assault by Strangulation~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="20" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~o~Assault During a Robbery~s~" fine="30000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="20" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~b~Assault with a Motor Vehicle~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Assault Resulting in Serious Bodily Injury~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="20" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~b~Assault with a Blunt Object~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Assault on a Protected Individual~s~" fine="30000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="20" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+</ChargeGroup>
+<ChargeGroup name="~r~Murder and Attempted Murder~s~">
+    <Charge name="~b~First-Degree Murder~s~" fine="50000" susp_chance="100" min_susp="60" max_susp="120" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~o~Second-Degree Murder~s~" fine="40000" susp_chance="100" min_susp="48" max_susp="96" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~b~Voluntary Manslaughter~s~" fine="30000" susp_chance="90" min_susp="36" max_susp="72" revoke_chance="100" probation_chance="10" min_months="24" max_months="60" jail_chance="90" min_days="365" max_days="9999"/>
+    <Charge name="~o~Involuntary Manslaughter~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="20" min_months="18" max_months="48" jail_chance="85" min_days="180" max_days="365"/>
+    <Charge name="~b~Attempted Murder~s~" fine="30000" susp_chance="95" min_susp="48" max_susp="96" revoke_chance="100" probation_chance="5" min_months="36" max_months="72" jail_chance="95" min_days="365" max_days="9999"/>
+    <Charge name="~o~Attempted Manslaughter~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="72" revoke_chance="100" probation_chance="10" min_months="24" max_months="60" jail_chance="90" min_days="365" max_days="9999"/>
+    <Charge name="~b~Murder of a Law Enforcement Officer~s~" fine="75000" susp_chance="100" min_susp="60" max_susp="120" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~o~Murder for Hire~s~" fine="60000" susp_chance="100" min_susp="60" max_susp="120" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~b~Mass Murder~s~" fine="100000" susp_chance="100" min_susp="120" max_susp="240" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~o~Negligent Homicide~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="72" revoke_chance="100" probation_chance="10" min_months="24" max_months="60" jail_chance="90" min_days="365" max_days="9999"/>
+
+    <!-- Additional charges -->
+    <Charge name="~b~Vehicular Manslaughter~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="72" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="85" min_days="365" max_days="9999"/>
+    <Charge name="~o~Felony Murder~s~" fine="50000" susp_chance="100" min_susp="48" max_susp="96" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~b~Assisted Suicide~s~" fine="30000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="90" min_days="365" max_days="9999"/>
+    <Charge name="~o~Infanticide~s~" fine="50000" susp_chance="100" min_susp="48" max_susp="96" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~b~Lynching~s~" fine="75000" susp_chance="100" min_susp="60" max_susp="120" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~o~Honor Killing~s~" fine="60000" susp_chance="100" min_susp="60" max_susp="120" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~b~Murder of a Witness~s~" fine="75000" susp_chance="100" min_susp="60" max_susp="120" revoke_chance="100" probation_chance="0" min_months="0" max_months="0" jail_chance="100" min_days="365" max_days="9999"/>
+    <Charge name="~o~Poisoning with Intent to Kill~s~" fine="40000" susp_chance="95" min_susp="48" max_susp="96" revoke_chance="100" probation_chance="10" min_months="36" max_months="72" jail_chance="95" min_days="365" max_days="9999"/>
+    <Charge name="~b~Attempted Mass Murder~s~" fine="75000" susp_chance="100" min_susp="60" max_susp="120" revoke_chance="100" probation_chance="5" min_months="36" max_months="72" jail_chance="95" min_days="365" max_days="9999"/>
+    <Charge name="~o~Attempted Murder of a Law Enforcement Officer~s~" fine="60000" susp_chance="95" min_susp="48" max_susp="96" revoke_chance="100" probation_chance="5" min_months="36" max_months="72" jail_chance="95" min_days="365" max_days="9999"/>
+</ChargeGroup>
+
+
+
+
+	<ChargeGroup name="~b~Property Offenses~s~">
+    <Charge name="~b~Burglary~s~" fine="5000" susp_chance="85" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="50" min_months="12" max_months="36" jail_chance="75" min_days="60" max_days="180"/>
+    <Charge name="~o~Trespassing~s~" fine="1000" susp_chance="25" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Vandalism~s~" fine="2000" susp_chance="30" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="25" min_days="10" max_days="45"/>
+    <Charge name="~o~Arson~s~" fine="10000" susp_chance="95" min_susp="24" max_susp="60" revoke_chance="100" probation_chance="40" min_months="24" max_months="60" jail_chance="90" min_days="180" max_days="365"/>
+    <Charge name="~b~Theft~s~" fine="3000" susp_chance="45" min_susp="6" max_susp="24" revoke_chance="0" probation_chance="60" min_months="6" max_months="24" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~o~Criminal Mischief~s~" fine="1500" susp_chance="30" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Breaking and Entering~s~" fine="4000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="50" min_months="12" max_months="36" jail_chance="70" min_days="45" max_days="180"/>
+    <Charge name="~o~Possession of Stolen Property~s~" fine="3500" susp_chance="40" min_susp="6" max_susp="24" revoke_chance="0" probation_chance="60" min_months="6" max_months="24" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~b~Fraud~s~" fine="5000" susp_chance="50" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Embezzlement~s~" fine="8000" susp_chance="60" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Forgery~s~" fine="3500" susp_chance="45" min_susp="6" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="24" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~o~Counterfeiting~s~" fine="10000" susp_chance="75" min_susp="24" max_susp="60" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="60" max_days="180"/>
+    <Charge name="~b~Extortion~s~" fine="10000" susp_chance="70" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="180"/>
+    <Charge name="~o~Identity Theft~s~" fine="7500" susp_chance="55" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="70" min_days="60" max_days="120"/>
+    <Charge name="~b~Shoplifting~s~" fine="1500" susp_chance="25" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="10" min_days="5" max_days="30"/>
+    <Charge name="~o~Residential Burglary~s~" fine="6000" susp_chance="85" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="50" min_months="12" max_months="36" jail_chance="80" min_days="60" max_days="180"/>
+    <Charge name="~b~Commercial Burglary~s~" fine="7000" susp_chance="85" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="50" min_months="12" max_months="36" jail_chance="80" min_days="60" max_days="180"/>
+    <Charge name="~o~Petty Theft~s~" fine="1000" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="10" min_days="5" max_days="30"/>
+    <Charge name="~b~Grand Theft~s~" fine="10000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="24" max_months="60" jail_chance="90" min_days="90" max_days="180"/>
+    <Charge name="~o~Vehicle Theft~s~" fine="8000" susp_chance="70" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="70" min_days="60" max_days="120"/>
+    <Charge name="~b~Possession of Burglary Tools~s~" fine="2000" susp_chance="25" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="45"/>
+    <Charge name="~o~Receiving Stolen Goods~s~" fine="3500" susp_chance="45" min_susp="6" max_susp="24" revoke_chance="0" probation_chance="60" min_months="6" max_months="24" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~b~Trespassing with Intent to Commit a Crime~s~" fine="2500" susp_chance="30" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="45"/>
+    <Charge name="~o~Vandalism of Government Property~s~" fine="4000" susp_chance="50" min_susp="6" max_susp="24" revoke_chance="0" probation_chance="50" min_months="6" max_months="24" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~b~Destruction of Evidence~s~" fine="5000" susp_chance="55" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="40" min_months="12" max_months="36" jail_chance="70" min_days="60" max_days="120"/>
+</ChargeGroup>
+
+	<ChargeGroup name="~g~Drugs Possession~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Possession of Marijuana~s~" fine="2000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Possession of Cocaine~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~b~Possession of Methamphetamine~s~" fine="6000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Possession of Heroin~s~" fine="7000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Possession of Ecstasy~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="60"/>
+    <Charge name="~o~Possession of Prescription Drugs Without Prescription~s~" fine="3000" susp_chance="55" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Possession of Drug Paraphernalia~s~" fine="1500" susp_chance="40" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="75" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Possession with Intent to Distribute~s~" fine="10000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Possession of Synthetic Drugs~s~" fine="5000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~o~Possession of Controlled Substance in a School Zone~s~" fine="8000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="24" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Possession of LSD~s~" fine="6000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Possession of Crack Cocaine~s~" fine="7000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Possession of Mushrooms~s~" fine="5000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~o~Possession of Fentanyl~s~" fine="9000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="180"/>
+    <Charge name="~b~Possession of GHB~s~" fine="7000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="70" min_days="60" max_days="120"/>
+    <Charge name="~o~Possession of Steroids~s~" fine="4000" susp_chance="60" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="60"/>
+    <Charge name="~b~Possession of PCP~s~" fine="7500" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Possession of Inhalants~s~" fine="3000" susp_chance="55" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Possession of Bath Salts~s~" fine="6000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Possession of Designer Drugs~s~" fine="7000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="70" min_days="60" max_days="120"/>
+</ChargeGroup>
+<ChargeGroup name="~r~Weapon Offenses~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Carrying a Concealed Weapon Without a Permit~s~" fine="5000" susp_chance="85" min_susp="12" max_susp="24" revoke_chance="90" probation_chance="50" min_months="6" max_months="18" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~o~Unlicensed Firearm Possession~s~" fine="4000" susp_chance="80" min_susp="12" max_susp="24" revoke_chance="85" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="30" max_days="60"/>
+    <Charge name="~b~Illegal Discharge of a Firearm~s~" fine="6000" susp_chance="90" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="40" min_months="12" max_months="24" jail_chance="50" min_days="45" max_days="120"/>
+    <Charge name="~o~Possession of Prohibited Weapons~s~" fine="7000" susp_chance="90" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="40" min_months="12" max_months="36" jail_chance="60" min_days="60" max_days="180"/>
+    <Charge name="~b~Brandishing a Weapon~s~" fine="4000" susp_chance="75" min_susp="6" max_susp="18" revoke_chance="80" probation_chance="50" min_months="6" max_months="12" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~o~Felon in Possession of a Firearm~s~" fine="8000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="30" min_months="18" max_months="60" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Possession of a Stolen Firearm~s~" fine="7000" susp_chance="90" min_susp="18" max_susp="36" revoke_chance="100" probation_chance="40" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="120"/>
+    <Charge name="~o~Illegal Sale or Transfer of Firearms~s~" fine="10000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="60" max_days="180"/>
+    <Charge name="~b~Possession of Firearm in a Restricted Area~s~" fine="5000" susp_chance="85" min_susp="12" max_susp="24" revoke_chance="90" probation_chance="50" min_months="6" max_months="18" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~o~Unlawful Discharge of a Weapon in Public~s~" fine="6000" susp_chance="90" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="40" min_months="12" max_months="24" jail_chance="50" min_days="45" max_days="120"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Possession of a Firearm While Intoxicated~s~" fine="6000" susp_chance="90" min_susp="12" max_susp="24" revoke_chance="85" probation_chance="40" min_months="6" max_months="24" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~o~Possession of Armor-Piercing Ammunition~s~" fine="8000" susp_chance="95" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="30" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="120"/>
+    <Charge name="~b~Possession of a Machine Gun~s~" fine="15000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Carrying a Weapon in a School Zone~s~" fine="7000" susp_chance="90" min_susp="18" max_susp="36" revoke_chance="100" probation_chance="40" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Possession of a Firearm with Altered Serial Number~s~" fine="9000" susp_chance="95" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="30" min_months="12" max_months="36" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Possession of Explosives Without a Permit~s~" fine="12000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Illegal Manufacture of Firearms~s~" fine="15000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Unlawful Possession of a Silencer~s~" fine="8000" susp_chance="95" min_susp="12" max_susp="36" revoke_chance="100" probation_chance="30" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Possession of a Firearm While Committing a Felony~s~" fine="10000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Unlawful Sale of Ammunition~s~" fine="5000" susp_chance="85" min_susp="12" max_susp="24" revoke_chance="90" probation_chance="50" min_months="6" max_months="18" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~b~Possession of a Firearm by a Minor~s~" fine="6000" susp_chance="90" min_susp="12" max_susp="24" revoke_chance="90" probation_chance="50" min_months="6" max_months="24" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~o~Carrying a Loaded Firearm in Public~s~" fine="7000" susp_chance="90" min_susp="12" max_susp="36" revoke_chance="95" probation_chance="40" min_months="12" max_months="36" jail_chance="50" min_days="45" max_days="120"/>
+    <Charge name="~b~Possession of a Firearm with Intent to Commit a Crime~s~" fine="10000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="60" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~y~Public Order Offenses~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Disorderly Conduct~s~" fine="2000" susp_chance="30" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Public Intoxication~s~" fine="1500" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Disturbing the Peace~s~" fine="2500" susp_chance="35" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="12" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Loitering~s~" fine="1000" susp_chance="15" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Inciting a Riot~s~" fine="5000" susp_chance="80" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="40" min_months="12" max_months="24" jail_chance="60" min_days="30" max_days="90"/>
+    <Charge name="~o~Panhandling in Restricted Areas~s~" fine="1200" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Refusal to Disperse~s~" fine="1800" susp_chance="30" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Obstructing Public Pathways~s~" fine="1500" susp_chance="25" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="15" min_days="3" max_days="15"/>
+    <Charge name="~b~Illegal Street Performance~s~" fine="1000" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="75" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Unlawful Assembly~s~" fine="3000" susp_chance="50" min_susp="6" max_susp="18" revoke_chance="0" probation_chance="60" min_months="12" max_months="24" jail_chance="30" min_days="10" max_days="60"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Public Urination~s~" fine="800" susp_chance="10" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Littering~s~" fine="500" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~b~Resisting Arrest~s~" fine="3000" susp_chance="50" min_susp="6" max_susp="18" revoke_chance="0" probation_chance="60" min_months="12" max_months="24" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Interfering with Police Duties~s~" fine="2500" susp_chance="40" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Unlawful Use of a Loudspeaker~s~" fine="1000" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="75" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Vandalism~s~" fine="2000" susp_chance="30" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="25" min_days="10" max_days="45"/>
+    <Charge name="~b~Obstruction of Traffic~s~" fine="1500" susp_chance="25" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="15" min_days="3" max_days="15"/>
+    <Charge name="~o~Public Nudity~s~" fine="2000" susp_chance="30" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Desecration of Public Property~s~" fine="2500" susp_chance="35" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="18" jail_chance="25" min_days="10" max_days="45"/>
+    <Charge name="~o~Making a False Report~s~" fine="3000" susp_chance="50" min_susp="6" max_susp="18" revoke_chance="0" probation_chance="60" min_months="12" max_months="24" jail_chance="30" min_days="10" max_days="60"/>
+</ChargeGroup>
+<ChargeGroup name="~b~Fraud and Financial Crimes~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Credit Card Fraud~s~" fine="8000" susp_chance="50" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Insurance Fraud~s~" fine="10000" susp_chance="60" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Identity Theft~s~" fine="9000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Forgery~s~" fine="7000" susp_chance="55" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~b~Money Laundering~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="60" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Counterfeiting~s~" fine="12000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Pyramid Schemes~s~" fine="8000" susp_chance="50" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Embezzlement~s~" fine="10000" susp_chance="70" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Tax Evasion~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="60" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Fraudulent Loan Applications~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+
+    <!-- New charges -->
+    <Charge name="~b~Securities Fraud~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Wire Fraud~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Ponzi Scheme~s~" fine="25000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~o~Accounting Fraud~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Bank Fraud~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Bribery~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Corporate Espionage~s~" fine="25000" susp_chance="100" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~o~False Advertising~s~" fine="8000" susp_chance="50" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Check Fraud~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Health Care Fraud~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~p~Domestic Violence and Family Offenses~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Domestic Assault~s~" fine="8000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Child Endangerment~s~" fine="10000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Violation of a Restraining Order~s~" fine="7000" susp_chance="60" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~o~Child Neglect~s~" fine="9000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Spousal Abuse~s~" fine="8500" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Elder Abuse~s~" fine="10000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Kidnapping~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Interference with Custody~s~" fine="12000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Unlawful Use of a Telephone (Harassment)~s~" fine="5000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="20" min_days="10" max_days="45"/>
+    <Charge name="~o~Parental Kidnapping~s~" fine="15000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="70" min_days="60" max_days="180"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~False Accusation of Abuse~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~o~Stalking~s~" fine="7000" susp_chance="60" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="40" min_days="30" max_days="90"/>
+    <Charge name="~b~Threats of Violence~s~" fine="6000" susp_chance="50" min_susp="6" max_susp="18" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~o~Harassment~s~" fine="5000" susp_chance="40" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="20" min_days="10" max_days="45"/>
+    <Charge name="~b~Intimidation~s~" fine="6000" susp_chance="50" min_susp="6" max_susp="18" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~o~Financial Abuse~s~" fine="8000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~b~Coercive Control~s~" fine="9000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="120"/>
+    <Charge name="~o~Abandonment~s~" fine="10000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Failure to Pay Child Support~s~" fine="5000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="20" min_days="10" max_days="45"/>
+    <Charge name="~o~Unlawful Visitation Interference~s~" fine="7000" susp_chance="60" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="40" min_days="30" max_days="90"/>
+</ChargeGroup>
+<ChargeGroup name="~b~Cyber Crimes~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Hacking~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Phishing~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="120"/>
+    <Charge name="~b~Cyberbullying~s~" fine="8000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="24" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~o~Unauthorized Access to Computer Systems~s~" fine="12000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Online Identity Theft~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Distribution of Malware~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Internet Fraud~s~" fine="12000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~o~Illegal Downloading or Distribution of Media~s~" fine="8000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="24" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~b~Cyberstalking~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Spreading Misinformation Online~s~" fine="9000" susp_chance="60" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Cyber Extortion~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Revenge Pornography~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Online Harassment~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Doxing~s~" fine="12000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Deepfake Creation and Distribution~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Botnet Operation~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Unauthorized Cryptomining~s~" fine="12000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~o~Ransomware Distribution~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Cyberterrorism~s~" fine="25000" susp_chance="100" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="20" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~o~Illegal Trade of Digital Goods~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~g~Environmental Violations~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Illegal Dumping~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Polluting Waterways~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Deforestation without a Permit~s~" fine="12000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~o~Wildlife Poaching~s~" fine="20000" susp_chance="85" min_susp="18" max_susp="48" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Operating without Environmental Permits~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~o~Littering in Protected Areas~s~" fine="5000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="18" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~b~Illegal Fishing~s~" fine="7000" susp_chance="60" min_susp="6" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Improper Disposal of Hazardous Waste~s~" fine="20000" susp_chance="85" min_susp="18" max_susp="48" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Noise Pollution~s~" fine="5000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="18" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~o~Operating an Illegal Landfill~s~" fine="25000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Water Contamination~s~" fine="20000" susp_chance="85" min_susp="18" max_susp="48" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Illegal Burning~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Air Pollution~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Unlawful Collection of Rainwater~s~" fine="5000" susp_chance="50" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="18" jail_chance="30" min_days="15" max_days="60"/>
+    <Charge name="~b~Illegal Pesticide Use~s~" fine="12000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~o~Destruction of Wetlands~s~" fine="25000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Unauthorized Drilling or Fracking~s~" fine="30000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Illegal Hunting or Trapping~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~b~Failure to Comply with Environmental Regulations~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Toxic Spill Without Reporting~s~" fine="20000" susp_chance="85" min_susp="18" max_susp="48" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~r~Traffic Violations (Non-Moving)~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Expired Vehicle Registration~s~" fine="500" susp_chance="10" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Failure to Display License Plates~s~" fine="400" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~b~Parking in a Handicap Zone without a Permit~s~" fine="1000" susp_chance="20" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Blocking a Fire Hydrant~s~" fine="750" susp_chance="15" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Abandoned Vehicle~s~" fine="500" susp_chance="10" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Parking in a No-Parking Zone~s~" fine="250" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~b~Obstructing a Driveway~s~" fine="300" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Illegal Window Tint~s~" fine="500" susp_chance="10" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~b~Failure to Secure a Load~s~" fine="1000" susp_chance="20" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Parking in a Fire Lane~s~" fine="750" susp_chance="15" min_susp="3" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Parking on a Sidewalk~s~" fine="250" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Failure to Display Parking Permit~s~" fine="300" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~b~Parking Against Traffic Flow~s~" fine="400" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Parking in a Loading Zone~s~" fine="300" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~b~Parking in a Bus Stop~s~" fine="500" susp_chance="10" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Parking in Front of a Public or Private Driveway~s~" fine="400" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~b~Parking on Railroad Tracks~s~" fine="1000" susp_chance="20" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Parking in a Disabled Veteran's Spot Without a Permit~s~" fine="1000" susp_chance="20" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Failure to Display Temporary Parking Permit~s~" fine="250" susp_chance="5" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Parking on a Crosswalk~s~" fine="500" susp_chance="10" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="70" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+</ChargeGroup>
+<ChargeGroup name="~o~White-Collar Crimes~s~">
+    <!-- Existing charges -->
+    <Charge name="~w~Embezzlement~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Insider Trading~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Tax Evasion~s~" fine="18000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Money Laundering~s~" fine="25000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Bank Fraud~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="60" max_days="365"/>
+    <Charge name="~o~Bribery~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Corporate Espionage~s~" fine="30000" susp_chance="95" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="90" min_days="90" max_days="365"/>
+    <Charge name="~o~Extortion~s~" fine="18000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Forgery~s~" fine="12000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="60" min_days="45" max_days="180"/>
+    <Charge name="~o~Fraudulent Accounting~s~" fine="25000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Securities Fraud~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Ponzi Scheme~s~" fine="25000" susp_chance="95" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~b~Counterfeiting~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~False Advertising~s~" fine="10000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Insurance Fraud~s~" fine="18000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Intellectual Property Theft~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Identity Theft~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Antitrust Violations~s~" fine="30000" susp_chance="95" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~b~Corporate Tax Fraud~s~" fine="25000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Unlawful Financial Transactions~s~" fine="20000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~g~Public Health Violations~s~">
+    <!-- Existing charges -->
+    <Charge name="~b~Failure to Wear a Mask in Required Areas~s~" fine="500" susp_chance="10" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="80" min_months="6" max_months="12" jail_chance="5" min_days="1" max_days="5"/>
+    <Charge name="~o~Operating without a Health Permit~s~" fine="1500" susp_chance="20" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Selling Expired Food Products~s~" fine="2000" susp_chance="30" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Failure to Maintain Sanitary Conditions~s~" fine="2500" susp_chance="35" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Illegal Disposal of Medical Waste~s~" fine="5000" susp_chance="50" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="40" min_days="15" max_days="60"/>
+    <Charge name="~o~Operating a Business During Restricted Hours~s~" fine="1000" susp_chance="20" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Violation of Quarantine Orders~s~" fine="3000" susp_chance="40" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Serving Contaminated Food or Beverages~s~" fine="5000" susp_chance="50" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="40" min_days="15" max_days="60"/>
+    <Charge name="~b~Failure to Report a Communicable Disease~s~" fine="2000" susp_chance="30" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Running an Unlicensed Medical Practice~s~" fine="10000" susp_chance="70" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="60" min_days="30" max_days="120"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Failure to Isolate When Infected~s~" fine="3000" susp_chance="40" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Improper Food Storage~s~" fine="2500" susp_chance="35" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Failure to Follow Health Inspection Protocols~s~" fine="1500" susp_chance="20" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="70" min_months="6" max_months="18" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Illegal Sale of Prescription Drugs~s~" fine="10000" susp_chance="70" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~b~Failure to Vaccinate as Required by Law~s~" fine="2000" susp_chance="30" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Tampering with Health Records~s~" fine="8000" susp_chance="60" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="40" min_days="15" max_days="60"/>
+    <Charge name="~b~Unauthorized Administration of Vaccines~s~" fine="5000" susp_chance="50" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="40" min_days="15" max_days="60"/>
+    <Charge name="~o~Failure to Dispose of Biohazardous Materials~s~" fine="5000" susp_chance="50" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="40" min_days="15" max_days="60"/>
+    <Charge name="~b~Operating an Illegal Health Facility~s~" fine="15000" susp_chance="80" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="60" min_days="30" max_days="120"/>
+    <Charge name="~o~Failure to Report an Outbreak~s~" fine="5000" susp_chance="50" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="40" min_days="15" max_days="60"/>
+</ChargeGroup>
+<ChargeGroup name="~b~Animal Control Offenses~s~">
+    <Charge name="~b~Animal Cruelty~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Failure to Restrain Dangerous Animal~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Dog Fighting~s~" fine="10000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="180"/>
+    <Charge name="~o~Abandonment of an Animal~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Unlicensed Breeding~s~" fine="2000" susp_chance="30" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="18" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~o~Failure to Vaccinate Animal~s~" fine="1500" susp_chance="25" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="60" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Running a Puppy Mill~s~" fine="8000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Failure to Report Animal Bite~s~" fine="2000" susp_chance="30" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="60" min_months="6" max_months="18" jail_chance="20" min_days="5" max_days="30"/>
+    <Charge name="~b~Exotic Animal Without Permit~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Neglect of Animal~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Failure to License Pet~s~" fine="1000" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="60" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Unlawful Trapping of Wildlife~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Operating a Pet Store Without License~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Failure to Provide Veterinary Care~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Illegal Transport of Livestock~s~" fine="7000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Public Nuisance Animal~s~" fine="1000" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="60" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~b~Dog at Large~s~" fine="1000" susp_chance="20" min_susp="3" max_susp="6" revoke_chance="0" probation_chance="60" min_months="6" max_months="12" jail_chance="10" min_days="3" max_days="15"/>
+    <Charge name="~o~Failure to Quarantine Animal After Bite~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Unauthorized Animal Control Activities~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Failure to Provide Adequate Shelter~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+</ChargeGroup>
+<ChargeGroup name="~g~Immigration Violations~s~">
+    <Charge name="~b~Illegal Entry into the Country~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Overstaying a Visa~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Human Smuggling~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Working Without a Permit~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~False Documentation~s~" fine="8000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Failure to Register with Authorities~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Illegal Re-entry After Deportation~s~" fine="10000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="180"/>
+    <Charge name="~o~Harboring an Undocumented Immigrant~s~" fine="6000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Assisting in Document Fraud~s~" fine="7000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Failure to Comply with Immigration Officer~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Using False Identification for Employment~s~" fine="8000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Failure to Report Change of Address~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Marrying Solely for Immigration Benefits~s~" fine="10000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="180"/>
+    <Charge name="~o~Failure to Appear for Immigration Hearing~s~" fine="7000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~b~Assisting Illegal Entry~s~" fine="10000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="180"/>
+    <Charge name="~o~False Statements on Immigration Documents~s~" fine="8000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~b~Unauthorized Work While on Tourist Visa~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Refusal to Cooperate with Deportation Order~s~" fine="6000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Smuggling Contraband into the Country~s~" fine="15000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Failure to Comply with Immigration Hold~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+</ChargeGroup>
+<ChargeGroup name="~y~Property Management Violations~s~">
+    <Charge name="~b~Failure to Maintain Property~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Illegal Eviction~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Operating Without a Rental License~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Failure to Address Health and Safety Violations~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Unlawful Retention of Security Deposit~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Failure to Register Rental Property~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Operating an Illegal Short-Term Rental~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Failure to Provide Adequate Heating/Cooling~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Unauthorized Property Modifications~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Failure to Address Pest Infestation~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Failure to Provide Running Water~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Unlawful Disconnection of Utilities~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Operating an Unlicensed Boarding House~s~" fine="6000" susp_chance="75" min_susp="12" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Failure to Maintain Fire Safety Equipment~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Unauthorized Subletting~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Failure to Address Mold Issues~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Operating Without Proper Zoning~s~" fine="7000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Neglecting Common Area Maintenance~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Unlawful Rent Increase~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Failure to Maintain Adequate Lighting~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+</ChargeGroup>
+<ChargeGroup name="~b~Protest and Assembly Violations~s~">
+    <Charge name="~b~Unlawful Assembly~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Failure to Disperse~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Obstructing Public Passage~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Inciting a Riot~s~" fine="5000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="90"/>
+    <Charge name="~b~Participating in a Riot~s~" fine="4000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Failure to Obtain Permit for Assembly~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Blocking Emergency Vehicles~s~" fine="5000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="90"/>
+    <Charge name="~o~Disrupting Public Meeting~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Violating Curfew During Assembly~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Damage to Public Property During Protest~s~" fine="6000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Failure to Comply with Lawful Order~s~" fine="5000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="90"/>
+    <Charge name="~o~Use of Unauthorized Sound Amplification Devices~s~" fine="3000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Trespassing During Assembly~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Obstructing Government Operations During Protest~s~" fine="5000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="90"/>
+    <Charge name="~b~Unlawful Use of Fireworks During Protest~s~" fine="6000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Failure to Disperse After Warning~s~" fine="5000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="90"/>
+    <Charge name="~b~Vandalism During Protest~s~" fine="6000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Blocking Traffic During Protest~s~" fine="4000" susp_chance="65" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~b~Use of Illegal Weapons During Protest~s~" fine="10000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~r~Government and Political Crimes~s~">
+    <Charge name="~b~Bribery of Public Officials~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Corruption~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Obstruction of Justice~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Espionage~s~" fine="50000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="30" min_months="36" max_months="72" jail_chance="90" min_days="180" max_days="365"/>
+    <Charge name="~b~Treason~s~" fine="100000" susp_chance="95" min_susp="48" max_susp="72" revoke_chance="0" probation_chance="20" min_months="48" max_months="96" jail_chance="95" min_days="365" max_days="730"/>
+    <Charge name="~o~Perjury~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="60" max_days="180"/>
+    <Charge name="~b~Election Fraud~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Intimidation of Public Officials~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Tampering with Government Records~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Impersonating a Government Official~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Unauthorized Disclosure of Classified Information~s~" fine="30000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Misuse of Government Funds~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Abuse of Power~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Violating Campaign Finance Laws~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Contempt of Court~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Unlawful Surveillance~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Failure to Report a Felony~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="60" max_days="180"/>
+    <Charge name="~o~Obstruction of Government Proceedings~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Misuse of Official Government Position~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Engaging in Illegal Lobbying Activities~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~p~Hate Crimes~s~">
+    <Charge name="~b~Assault Motivated by Bias~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Vandalism with Hate Intent~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Harassment Based on Protected Characteristics~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Arson with Hate Intent~s~" fine="25000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Threats of Violence Motivated by Hate~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Desecration of Religious Sites~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Intimidation Based on Race, Religion, or Sexual Orientation~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Cyber Harassment with Hate Intent~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Distribution of Hate Literature~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    
+    <!-- New charges -->
+    <Charge name="~o~Inciting Violence Against a Protected Group~s~" fine="25000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Hate Speech in Public Places~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Defacing Public Monuments with Hate Symbols~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Organizing Hate Groups~s~" fine="30000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="30" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~o~Hate Crime Assault with a Deadly Weapon~s~" fine="30000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="30" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~b~Stalking with Hate Intent~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Hate Crime Kidnapping~s~" fine="50000" susp_chance="95" min_susp="48" max_susp="72" revoke_chance="0" probation_chance="20" min_months="48" max_months="96" jail_chance="95" min_days="365" max_days="730"/>
+    <Charge name="~b~Cross Burning or Display of Hate Symbols~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="30" min_months="36" max_months="72" jail_chance="90" min_days="120" max_days="365"/>
+    <Charge name="~o~Cyberbullying with Hate Intent~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Desecration of Graves Based on Hate~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+</ChargeGroup>
+<ChargeGroup name="~g~Corruption and Misconduct~s~">
+    <Charge name="~b~Bribery~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Embezzlement~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Fraud~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Misuse of Public Funds~s~" fine="30000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Obstruction of Justice~s~" fine="15000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Abuse of Power~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Perjury~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="60" max_days="180"/>
+    <Charge name="~o~Conflict of Interest~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Tampering with Evidence~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Favoritism in Public Office~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Illegal Campaign Contributions~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Nepotism~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="60" max_days="180"/>
+    <Charge name="~b~Tampering with Witnesses~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Unlawful Use of Government Resources~s~" fine="30000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Kickbacks~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Undue Influence~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Retaliation Against Whistleblowers~s~" fine="30000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Violation of Ethics Rules~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Malfeasance in Office~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Failure to Report Corruption~s~" fine="20000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~y~Court Violations~s~">
+    <Charge name="~b~Contempt of Court~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Failure to Appear in Court~s~" fine="5000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Perjury~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="60" max_days="180"/>
+    <Charge name="~o~Tampering with Evidence~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Jury Tampering~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Obstruction of Justice~s~" fine="15000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Witness Intimidation~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Failure to Comply with Court Orders~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Unlawful Recording of Court Proceedings~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="60" max_days="180"/>
+    <Charge name="~o~Disorderly Conduct in Court~s~" fine="5000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Falsifying Court Documents~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Violation of Court-Imposed Restrictions~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Failure to Pay Court Fines~s~" fine="5000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Interfering with Court Proceedings~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="60" max_days="180"/>
+    <Charge name="~b~Violating Court-Imposed Injunctions~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Bribing a Judge~s~" fine="50000" susp_chance="90" min_susp="36" max_susp="60" revoke_chance="0" probation_chance="30" min_months="36" max_months="72" jail_chance="90" min_days="180" max_days="365"/>
+    <Charge name="~b~Violation of Attorney-Client Privilege~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Obstructing Access to Court~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Failure to Follow Judicial Instructions~s~" fine="5000" susp_chance="60" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Leaking Confidential Court Information~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+</ChargeGroup>
+<ChargeGroup name="~r~Fire Safety Violations~s~">
+    <Charge name="~b~Failure to Maintain Fire Extinguishers~s~" fine="5000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="40" min_days="15" max_days="90"/>
+    <Charge name="~o~Blocked Fire Exits~s~" fine="6000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~b~Improper Storage of Flammable Materials~s~" fine="8000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="30" max_days="180"/>
+    <Charge name="~o~Failure to Conduct Fire Drills~s~" fine="4000" susp_chance="65" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Tampering with Fire Safety Equipment~s~" fine="10000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="180"/>
+    <Charge name="~o~Failure to Install Smoke Detectors~s~" fine="6000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~b~Overloading Electrical Circuits~s~" fine="5000" susp_chance="65" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Obstruction of Fire Department Access~s~" fine="7000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~b~Failure to Comply with Fire Code~s~" fine="8000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="30" max_days="180"/>
+    <Charge name="~o~Improper Use of Fireworks~s~" fine="5000" susp_chance="65" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Failure to Provide Emergency Lighting~s~" fine="6000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Neglecting Fire Safety Inspections~s~" fine="7000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~b~Failure to Post Fire Evacuation Plans~s~" fine="4000" susp_chance="65" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~o~Unauthorized Use of Space Heaters~s~" fine="5000" susp_chance="65" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Failure to Clear Fire Hazards~s~" fine="7000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Neglecting Sprinkler System Maintenance~s~" fine="8000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="30" max_days="180"/>
+    <Charge name="~b~Improper Disposal of Flammable Waste~s~" fine="9000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="180"/>
+    <Charge name="~o~Unauthorized Open Burning~s~" fine="6000" susp_chance="70" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~b~Failure to Report a Fire Incident~s~" fine="7000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="120"/>
+    <Charge name="~o~Failure to Comply with Fire Safety Orders~s~" fine="8000" susp_chance="75" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="60" min_days="30" max_days="180"/>
+</ChargeGroup>
+<ChargeGroup name="~g~Consumer Protection Violations~s~">
+    <Charge name="~b~False Advertising~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Deceptive Pricing~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Product Safety Violations~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Failure to Honor Warranties~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Unfair Trade Practices~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Misleading Environmental Claims~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Failure to Disclose Product Defects~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Unauthorized Billing Practices~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Violation of Consumer Privacy Rights~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~False or Misleading Product Labels~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    
+    <!-- New charges -->
+    <Charge name="~b~Failure to Provide Refunds~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~o~Bait and Switch Tactics~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~b~Sale of Counterfeit Goods~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Violating Consumer Contract Terms~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="60" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="120"/>
+    <Charge name="~b~Failure to Provide Accurate Product Information~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="50" min_months="18" max_months="48" jail_chance="70" min_days="60" max_days="180"/>
+    <Charge name="~o~Price Fixing~s~" fine="30000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Unlawful Telemarketing Practices~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Failure to Report Safety Recalls~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~b~Unlawful Debt Collection Practices~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+    <Charge name="~o~Unfair Competition~s~" fine="25000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="40" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="365"/>
+</ChargeGroup>
+<ChargeGroup name="~g~Organized Crime~s~">
+    <Charge name="~b~Racketeering~s~" fine="50000" susp_chance="90" min_susp="36" max_susp="72" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="90" min_days="365" max_days="9999"/>
+    <Charge name="~o~Money Laundering~s~" fine="40000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="30" min_months="18" max_months="48" jail_chance="85" min_days="365" max_days="9999"/>
+    <Charge name="~b~Extortion~s~" fine="35000" susp_chance="80" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="40" min_months="18" max_months="48" jail_chance="80" min_days="180" max_days="365"/>
+    <Charge name="~o~Human Trafficking~s~" fine="75000" susp_chance="100" min_susp="48" max_susp="96" revoke_chance="100" probation_chance="10" min_months="36" max_months="72" jail_chance="95" min_days="365" max_days="9999"/>
+    <Charge name="~b~Drug Trafficking~s~" fine="60000" susp_chance="95" min_susp="36" max_susp="72" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="90" min_days="365" max_days="9999"/>
+    <Charge name="~o~Weapons Smuggling~s~" fine="50000" susp_chance="90" min_susp="36" max_susp="72" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="90" min_days="365" max_days="9999"/>
+    <Charge name="~b~Conspiracy to Commit a Felony~s~" fine="25000" susp_chance="80" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="40" min_months="18" max_months="48" jail_chance="80" min_days="180" max_days="365"/>
+    <Charge name="~o~Illegal Gambling Operations~s~" fine="30000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="100" probation_chance="30" min_months="18" max_months="48" jail_chance="85" min_days="365" max_days="9999"/>
+    <Charge name="~b~Kidnapping for Ransom~s~" fine="70000" susp_chance="95" min_susp="48" max_susp="96" revoke_chance="100" probation_chance="10" min_months="36" max_months="72" jail_chance="95" min_days="365" max_days="9999"/>
+    <Charge name="~o~Bribery of Public Officials~s~" fine="45000" susp_chance="90" min_susp="36" max_susp="72" revoke_chance="100" probation_chance="20" min_months="24" max_months="60" jail_chance="90" min_days="365" max_days="9999"/>
+</ChargeGroup>
+<ChargeGroup name="~o~Warrants~s~">
+    <Charge name="~b~Bench Warrant~s~" fine="5000" susp_chance="70" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="40" min_days="10" max_days="60"/>
+    <Charge name="~o~Arrest Warrant~s~" fine="10000" susp_chance="80" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="40" min_months="12" max_months="36" jail_chance="60" min_days="30" max_days="90"/>
+    <Charge name="~b~Search Warrant Violation~s~" fine="8000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="60"/>
+    <Charge name="~o~Failure to Comply with Warrant~s~" fine="12000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="90"/>
+    <Charge name="~b~Fugitive Warrant~s~" fine="20000" susp_chance="90" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="180"/>
+    <Charge name="~o~Warrant for Failure to Appear~s~" fine="7000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="60"/>
+    <Charge name="~b~Warrant for Probation Violation~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="60" min_days="30" max_days="90"/>
+    <Charge name="~o~Warrant for Parole Violation~s~" fine="20000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="180"/>
+
+    <!-- Additional Warrants -->
+    <Charge name="~b~Extradition Warrant~s~" fine="25000" susp_chance="90" min_susp="36" max_susp="72" revoke_chance="0" probation_chance="20" min_months="24" max_months="60" jail_chance="85" min_days="90" max_days="365"/>
+    <Charge name="~o~Civil Warrant~s~" fine="5000" susp_chance="70" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="30" min_days="10" max_days="60"/>
+    <Charge name="~b~Material Witness Warrant~s~" fine="10000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="40" min_months="12" max_months="36" jail_chance="50" min_days="30" max_days="90"/>
+    <Charge name="~o~Warrant for Contempt of Court~s~" fine="12000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="60" min_days="30" max_days="90"/>
+    <Charge name="~b~Child Support Warrant~s~" fine="8000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="60"/>
+    <Charge name="~o~Warrant for Property Seizure~s~" fine="15000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="60" min_days="30" max_days="90"/>
+    <Charge name="~b~Failure to Pay Fine Warrant~s~" fine="7000" susp_chance="75" min_susp="12" max_susp="24" revoke_chance="0" probation_chance="50" min_months="12" max_months="36" jail_chance="50" min_days="20" max_days="60"/>
+    <Charge name="~o~Search and Seizure Warrant~s~" fine="10000" susp_chance="80" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="60" min_days="30" max_days="90"/>
+    <Charge name="~b~Outstanding Warrant~s~" fine="6000" susp_chance="70" min_susp="6" max_susp="12" revoke_chance="0" probation_chance="50" min_months="6" max_months="18" jail_chance="40" min_days="10" max_days="60"/>
+    <Charge name="~o~Failure to Surrender Warrant~s~" fine="12000" susp_chance="85" min_susp="18" max_susp="36" revoke_chance="0" probation_chance="40" min_months="18" max_months="48" jail_chance="70" min_days="30" max_days="90"/>
+    <Charge name="~b~Capias Warrant~s~" fine="15000" susp_chance="85" min_susp="24" max_susp="48" revoke_chance="0" probation_chance="30" min_months="24" max_months="60" jail_chance="80" min_days="90" max_days="180"/>
+</ChargeGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+</CompuLiteCharges>
