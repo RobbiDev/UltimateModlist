@@ -128,6 +128,154 @@
 				</LongGuns>
 			</VehicleSet>
 		</CustomRegion>
+		<CustomRegion label="Docks">
+			<Zones>
+				<Zone>TERMINA</Zone>
+           		<Zone>ZP_ORT</Zone>
+           		<Zone>ELYSIAN</Zone>
+			</Zones>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle chance="10">pbpd11cvpi</Vehicle>
+					<Vehicle chance="10">pbpd11cvpis</Vehicle>
+					<Vehicle chance="10">pbpd13f250</Vehicle>
+					<Vehicle chance="50">pbpd14chgr</Vehicle>
+					<Vehicle chance="5">pbpd14hoe</Vehicle>
+					<Vehicle chance="5">pbpd14hoes</Vehicle>
+					<Vehicle chance="10">pbpd16imp</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male Class A-->
+<!--Officer-->			<Ped chance="5" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="1" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped chance="5" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="2" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped chance="5" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="3" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped chance="5" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="4" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped chance="5" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="5" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+					<!--Male Class B-->
+<!--Officer-->			<Ped chance="5" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped chance="5" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped chance="5" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped chance="5" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped chance="5" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+					<!--Male Class C-->
+<!--Officer-->			<Ped chance="5" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped chance="5" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped chance="5" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped chance="5" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped chance="5" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+					<!--Female Class A-->
+<!--Officer-->			<Ped chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="1" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="2" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="3" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="4" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="5" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+					<!--Female Class B-->
+<!--Officer-->			<Ped chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+					<!--Female Class C-->
+<!--Officer-->			<Ped chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+					
+					<!--Winter Male Class A-->
+<!--Officer-->			<Ped snow_outfit="true" chance="4" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="1" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="2" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped snow_outfit="true" chance="4" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="3" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="4" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="5" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+					<!--Winter Male Class B-->
+<!--Officer-->			<Ped snow_outfit="true" chance="4" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped snow_outfit="true" chance="4" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+					<!--Winter Male Jacket Class A-->
+<!--Officer-->			<Ped snow_outfit="true" chance="8" comp_shirtoverlay="66" tex_shirtoverlay="1" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="12">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="66" tex_shirtoverlay="2" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="12">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="66" tex_shirtoverlay="4" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="12">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="66" tex_shirtoverlay="5" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="12">MP_M_FREEMODE_01</Ped>
+					<!--Winter Male Jacket Class B-->
+<!--Officer-->			<Ped snow_outfit="true" chance="8" comp_shirtoverlay="66" tex_shirtoverlay="1" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="66" tex_shirtoverlay="2" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="66" tex_shirtoverlay="3" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped snow_outfit="true" chance="4" comp_shirtoverlay="66" tex_shirtoverlay="4" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_M_FREEMODE_01</Ped>
+					<!--Winter Female Class A-->
+<!--Officer-->			<Ped snow_outfit="true" chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="1" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="2" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped snow_outfit="true" chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="3" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="4" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="32" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="5" comp_accessories="59" tex_accessories="1" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="1" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+					<!--Winter Female Class B-->
+<!--Officer-->			<Ped snow_outfit="true" chance="1" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped snow_outfit="true" chance="1" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5" comp_decals="9" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+					<!--Winter Female Jacket Class A-->
+<!--Officer-->			<Ped snow_outfit="true" chance="2" comp_shirtoverlay="66" tex_shirtoverlay="1" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="12">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="66" tex_shirtoverlay="2" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="12">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="66" tex_shirtoverlay="3" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="12">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="66" tex_shirtoverlay="4" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="12">MP_F_FREEMODE_01</Ped>
+					<!--Winter Female Jacket Class B-->
+<!--Officer-->			<Ped snow_outfit="true" chance="2" comp_shirtoverlay="66" tex_shirtoverlay="1" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="66" tex_shirtoverlay="2" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="66" tex_shirtoverlay="3" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped snow_outfit="true" chance="1" comp_shirtoverlay="66" tex_shirtoverlay="4" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_F_FREEMODE_01</Ped>
+
+					<!--Rain Male Class B-->
+<!--Officer-->			<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+					<!--Rain Male Class C-->
+<!--Officer-->			<Ped rain_outfit="true" chance="4" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped rain_outfit="true" chance="4" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped rain_outfit="true" chance="4" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped rain_outfit="true" chance="4" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped rain_outfit="true" chance="4" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="3" comp_hands="15" tex_hands="1">MP_M_FREEMODE_01</Ped>
+					<!--Rain Male Jacket Class B-->
+<!--Officer-->			<Ped rain_outfit="true" chance="7" comp_shirtoverlay="66" tex_shirtoverlay="1" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_M_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped rain_outfit="true" chance="7" comp_shirtoverlay="66" tex_shirtoverlay="2" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_M_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped rain_outfit="true" chance="7" comp_shirtoverlay="66" tex_shirtoverlay="3" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_M_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped rain_outfit="true" chance="7" comp_shirtoverlay="66" tex_shirtoverlay="4" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_M_FREEMODE_01</Ped>
+					<!--Rain Female Class B-->
+<!--Officer-->			<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="31" tex_shirtoverlay="9" comp_shirt="5"  comp_decals="9" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+					<!--Rain Female Class C-->
+<!--Officer-->			<Ped rain_outfit="true" chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="1" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="2" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Officer III+1-->	<Ped rain_outfit="true" chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="3" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="4" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped rain_outfit="true" chance="2" comp_shirtoverlay="30" tex_shirtoverlay="9" comp_shirt="12" comp_decals="8" tex_decals="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="14" tex_tasks="2" comp_hands="15" tex_hands="1">MP_F_FREEMODE_01</Ped>
+					<!--Rain Female Jacket Class B-->
+<!--Officer-->			<Ped rain_outfit="true" chance="3" comp_shirtoverlay="66" tex_shirtoverlay="1" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_F_FREEMODE_01</Ped>
+<!--Officer III-->		<Ped rain_outfit="true" chance="3" comp_shirtoverlay="66" tex_shirtoverlay="2" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_F_FREEMODE_01</Ped>
+<!--Sergeant I-->		<Ped rain_outfit="true" chance="3" comp_shirtoverlay="66" tex_shirtoverlay="3" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_F_FREEMODE_01</Ped>
+<!--Sergeant II-->		<Ped rain_outfit="true" chance="3" comp_shirtoverlay="66" tex_shirtoverlay="4" comp_shirt="5" comp_accessories="58" tex_accessories="2" comp_pants="21" comp_shoes="22" comp_eyes="9" comp_tasks="11">MP_F_FREEMODE_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="50">WEAPON_PISTOL</HandGun>
+					<HandGun chance="50">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="25">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50">WEAPON_ADVANCEDRIFLE</LongGun>
+					<LongGun chance="25">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</CustomRegion>
 	</LocalPatrol>
 
 	<StatePatrol>

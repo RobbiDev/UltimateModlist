@@ -23,125 +23,1768 @@
 -->
 
 <UltimateBackup>
-	<SpecialUnit name="FIB Response" code2="True" code3="True" pursuit="True" traffic_stop="True" felony_stop="True">
+	<SpecialUnit name="FIB Response" code2="True" code3="True" pursuit="True" traffic_stop="True"
+		felony_stop="True">
 		<LosSantosCity>
-			<VehicleSet>
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>fbi</Vehicle>
-					<Vehicle>fbi2</Vehicle>
+					<Vehicle color="black">fbi</Vehicle>
 				</Vehicles>
 				<Peds>
-<!--Male-->            <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
-<!--Female-->          <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+					<!--Male-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="39" tex_eyes="7" comp_accessories="179" tex_accessories="1"
+						comp_tasks="23" comp_shirtoverlay="5" tex_shirtoverlay="5" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--SpecialAgent-->
+					<Ped chance="15" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="9" comp_accessories="132" tex_accessories="7" comp_tasks="23"
+						comp_shirtoverlay="350" tex_shirtoverlay="1" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="10" comp_shirt="31" comp_pants="48" tex_pants="1" comp_hands="69"
+						tex_hands="1" comp_shoes="26" comp_eyes="2" comp_accessories="117"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="312"
+						tex_shirtoverlay="2" prop_hats="136" tex_hats="8" comp_beard="108">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="8" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="65" tex_accessories="5" comp_tasks="25"
+						comp_shirtoverlay="25" tex_shirtoverlay="1" comp_beard="122">
+						mp_f_freemode_01</Ped>
+					<!--Special
+					Agent-->
+					<Ped chance="30" comp_shirt="1" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="10" comp_tasks="25" comp_shirtoverlay="28"
+						tex_shirtoverlay="1" comp_beard="122">mp_f_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="20" comp_shirt="15" comp_pants="90" tex_pants="7" comp_hands="69"
+						tex_hands="1" comp_shoes="37" comp_eyes="2" comp_accessories="81"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="336"
+						tex_shirtoverlay="1" prop_hats="135" tex_hats="8" comp_beard="108">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
 		</LosSantosCity>
 		<LosSantosCounty>
-			<VehicleSet spawn_distance="150">
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>fbi</Vehicle>
-				<Vehicle>fbi2</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
-<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+					<!--Male-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="39" tex_eyes="7" comp_accessories="179" tex_accessories="1"
+						comp_tasks="23" comp_shirtoverlay="5" tex_shirtoverlay="5" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--SpecialAgent-->
+					<Ped chance="15" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="9" comp_accessories="132" tex_accessories="7" comp_tasks="23"
+						comp_shirtoverlay="350" tex_shirtoverlay="1" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="10" comp_shirt="31" comp_pants="48" tex_pants="1" comp_hands="69"
+						tex_hands="1" comp_shoes="26" comp_eyes="2" comp_accessories="117"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="312"
+						tex_shirtoverlay="2" prop_hats="136" tex_hats="8" comp_beard="108">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="8" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="65" tex_accessories="5" comp_tasks="25"
+						comp_shirtoverlay="25" tex_shirtoverlay="1" comp_beard="122">
+						mp_f_freemode_01</Ped>
+					<!--Special
+					Agent-->
+					<Ped chance="30" comp_shirt="1" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="10" comp_tasks="25" comp_shirtoverlay="28"
+						tex_shirtoverlay="1" comp_beard="122">mp_f_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="20" comp_shirt="15" comp_pants="90" tex_pants="7" comp_hands="69"
+						tex_hands="1" comp_shoes="37" comp_eyes="2" comp_accessories="81"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="336"
+						tex_shirtoverlay="1" prop_hats="135" tex_hats="8" comp_beard="108">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
 		</LosSantosCounty>
 		<BlaineCounty>
-			<VehicleSet spawn_distance="150">
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>fbi</Vehicle>
-				<Vehicle>fbi2</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
-<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+					<!--Male-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="39" tex_eyes="7" comp_accessories="179" tex_accessories="1"
+						comp_tasks="23" comp_shirtoverlay="5" tex_shirtoverlay="5" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--SpecialAgent-->
+					<Ped chance="15" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="9" comp_accessories="132" tex_accessories="7" comp_tasks="23"
+						comp_shirtoverlay="350" tex_shirtoverlay="1" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="10" comp_shirt="31" comp_pants="48" tex_pants="1" comp_hands="69"
+						tex_hands="1" comp_shoes="26" comp_eyes="2" comp_accessories="117"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="312"
+						tex_shirtoverlay="2" prop_hats="136" tex_hats="8" comp_beard="108">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="8" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="65" tex_accessories="5" comp_tasks="25"
+						comp_shirtoverlay="25" tex_shirtoverlay="1" comp_beard="122">
+						mp_f_freemode_01</Ped>
+					<!--Special
+					Agent-->
+					<Ped chance="30" comp_shirt="1" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="10" comp_tasks="25" comp_shirtoverlay="28"
+						tex_shirtoverlay="1" comp_beard="122">mp_f_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="20" comp_shirt="15" comp_pants="90" tex_pants="7" comp_hands="69"
+						tex_hands="1" comp_shoes="37" comp_eyes="2" comp_accessories="81"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="336"
+						tex_shirtoverlay="1" prop_hats="135" tex_hats="8" comp_beard="108">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
 		</BlaineCounty>
 		<NorthYankton>
-			<VehicleSet spawn_distance="150">
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>fbi</Vehicle>
-				<Vehicle>fbi2</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
-<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+					<!--Male-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="39" tex_eyes="7" comp_accessories="179" tex_accessories="1"
+						comp_tasks="23" comp_shirtoverlay="5" tex_shirtoverlay="5" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--SpecialAgent-->
+					<Ped chance="15" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="9" comp_accessories="132" tex_accessories="7" comp_tasks="23"
+						comp_shirtoverlay="350" tex_shirtoverlay="1" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="10" comp_shirt="31" comp_pants="48" tex_pants="1" comp_hands="69"
+						tex_hands="1" comp_shoes="26" comp_eyes="2" comp_accessories="117"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="312"
+						tex_shirtoverlay="2" prop_hats="136" tex_hats="8" comp_beard="108">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="8" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="65" tex_accessories="5" comp_tasks="25"
+						comp_shirtoverlay="25" tex_shirtoverlay="1" comp_beard="122">
+						mp_f_freemode_01</Ped>
+					<!--Special
+					Agent-->
+					<Ped chance="30" comp_shirt="1" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="10" comp_tasks="25" comp_shirtoverlay="28"
+						tex_shirtoverlay="1" comp_beard="122">mp_f_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="20" comp_shirt="15" comp_pants="90" tex_pants="7" comp_hands="69"
+						tex_hands="1" comp_shoes="37" comp_eyes="2" comp_accessories="81"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="336"
+						tex_shirtoverlay="1" prop_hats="135" tex_hats="8" comp_beard="108">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
 		</NorthYankton>
-		<CustomRegion>
-			<Zones>
-				<Zone>DAVIS</Zone>
-			</Zones>
-			<VehicleSet>
+		<CayoPerico>
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>fbi</Vehicle>
-				<Vehicle>fbi2</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-<!--Male-->             <Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111" tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26" tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40" tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
-<!--Female-->           <Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3" comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82" tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28" tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39" tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+					<!--Male-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="39" tex_eyes="7" comp_accessories="179" tex_accessories="1"
+						comp_tasks="23" comp_shirtoverlay="5" tex_shirtoverlay="5" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--SpecialAgent-->
+					<Ped chance="15" comp_shirt="5" comp_pants="11" tex_pants="5" comp_shoes="11"
+						comp_eyes="9" comp_accessories="132" tex_accessories="7" comp_tasks="23"
+						comp_shirtoverlay="350" tex_shirtoverlay="1" comp_beard="122">
+						mp_m_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="10" comp_shirt="31" comp_pants="48" tex_pants="1" comp_hands="69"
+						tex_hands="1" comp_shoes="26" comp_eyes="2" comp_accessories="117"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="312"
+						tex_shirtoverlay="2" prop_hats="136" tex_hats="8" comp_beard="108">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6"
+						comp_beard="102">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--AgentSuit-->
+					<Ped chance="25" comp_shirt="8" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="65" tex_accessories="5" comp_tasks="25"
+						comp_shirtoverlay="25" tex_shirtoverlay="1" comp_beard="122">
+						mp_f_freemode_01</Ped>
+					<!--Special
+					Agent-->
+					<Ped chance="30" comp_shirt="1" comp_pants="4" tex_pants="1" comp_shoes="30"
+						comp_accessories="10" comp_tasks="25" comp_shirtoverlay="28"
+						tex_shirtoverlay="1" comp_beard="122">mp_f_freemode_01</Ped>
+					<!--AgentTaskForce-->
+					<Ped chance="20" comp_shirt="15" comp_pants="90" tex_pants="7" comp_hands="69"
+						tex_hands="1" comp_shoes="37" comp_eyes="2" comp_accessories="81"
+						tex_accessories="1" comp_tasks="8" tex_tasks="3" comp_shirtoverlay="336"
+						tex_shirtoverlay="1" prop_hats="135" tex_hats="8" comp_beard="108">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6"
+						comp_beard="102">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
-		</CustomRegion>
+		</CayoPerico>
 	</SpecialUnit>
-	<SpecialUnit name="Police Bike" code2="True" code3="False" pursuit="True" traffic_stop="False" felony_stop="True">
+	<SpecialUnit name="FIB HRT" code2="True" code3="True" pursuit="True" traffic_stop="True"
+		felony_stop="True">
 		<LosSantosCity>
-			<VehicleSet>
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>POLICEB</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="1" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26"
+						tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40"
+						tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39"
+						tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
 		</LosSantosCity>
 		<LosSantosCounty>
-			<VehicleSet spawn_distance="150">
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>POLICEB</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26"
+						tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40"
+						tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39"
+						tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
 		</LosSantosCounty>
 		<BlaineCounty>
-			<VehicleSet spawn_distance="150">
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>POLICEB</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26"
+						tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40"
+						tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39"
+						tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
 		</BlaineCounty>
 		<NorthYankton>
-			<VehicleSet spawn_distance="150">
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>POLICEB</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26"
+						tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40"
+						tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39"
+						tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
 		</NorthYankton>
-		<CustomRegion>
-			<Zones>
-				<Zone>DAVIS</Zone>
-			</Zones>
-			<VehicleSet>
+		<CayoPerico>
+			<VehicleSet spawn_distance="250">
 				<Vehicles>
-					<Vehicle>POLICEB</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI</Vehicle>
+					<Vehicle pax="4" pax_chance="100" color="black">FBI2</Vehicle>
 				</Vehicles>
 				<Peds>
-					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="0" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="142" tex_shirt="20" comp_pants="38" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="26" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="16" tex_accessories="1" comp_tasks="26"
+						tex_tasks="9" comp_shirtoverlay="221" tex_shirtoverlay="7" prop_hats="40"
+						tex_hats="2" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="175" tex_shirt="20" comp_pants="37" tex_pants="3"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="9" comp_shirtoverlay="231" tex_shirtoverlay="7" prop_hats="39"
+						tex_hats="2" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
 				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
 			</VehicleSet>
-		</CustomRegion>
+		</CayoPerico>
+	</SpecialUnit>
+	<SpecialUnit name="FIB Police" code2="True" code3="True" pursuit="True" traffic_stop="True"
+		felony_stop="True">
+		<LosSantosCity>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FIBP3</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FIBP6</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="5" comp_pants="36" comp_hands="35" comp_shoes="55"
+						comp_eyes="9" comp_accessories="54" comp_tasks="15" comp_shirtoverlay="201"
+						tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="194" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="191" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="4" comp_pants="35" comp_hands="35" comp_shoes="53"
+						comp_eyes="9" comp_accessories="52" comp_tasks="15" comp_shirtoverlay="203"
+						tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="196" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="193" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="5" comp_pants="36" comp_hands="35" comp_shoes="55"
+						comp_eyes="9" comp_accessories="54" comp_tasks="15" comp_shirtoverlay="201"
+						tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="194" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="191" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="4" comp_pants="35" comp_hands="35" comp_shoes="53"
+						comp_eyes="9" comp_accessories="52" comp_tasks="15" comp_shirtoverlay="203"
+						tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="196" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="193" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="5" comp_pants="36" comp_hands="35" comp_shoes="55"
+						comp_eyes="9" comp_accessories="54" comp_tasks="15" comp_shirtoverlay="201"
+						tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="194" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="191" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="4" comp_pants="35" comp_hands="35" comp_shoes="53"
+						comp_eyes="9" comp_accessories="52" comp_tasks="15" comp_shirtoverlay="203"
+						tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="196" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="193" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="5" comp_pants="36" comp_hands="35" comp_shoes="55"
+						comp_eyes="9" comp_accessories="54" comp_tasks="15" comp_shirtoverlay="201"
+						tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="194" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="191" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="4" comp_pants="35" comp_hands="35" comp_shoes="53"
+						comp_eyes="9" comp_accessories="52" comp_tasks="15" comp_shirtoverlay="203"
+						tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="196" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="193" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</NorthYankton>
+		<CayoPerico>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="5" comp_pants="36" comp_hands="35" comp_shoes="55"
+						comp_eyes="9" comp_accessories="54" comp_tasks="15" comp_shirtoverlay="201"
+						tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="194" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="35"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="15"
+						comp_shirtoverlay="191" tex_shirtoverlay="12">mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					A-->
+					<Ped chance="25" comp_shirt="4" comp_pants="35" comp_hands="35" comp_shoes="53"
+						comp_eyes="9" comp_accessories="52" comp_tasks="15" comp_shirtoverlay="203"
+						tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="196" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="35"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="15"
+						comp_shirtoverlay="193" tex_shirtoverlay="12">mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</CayoPerico>
+	</SpecialUnit>
+	<SpecialUnit name="FIB Police K9" code2="True" code3="True" pursuit="True" traffic_stop="True"
+		felony_stop="True">
+		<LosSantosCity>
+			<VehicleSet k9_model="SHEPHERD" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1"
+				spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="194" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="191" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="196" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="193" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet k9_model="SHEPHERD" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1"
+				spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="194" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="191" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="196" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="193" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet k9_model="SHEPHERD" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1"
+				spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="194" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="191" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="196" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="193" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet k9_model="SHEPHERD" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1"
+				spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="194" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="191" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="196" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="193" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</NorthYankton>
+		<CayoPerico>
+			<VehicleSet k9_model="SHEPHERD" k9_tex_face="1" k9_tex_shirt="1" k9_tex_accessories="1"
+				spawn_distance="250">
+				<Vehicles>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI</Vehicle>
+					<Vehicle pax="1" pax_chance="50" color="black">FBI2</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="5" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="194" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="12" comp_pants="87" tex_pants="13" comp_hands="21"
+						comp_shoes="55" comp_eyes="9" comp_accessories="54" comp_tasks="21"
+						tex_tasks="10" comp_shirtoverlay="191" tex_shirtoverlay="13">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Male
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="6">
+						mp_m_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="5" comp_pants="87" tex_pants="13"
+						comp_hands="49" comp_shoes="55" comp_eyes="9" comp_accessories="58"
+						comp_tasks="29" tex_tasks="6" comp_shirtoverlay="150" tex_shirtoverlay="7">
+						mp_m_freemode_01</Ped>
+					<!--Female-->
+					<!--Class
+					B-->
+					<Ped chance="15" comp_shirt="4" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="196" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Class
+					C-->
+					<Ped chance="10" comp_shirt="10" comp_pants="90" tex_pants="13" comp_hands="21"
+						comp_shoes="53" comp_eyes="9" comp_accessories="52" comp_tasks="24"
+						tex_tasks="10" comp_shirtoverlay="193" tex_shirtoverlay="13">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Agent-->
+					<Ped rain_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+					<!--Female
+					Jacket-->
+					<!--Agent-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="6">
+						mp_f_freemode_01</Ped>
+					<!--Sergeant-->
+					<Ped snow_outfit="true" chance="5" comp_shirt="4" comp_pants="90" tex_pants="13"
+						comp_hands="49" comp_shoes="53" comp_eyes="9" comp_accessories="35"
+						comp_tasks="31" tex_tasks="6" comp_shirtoverlay="147" tex_shirtoverlay="7">
+						mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</CayoPerico>
+	</SpecialUnit>
+	<SpecialUnit name="FIB SWAT" code2="True" code3="True" pursuit="True" traffic_stop="True"
+		felony_stop="True">
+		<LosSantosCity>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="1" pax="4" pax_chance="100">RIOT</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="180" tex_shirt="1" comp_pants="32" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="36" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="117" tex_accessories="1" comp_tasks="26"
+						tex_tasks="4" comp_shirtoverlay="221" tex_shirtoverlay="6" prop_hats="40"
+						tex_hats="1" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="216" tex_shirt="1" comp_pants="31" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="4" comp_shirtoverlay="231" tex_shirtoverlay="6" prop_hats="39"
+						tex_hats="1" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="1" pax="4" pax_chance="100">RIOT</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="180" tex_shirt="1" comp_pants="32" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="36" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="117" tex_accessories="1" comp_tasks="26"
+						tex_tasks="4" comp_shirtoverlay="221" tex_shirtoverlay="6" prop_hats="40"
+						tex_hats="1" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="216" tex_shirt="1" comp_pants="31" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="4" comp_shirtoverlay="231" tex_shirtoverlay="6" prop_hats="39"
+						tex_hats="1" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="1" pax="4" pax_chance="100">RIOT</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="180" tex_shirt="1" comp_pants="32" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="36" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="117" tex_accessories="1" comp_tasks="26"
+						tex_tasks="4" comp_shirtoverlay="221" tex_shirtoverlay="6" prop_hats="40"
+						tex_hats="1" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="216" tex_shirt="1" comp_pants="31" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="4" comp_shirtoverlay="231" tex_shirtoverlay="6" prop_hats="39"
+						tex_hats="1" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="1" pax="4" pax_chance="100">RIOT</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="180" tex_shirt="1" comp_pants="32" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="36" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="117" tex_accessories="1" comp_tasks="26"
+						tex_tasks="4" comp_shirtoverlay="221" tex_shirtoverlay="6" prop_hats="40"
+						tex_hats="1" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="216" tex_shirt="1" comp_pants="31" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="4" comp_shirtoverlay="231" tex_shirtoverlay="6" prop_hats="39"
+						tex_hats="1" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</NorthYankton>
+		<CayoPerico>
+			<VehicleSet spawn_distance="250">
+				<Vehicles>
+					<Vehicle livery="1" pax="4" pax_chance="100">RIOT</Vehicle>
+				</Vehicles>
+				<Peds>
+					<!--Male-->
+					<Ped chance="50" comp_shirt="180" tex_shirt="1" comp_pants="32" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="36" tex_shoes="1" comp_eyes="111"
+						tex_eyes="1" comp_accessories="117" tex_accessories="1" comp_tasks="26"
+						tex_tasks="4" comp_shirtoverlay="221" tex_shirtoverlay="6" prop_hats="40"
+						tex_hats="1" prop_glasses="22" tex_glasses="1">mp_m_freemode_01</Ped>
+					<!--Female-->
+					<Ped chance="50" comp_shirt="216" tex_shirt="1" comp_pants="31" tex_pants="5"
+						comp_hands="49" tex_hands="1" comp_shoes="37" tex_shoes="1" comp_eyes="82"
+						tex_eyes="1" comp_accessories="15" tex_accessories="1" comp_tasks="28"
+						tex_tasks="4" comp_shirtoverlay="231" tex_shirtoverlay="6" prop_hats="39"
+						tex_hats="1" prop_glasses="23" tex_glasses="1">mp_f_freemode_01</Ped>
+				</Peds>
+				<NonLethals>
+					<NonLethal>WEAPON_STUNGUN</NonLethal>
+					<NonLethal>WEAPON_NIGHTSTICK</NonLethal>
+				</NonLethals>
+				<HandGuns>
+					<HandGun chance="100" comp_1="COMPONENT_AT_PI_FLSH">WEAPON_COMBATPISTOL</HandGun>
+				</HandGuns>
+				<LongGuns>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH"
+						comp_2="COMPONENT_AT_SCOPE_MEDIUM">WEAPON_CARBINERIFLE</LongGun>
+					<LongGun chance="50" comp_1="COMPONENT_AT_AR_FLSH">WEAPON_PUMPSHOTGUN</LongGun>
+				</LongGuns>
+			</VehicleSet>
+		</CayoPerico>
 	</SpecialUnit>
 	<SpecialUnit name="Supervisor" code2="True" code3="False" pursuit="False" traffic_stop="True" felony_stop="False">
 		<LosSantosCity>
@@ -400,5 +2043,60 @@
 				</LongGuns>
 			</VehicleSet>
 		</NorthYankton>
+	</SpecialUnit>
+	<SpecialUnit name="Police Bike" code2="True" code3="False" pursuit="True" traffic_stop="False" felony_stop="True">
+		<LosSantosCity>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="1" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCity>
+		<LosSantosCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</LosSantosCounty>
+		<BlaineCounty>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</BlaineCounty>
+		<NorthYankton>
+			<VehicleSet spawn_distance="150">
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="2" tex_glasses="1" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</NorthYankton>
+		<CustomRegion>
+			<Zones>
+				<Zone>DAVIS</Zone>
+			</Zones>
+			<VehicleSet>
+				<Vehicles>
+					<Vehicle>POLICEB</Vehicle>
+				</Vehicles>
+				<Peds>
+					<Ped comp_shirt="2" comp_pants="1" comp_decals="2" prop_glasses="0" prop_hats="1">S_M_Y_HWAYCOP_01</Ped>
+				</Peds>
+			</VehicleSet>
+		</CustomRegion>
 	</SpecialUnit>
 </UltimateBackup>
