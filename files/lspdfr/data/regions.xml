@@ -8,12 +8,10 @@
             <Zone>BURTON</Zone>
             <Zone>CMSW</Zone>
             <Zone>CHAMH</Zone>
-            <Zone>CYPRE</Zone>
             <Zone>DTVINE</Zone>
             <Zone>DOWNT</Zone>
             <Zone>EBURO</Zone>
             <Zone>EAST_V</Zone>
-            <Zone>ELYSIAN</Zone>
             <Zone>GOLF</Zone>
             <Zone>HAWICK</Zone>
             <Zone>HORS</Zone>
@@ -35,12 +33,11 @@
             <Zone>STRAW</Zone>
             <Zone>STAD</Zone>
             <Zone>TEXTI</Zone>
-            <Zone>TERMINA</Zone>
             <Zone>VCANA</Zone>
             <Zone>VESP</Zone>
             <Zone>VINE</Zone>
             <Zone>WVINE</Zone>
-            <Zone>ZP_ORT</Zone>
+            <Zone>CYPRE</Zone>
         </Zones>
     </Region>
     <Region>
@@ -50,6 +47,14 @@
             <Zone>DELBE</Zone>
             <Zone>DELPE</Zone>
             <Zone>DELSOL</Zone>
+        </Zones>
+    </Region>
+    <Region>
+        <Name>Docks</Name>
+        <Zones>
+            <Zone>TERMINA</Zone>
+            <Zone>ZP_ORT</Zone>
+            <Zone>ELYSIAN</Zone>
         </Zones>
     </Region>
     <Region>

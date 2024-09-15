@@ -9,6 +9,9 @@
 		<DelPerro>
 			<Agency>dpunit</Agency>
 		</DelPerro>
+		<Docks>
+			<Agency>lspa</Agency>
+		</Docks>
 		<DAVIS>
 			<Agency>lssd</Agency>
 		</DAVIS>

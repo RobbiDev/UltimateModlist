@@ -28,6 +28,7 @@
 		<Agency>lscofd</Agency>
 		<Agency>lscofd_fire</Agency>		
 		<Agency>bcfd</Agency>
+        <Agency>lspa</Agency>
 		<Agency>bcfd_fire</Agency>			
 		<Agency>sams</Agency>
 		<Agency>dpunit</Agency>
@@ -58,10 +59,11 @@
 		<Agency>lsfd</Agency>
 		<Agency>lsfd_fire</Agency>
 		<Agency>lscofd</Agency>
-		<Agency>lscofd_fire</Agency>		
+		<Agency>lscofd_fire</Agency>	
 		<Agency>bcfd</Agency>
 		<Agency>bcfd_fire</Agency>			
 		<Agency>sams</Agency>
+        <Agency>lspa</Agency>	
 		<Agency>dpunit</Agency>
     </Vehicles>
      <!-- Additional texts for the vehicle models that are displayed on screen when selecting a vehicle. -->

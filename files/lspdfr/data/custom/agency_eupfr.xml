@@ -10,9 +10,12 @@
 		<Loadout chance="90">
 			<Name>Patrol</Name>
 			<Vehicles>
-				<Vehicle chance="10">police</Vehicle>
-				<Vehicle chance="5">police2</Vehicle>
-				<Vehicle chance="15">police3</Vehicle>
+				<Vehicle>police</Vehicle>
+				<Vehicle>police2</Vehicle>
+				<Vehicle>police3</Vehicle>
+				<Vehicle>police6</Vehicle>
+				<Vehicle>police51</Vehicle>
+				<Vehicle>police7</Vehicle>
 			</Vehicles>
 			<Peds>
 				<!-- 70% chance of male peds -->
@@ -113,7 +116,7 @@
 		<Loadout>
 			<Name>SWAT</Name>
 			<Vehicles>
-				<Vehicle>polriot</Vehicle>
+				<Vehicle>riot</Vehicle>
 			</Vehicles>
 			<Peds>
 				<Ped chance="90" outfit="lspd_swat">mp_m_freemode_01</Ped>
@@ -128,7 +131,7 @@
 	</Agency>
 	<Agency>
 		<Name>LSPD Del Perro Division</Name>
-		<ShortName>LSPD DP</ShortName>
+		<ShortName>LS Del Perro</ShortName>
 		<ScriptName>dpunit</ScriptName>
 		<Inventory>patrol_eup</Inventory>
 		<Loadout>
@@ -199,6 +202,64 @@
 			</Peds>
 			<NumPeds min="1" max="1" />
 			<Flags>
+				<Flag>RespondsAsBackup</Flag>
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>LSPA</Name>
+		<ShortName>Los Santos Port Authority</ShortName>
+		<ScriptName>lspa</ScriptName>
+		<Inventory>patrol_eup</Inventory>
+		<Loadout>
+			<Name>Patrol Unit</Name>
+			<Vehicles>
+				<Vehicle chance="10">pbpd11cvpi</Vehicle>
+				<Vehicle chance="10">pbpd11cvpis</Vehicle>
+				<Vehicle chance="10">pbpd13f250</Vehicle>
+				<Vehicle chance="50">pbpd14chgr</Vehicle>
+				<Vehicle chance="5">pbpd14hoe</Vehicle>
+				<Vehicle chance="5">pbpd14hoes</Vehicle>
+				<Vehicle chance="10">pbpd16imp</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 70% chance of male peds -->
+				<Ped chance="15" outfit="lspd_class_a.m_base">mp_m_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_a">mp_m_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="20" outfit="lspd_class_b.m_base">mp_m_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_b">mp_m_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="20" outfit="lspd_class_c.m_base">mp_m_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="5" outfit="lspd_class_c">mp_m_freemode_01</Ped> <!-- Class C outfit (Any variation) -->
+				
+				<!-- 30% chance of female peds -->
+				<Ped chance="5" outfit="lspd_class_a.f_base">mp_f_freemode_01</Ped> <!-- Class A outfit (Base) -->
+				<Ped chance="1" outfit="lspd_class_a">mp_f_freemode_01</Ped> <!-- Class A outfit (Any variation) -->
+				<Ped chance="9" outfit="lspd_class_b.f_base">mp_f_freemode_01</Ped> <!-- Class B outfit (Base) -->
+				<Ped chance="2" outfit="lspd_class_b">mp_f_freemode_01</Ped> <!-- Class B outfit (Any variation) -->
+				<Ped chance="10" outfit="lspd_class_c.f_base">mp_f_freemode_01</Ped> <!-- Class C outfit (Base) -->
+				<Ped chance="3" outfit="lspd_class_c">mp_f_freemode_01</Ped> <!-- Class C outfit (Any Variation) -->
+				
+				<!-- for outfits selection -->
+				<Ped chance="0" outfit="lspd_jacket">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_jacket">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_coat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_coat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_raincoat">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_raincoat">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_bicycle">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_bicycle">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_b">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_b">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_c">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_k9_c">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_dirtbike">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_dirtbike">mp_f_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_gang">mp_m_freemode_01</Ped>
+				<Ped chance="0" outfit="lspd_gang">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>SpawnsAmbiently</Flag>
 				<Flag>RespondsAsBackup</Flag>
 			</Flags>
 		</Loadout>
@@ -793,7 +854,7 @@
 	</Agency>
 	<Agency>
 		<Name>FIB Police</Name>
-		<ShortName>FIBP</ShortName>
+		<ShortName>FIB Police</ShortName>
 		<ScriptName>fib_police</ScriptName>
 		<Inventory>patrol_eup</Inventory>
 		<Parent>fib</Parent>

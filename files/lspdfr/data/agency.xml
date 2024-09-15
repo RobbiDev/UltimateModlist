@@ -12,6 +12,9 @@
 				<Vehicle>police</Vehicle>
 				<Vehicle>police2</Vehicle>
 				<Vehicle>police3</Vehicle>
+				<Vehicle>police6</Vehicle>
+				<Vehicle>police52</Vehicle>
+				<Vehicle>police9</Vehicle>
 			</Vehicles>
 			<Peds>
 				<!-- 70% chance of male peds -->

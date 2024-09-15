@@ -1,11 +1,11 @@
 <PoliceStations>
-   <Station>
-        <Name>Vespucci Beach Police Department</Name>
-        <Agency>lspd</Agency>
-        <ScriptName>lspd</ScriptName>
-        <Position>-1319.4854f, -1529.4604f, 4.4169f</Position>
-        <Heading>0</Heading>
-    </Station>
+	<Station>
+		<Name>Vespucci Beach Police Department</Name>
+		<Agency>lspd</Agency>
+		<ScriptName>lspd</ScriptName>
+		<Position>-1319.4854f, -1529.4604f, 4.4169f</Position>
+		<Heading>0</Heading>
+	</Station>
 	<Station>
 		<Name>Vinewood Police Station</Name>
 		<Agency>lspd</Agency>
@@ -16,14 +16,14 @@
 		<GaragePosition>528.2743f, -26.18892f, 70.62952f; 210f</GaragePosition>
 		<GarageSpawnPosition>534.696f, -26.82411f, 70.24203f; 210f</GarageSpawnPosition>
 		<AmbientSpawns>
-			<SpawnPoint heading="32" position="531, -31, 70.88766" type ="vehicle"/>
+			<SpawnPoint heading="32" position="531, -31, 70.88766" type="vehicle" />
 			<SpawnPoint heading="32" position="535.2194, -28.05378, 70.88766" chance="100">
 				<Vehicle livery="2">ambulance</Vehicle>
 			</SpawnPoint>
-			<SpawnPoint heading="79" position="638.5, 1.75, 82.8" type="ped"/>
+			<SpawnPoint heading="79" position="638.5, 1.75, 82.8" type="ped" />
 			<SpawnPoint heading="79" position="638.5, 1.75, 82.8">
 				<Ped outfit="lspd_cop.m_base" inventory="lspd_test">mp_m_freemode_01</Ped>
-			</SpawnPoint>		
+			</SpawnPoint>
 		</AmbientSpawns>
 	</Station>
 	<Station>
@@ -36,6 +36,20 @@
 		<GarageSpawnPosition>859.6852f, -1342.589f, 25.63685f; 90f</GarageSpawnPosition>
 	</Station>
 	<Station>
+		<Name>Los Santos Port Authority</Name>
+		<Agency>lspa</Agency>
+		<ScriptName>lspa</ScriptName>
+		<Position>-331.8657, -2792.639, 5.0041</Position>
+		<Heading>280f</Heading>
+		<GaragePosition>-347.8f, -2783.1f, 4.7f; 181f</GaragePosition>
+		<GarageSpawnPosition>-368.6f, -2770.1, 6f; 313f</GarageSpawnPosition>
+		<AmbientSpawns>
+			<SpawnPoint heading="90.3" position="-337.12, -2778.75, 4.52" chance="100">
+				<Vehicle>pbpd14chgr</Vehicle>
+			</SpawnPoint>
+		</AmbientSpawns>
+	</Station>
+	<Station>
 		<Name>Rockford Hills Police Station</Name>
 		<Agency>lspd</Agency>
 		<ScriptName>rockfordPol</ScriptName>
@@ -46,7 +60,7 @@
 		<CamPointOffset>2f, 2f, 2f</CamPointOffset>
 		<GaragePosition>-571.2919f, -143.5269f, 37.07582f; 22f</GaragePosition>
 		<GarageSpawnPosition>-575.2366f, -150.0565f, 37.53278f; 202f</GarageSpawnPosition>
-	</Station>	
+	</Station>
 	<Station>
 		<Name>Vespucci Police Station</Name>
 		<Agency>lspd</Agency>
@@ -67,7 +81,7 @@
 		<Agency>lspd</Agency>
 		<ScriptName>downtownInterior</ScriptName>
 		<Position>450.0654f, -993.0596f, 30f</Position>
-		<Heading>320f</Heading>	
+		<Heading>320f</Heading>
 		<GaragePosition>434.0721f, -1014.013f, 28.7524ff; 90f</GaragePosition>
 		<GarageSpawnPosition>435.76f, -1017.744f, 28.48f; 90f</GarageSpawnPosition>
 		<CamStartOffset>3f, -35f, -1f</CamStartOffset>
@@ -88,13 +102,6 @@
 		<GarageSpawnPosition>384.5281f, -1622.423f, 28.89813f; 320f</GarageSpawnPosition>
 	</Station>
 	<Station>
-		<Name>FIB Headquarter</Name>
-		<Agency>fib</Agency>
-		<ScriptName>fib</ScriptName>
-		<Position>105.5396f, -744.6516f, 45.7547f</Position>
-		<Heading>20</Heading>
-	</Station>
-	<Station>
 		<Name>IAA Headquarter</Name>
 		<Agency>iaa</Agency>
 		<ScriptName>iaa</ScriptName>
@@ -105,13 +112,9 @@
 		<Name>Sandy Shores Sheriff Station</Name>
 		<Agency>lssd</Agency>
 		<ScriptName>sandySheriff</ScriptName>
-		<Position>1848.73f, 3689.98f, 34.27f</Position>
-		<Heading>28</Heading>
+		<Position>1837.2332f, 3682.2617f, 38.9293f</Position>
+		<Heading>0</Heading>
 		<GarageSpawnPosition>1854.31f, 3675.401f, 33.33306f; 210f</GarageSpawnPosition>
-		<CamStartOffset>0f, -15f, 0f</CamStartOffset>
-		<CamEndOffset>19f, -22f, 3f</CamEndOffset>
-		<CamPointOffset>-2f, 5f, 1.5f</CamPointOffset>
-		<DropOffPosition>1851f, 3711.92f, 33.17f</DropOffPosition>
 	</Station>
 	<Station>
 		<Name>Paleto Bay Sheriff Station</Name>
@@ -125,7 +128,7 @@
 		<CamPointOffset>-2f, 3f, 1f</CamPointOffset>
 		<DropOffPosition>-452.7f, 5998f, 31.4f</DropOffPosition>
 		<PrisonBusPosition>-458.7579f, 6019.035f, 31.59949f</PrisonBusPosition>
-		<PrisonBusHeading>314</PrisonBusHeading>	
+		<PrisonBusHeading>314</PrisonBusHeading>
 	</Station>
 	<Station>
 		<Name>Park Rangers Info</Name>
@@ -168,5 +171,104 @@
 		<ScriptName>prison</ScriptName>
 		<Position>1846.49f, 2585.95f, 45.67f</Position>
 		<Heading>90</Heading>
+	</Station>
+	<Station>
+		<Name>FIB Headquarter</Name>
+		<Agency>fib</Agency>
+		<ScriptName>fib</ScriptName>
+		<Position>105.5396f, -744.6516f, 45.7547f</Position>
+		<Heading>20</Heading>
+		<AmbientSpawns>
+			<SpawnPoint chance="85" position="147.34, -795.15, 30.70" heading="69.39">
+				<Vehicle>fibp4</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="85" position="136.94, -791.34, 30.73" heading="69.49">
+				<Vehicle>fibp</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="70" position="86.58, -665.09, 31.14" heading="-20.96">
+				<Vehicle>fibp</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="50" position="98.28, -632.99, 31.16" heading="-20.24">
+				<Vehicle>fibp2</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="70" position="72.11, -704.79, 31.19" heading="-21.67">
+				<Vehicle>fibp4</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="50" position="64.84, -724.63, 31.19" heading="-20.53">
+				<Vehicle>fibp4</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="70" position="206.48, -762.34, 32.37" heading="-20.91">
+				<Vehicle>fibp4</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="30" position="185.65, -743.77, 32.97" heading="160.13">
+				<Vehicle>fibp3</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="30" position="172.83, -778.59, 31.57" heading="159.78">
+				<Vehicle>fibp6</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="50" position="70.34, -709.52, 43.96" heading="-21.08">
+				<Vehicle>fibp62</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="50" position="66.15, -721.14, 44.15" heading="-20.37">
+				<Vehicle>fibp7</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="15" position="57.20, -745.58, 43.72" heading="-21.00">
+				<Vehicle>fibp2</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="70" position="96.84, -776.77, 31.04" heading="69.58">
+				<Vehicle>fibp42</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="50" position="103.61, -779.28, 31.00" heading="69.89">
+				<Vehicle>fibp4</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="15" position="120.49, -813.24, 30.78" heading="109.93">
+				<Vehicle>fibp</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="15" position="217.78, -654.93, 37.90" heading="158.40">
+				<Vehicle>fibp2</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="30" position="206.52, -685.74, 35.85" heading="159.91">
+				<Vehicle>fibp</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="85" position="149.12, -687.59, 33.18" heading="-108.94">
+				<Vehicle>fibp7</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="15" position="150.14, -684.02, 32.73" heading="112.63">
+				<Vehicle>fibp1a</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="15" position="179.30, -695.10, 32.74" heading="72.40">
+				<Vehicle>fibp5</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="30" position="154.76, -749.08, 32.73" heading="162.09">
+				<Vehicle>fibp</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="30" position="111.24, -695.83, 32.77" heading="159.45">
+				<Vehicle>fibp42</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="15" position="97.61, -709.04, 33.18" heading="69.53">
+				<Vehicle>fibp7</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="15" position="84.17, -671.89, 31.27" heading="-20.16">
+				<Vehicle>fibp3</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="30" position="111.96, -810.01, 30.89" heading="-110.66">
+				<Vehicle>fibp4</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="85" position="198.09, -709.15, 34.54" heading="158.31">
+				<Vehicle>fibp4</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="30" position="177.85, -764.76, 32.17" heading="160.54">
+				<Vehicle>fibp62</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="70" position="152.96, -797.12, 30.61" heading="70.07">
+				<Vehicle>fibp</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="70" position="55.01, -751.79, 43.75" heading="-21.07">
+				<Vehicle>fibp4</Vehicle>
+			</SpawnPoint>
+			<SpawnPoint chance="30" position="103.98, -730.79, 32.99" heading="163.35">
+				<Vehicle>fibp6</Vehicle>
+			</SpawnPoint>
+		</AmbientSpawns>
 	</Station>
 </PoliceStations>

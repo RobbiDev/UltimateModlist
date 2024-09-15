@@ -1,7 +1,7 @@
 <Inventories>
     <Inventory>
         <!-- Simple patrol config with two pistol variants and small chance of a shotgun -->
-        <Name>Patrol/Traffic</Name>
+        <Name>Patrol</Name>
         <ScriptName>patrol</ScriptName>
         <Weapon>
             <Model>WEAPON_PISTOL</Model>
@@ -13,15 +13,35 @@
         <StunWeapon>WEAPON_STUNGUN</StunWeapon>
     </Inventory>
     <Inventory>
+        <Name>FIB Police</Name>
+        <ScriptName>inv_fibp</ScriptName>
+        <Weapon chance="60">
+            <Model>WEAPON_COMBATPISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component>
+        </Weapon>
+        <Weapon chance="10">
+            <Model>WEAPON_PUMPSHOTGUN</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+        </Weapon>
+        <Weapon chance="30">
+            <Model>WEAPON_CARBINERIFLE</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component>
+			<Component>COMPONENT_AT_AR_AFGRIP</Component>
+        </Weapon>
+		<StunWeapon>WEAPON_STUNGUN</StunWeapon>
+        <Armor>50</Armor>
+    </Inventory>
+    <Inventory>
+        <!-- Same as above but with a stungun -->
+        <Name>Patrol (Stun)</Name>
+        <ScriptName>patrol_stun</ScriptName>
+        <StunWeapon>WEAPON_STUNGUN</StunWeapon>
+    </Inventory>
+    <Inventory>
         <!-- Simple config with just a combat pistol for motor cops -->
         <Name>Motor Patrol</Name>
         <ScriptName>biker</ScriptName>
-        <Weapon>
-            <Model>WEAPON_PISTOL</Model>
-            <Component>COMPONENT_AT_PI_FLSH</Component> <!-- Flashlight -->
-        </Weapon>
-        <Weapon>WEAPON_VINTAGEPISTOL</Weapon>
-        <StunWeapon>WEAPON_STUNGUN</StunWeapon>
+        <Weapon>WEAPON_COMBATPISTOL</Weapon>
     </Inventory>
     <Inventory>
         <!-- Simple config with only a pistol - good as a default -->
