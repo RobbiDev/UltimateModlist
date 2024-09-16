@@ -325,6 +325,7 @@
 		<Item chance="often">a debit card in peds name</Item>
 		<Item chance="often">a credit card in peds name</Item>
 		<Item chance="normal">5 in cash</Item>
+		<Item chance="rare">Bundle of 10's in cash</Item>
 	<!--Non Standard items-->
 		<Item chance="rare">flashlight</Item>
 		<Item chance="rare">a cigar</Item>
