@@ -44,12 +44,13 @@ The **UltimateModlist** is a fully curated and optimized modlist for GTA V's LSP
    - **Seamless Installation**: The modlist is organized with easy-to-follow installation instructions and a recommended order of mod loading to avoid conflicts.
    - **Regular Updates**: The repository will be frequently updated to ensure compatibility with the latest GTA V patches and to introduce new features and improvements.
 
-## Planned Future Updates
-- **Expanded Callouts Pack**: Additional detailed callouts, including hostage situations, cybercrime investigations, and undercover missions.
-- **Vehicle Pursuit AI**: Further refinements to suspect AI during vehicle pursuits to introduce more challenging and varied tactics.
-- **Custom Map Expansions**: Additional regions and precincts around Los Santos, including rural sheriff departments and state police.
+## Disclaimer
 
----
+None of the files in this repository are my own creations. This is a compilation of mods that can be found throughout the GTA V LSPDFR community. The purpose of this repository is to provide an organized and optimized modlist for enhancing gameplay. 
+
+Any mods that I personally create are **not** included in this repository. They will be stored in a separate GitHub repository and clearly listed in the `modlist.md` file, located in the same root directory. You can find the link to my personal mods in that file, where they will be marked as my own work.
+
+
 
 ## Getting Started
  
